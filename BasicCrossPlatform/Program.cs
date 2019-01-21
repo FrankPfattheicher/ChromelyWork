@@ -40,28 +40,36 @@ namespace BasicCrossPlatform
             }
 
 
-            
+
             var config = ChromelyConfiguration
                 .Create()
                 .WithAppArgs(args)
                 .WithHostSize(1000, 600)
-                .WithStartUrl(startUrl)
-                
-                // Set multi-threaded_message_loop false
-                // only supported on windows
-                .WithCustomSetting(CefSettingKeys.MultiThreadedMessageLoop, false)
-                .WithCustomSetting(CefSettingKeys.SingleProcess, true)
-                .WithCustomSetting(CefSettingKeys.NoSandbox, true)
-            
-                .WithCommandLineArg("disable-extensions", "1")
-                .WithCommandLineArg("disable-gpu", "1")
-                .WithCommandLineArg("disable-gpu-compositing", "1")
-                .WithCommandLineArg("disable-smooth-scrolling", "1")
-                .WithCommandLineArg("no-sandbox", "1");
+                .WithStartUrl(startUrl);
 
-            using (var window = new CefGlueBrowserWindow(config))
+            // Set multi-threaded_message_loop false
+            // only supported on windows
+            //.WithCustomSetting(CefSettingKeys.MultiThreadedMessageLoop, false)
+            //.WithCustomSetting(CefSettingKeys.SingleProcess, true)
+            //.WithCustomSetting(CefSettingKeys.NoSandbox, true)
+
+            //.WithCommandLineArg("disable-extensions", "1")
+            //.WithCommandLineArg("disable-gpu", "1")
+            //.WithCommandLineArg("disable-gpu-compositing", "1")
+            //.WithCommandLineArg("disable-smooth-scrolling", "1")
+            //.WithCommandLineArg("no-sandbox", "1");
+
+            try
             {
-                return window.Run(args);
+                using (var window = new CefGlueBrowserWindow(config))
+                {
+                    return window.Run(args);
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex);
+                throw;
             }
         }
     }

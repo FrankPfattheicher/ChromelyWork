@@ -1,2 +1,7 @@
 
 BasicCrossPlatform/logs/
+/BasicCrossPlatform/GPUCache
+.vs/
+bin/
+obj/
+

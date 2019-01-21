@@ -5,6 +5,10 @@
         <TargetFramework>netcoreapp2.1</TargetFramework>
     </PropertyGroup>
 
+    <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+      <PlatformTarget>AnyCPU</PlatformTarget>
+    </PropertyGroup>
+
     <ItemGroup>
       <PackageReference Include="Chromely.CefGlue.Gtk" Version="68.0.0-beta02" />
       <PackageReference Include="Chromely.Core" Version="0.9.2" />
