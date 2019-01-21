@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="64b640a5-e33b-4d54-adf5-f586662fef19" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Program.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+              <folding>
+                <marker date="1548100857630" expanded="false" signature="6:153" ph="..." />
+                <marker date="1548100857630" expanded="true" signature="183:2238" ph="{...}" />
+                <marker date="1548100857630" expanded="true" signature="219:2236" ph="{...}" />
+                <marker date="1548100857630" expanded="true" signature="272:2230" ph="{...}" />
+                <marker date="1548100857630" expanded="true" signature="484:1078" ph="{...}" />
+                <marker date="1548100857630" expanded="true" signature="775:850" ph="{...}" />
+                <marker date="1548100857630" expanded="true" signature="887:1029" ph="{...}" />
+                <marker date="1548100857630" expanded="true" signature="1111:1215" ph="{...}" />
+                <marker date="1548100857630" expanded="true" signature="1453:1538" ph="/* Set multi-threaded_message_loop false ... */" />
+                <marker date="1548100857630" expanded="true" signature="2151:2220" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CefLoader.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="258">
+              <caret line="75" column="38" lean-forward="true" selection-start-line="75" selection-start-column="38" selection-end-line="75" selection-end-column="38" />
+              <folding>
+                <marker date="1548100424830" expanded="false" signature="6:199" ph="..." />
+                <marker date="1548100424830" expanded="true" signature="229:4683" ph="{...}" />
+                <marker date="1548100424830" expanded="true" signature="265:4681" ph="{...}" />
+                <marker date="1548100424830" expanded="true" signature="775:4039" ph="{...}" />
+                <marker date="1548100424830" expanded="true" signature="1503:3626" ph="{...}" />
+                <marker date="1548100424830" expanded="true" signature="1570:3612" ph="{...}" />
+                <marker date="1548100424830" expanded="true" signature="1768:1922" ph="{...}" />
+                <marker date="1548100424830" expanded="true" signature="2373:2510" ph="{...}" />
+                <marker date="1548100424830" expanded="true" signature="2596:2979" ph="{...}" />
+                <marker date="1548100424830" expanded="true" signature="3021:3173" ph="/* now we have all files in the temporary directory ... */" />
+                <marker date="1548100424830" expanded="true" signature="3659:3749" ph="{...}" />
+                <marker date="1548100424830" expanded="true" signature="3769:4029" ph="{...}" />
+                <marker date="1548100424830" expanded="true" signature="3920:4015" ph="{...}" />
+                <marker date="1548100424830" expanded="true" signature="4114:4675" ph="{...}" />
+                <marker date="1548100424830" expanded="true" signature="4278:4384" ph="{...}" />
+                <marker date="1548100424830" expanded="true" signature="4560:4665" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.nuget/packages/chromely.cefglue.gtk/68.0.0-beta02/build/Chromely.CefGlue.Gtk.props">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="22" selection-start-line="18" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5882BE13-8660-4E43-BD35-F213E33F6DE6/94/dd603517/Match.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1102">
+              <caret line="58" column="8" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D0C6795B-7B6A-4864-AC94-7F21FBFB9353/2b/e1ca8342/RuntimeInformation.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1026">
+              <caret line="54" column="78" selection-start-line="54" selection-start-column="78" selection-end-line="54" selection-end-column="78" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1958E2A4-108B-49F9-BA0D-94D24260EDB5/8b/f79bd44e/CefRuntime.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2033">
+              <caret line="112" selection-start-line="112" selection-end-line="112" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5882BE13-8660-4E43-BD35-F213E33F6DE6/94/dd603517/Match.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/AD5DFFE5-F544-42F7-9A54-B7C392FFF64D/0f/dd43fcbe/CefSettingKeys.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CefLoader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D0C6795B-7B6A-4864-AC94-7F21FBFB9353/2b/e1ca8342/RuntimeInformation.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1958E2A4-108B-49F9-BA0D-94D24260EDB5/8b/f79bd44e/CefRuntime.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$USER_HOME$/.nuget/packages/chromely.cefglue.gtk/68.0.0-beta02/build/Chromely.CefGlue.Gtk.props" />
+        <option value="$PROJECT_DIR$/CefLoader.cs" />
+        <option value="$PROJECT_DIR$/Program.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="442" />
+    <option name="y" value="31" />
+    <option name="width" value="1752" />
+    <option name="height" value="1424" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="FileSystemExplorer" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="BasicCrossPlatform" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="BasicCrossPlatform" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="BasicCrossPlatform" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="BasicCrossPlatform" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="BasicCrossPlatform" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Dependencies" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="AssemblyExplorer" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/BasicCrossPlatform.sln" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected=".NET Project.Default">
+    <configuration name="Publish BasicCrossPlatform to folder" type="DotNetFolderPublish" factoryName="Publish to folder" temporary="true">
+      <riderPublish runtime="linux-x64" self_contained="true" target_folder="$PROJECT_DIR$/bin/Debug/netcoreapp2.1" target_framework="netcoreapp2.1" uuid_high="-1042559064995380114" uuid_low="-8796563590132322896" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/BasicCrossPlatform" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <envs>
+        <env name="ASPNETCORE_ENVIRONMENT" value="Development" />
+        <env name="ASPNETCORE_URLS" value="http://localhost:5000" />
+      </envs>
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/BasicCrossPlatform.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v2.1" />
+      <browser url="http://localhost:5000" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue=".NET Project.Default" />
+      <item itemvalue="Publish to folder.Publish BasicCrossPlatform to folder" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Publish to folder.Publish BasicCrossPlatform to folder" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="64b640a5-e33b-4d54-adf5-f586662fef19" name="Default Changelist" comment="" />
+      <created>1547192896890</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1547192896890</updated>
+      <workItem from="1547192898441" duration="1215000" />
+      <workItem from="1547196528316" duration="32000" />
+      <workItem from="1547197369910" duration="7352000" />
+      <workItem from="1547220801489" duration="5814000" />
+      <workItem from="1547736903139" duration="23000" />
+      <workItem from="1547756137960" duration="342000" />
+      <workItem from="1547756571177" duration="123000" />
+      <workItem from="1547756770999" duration="83000" />
+      <workItem from="1547757047258" duration="754000" />
+      <workItem from="1547792973062" duration="1086000" />
+      <workItem from="1548061053669" duration="80000" />
+      <workItem from="1548090243088" duration="2515000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="19419000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="51" y="27" width="2421" height="1661" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24463157" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32874918" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.47544205" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="NuGet" order="7" weight="0.27766863" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Unit Tests" order="11" weight="0.32969603" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.3289166" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="14" weight="0.32874918" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Errors In Solution" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/CefLoader.cs</url>
+          <line>75</line>
+          <properties documentPath="$PROJECT_DIR$/CefLoader.cs" initialLine="68">
+            <startOffsets>
+              <option value="3690" />
+            </startOffsets>
+            <endOffsets>
+              <option value="3712" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Program.cs</url>
+          <line>61</line>
+          <properties documentPath="$PROJECT_DIR$/Program.cs" initialLine="52">
+            <startOffsets>
+              <option value="2098" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2151" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Program.cs</url>
+          <line>26</line>
+          <properties documentPath="$PROJECT_DIR$/Program.cs" initialLine="25">
+            <startOffsets>
+              <option value="814" />
+            </startOffsets>
+            <endOffsets>
+              <option value="832" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Program.cs</url>
+          <line>33</line>
+          <properties documentPath="$PROJECT_DIR$/Program.cs" initialLine="31">
+            <startOffsets>
+              <option value="1046" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1064" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>ex</expression-string>
+        <language-id>C#</language-id>
+        <custom-info>RiderImportsList:</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>downloadUrl</expression-string>
+        <language-id>C#</language-id>
+        <custom-info>RiderImportsList:</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>name</expression-string>
+        <language-id>C#</language-id>
+        <custom-info>RiderImportsList:</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>binaryNamePattern</expression-string>
+        <language-id>C#</language-id>
+        <custom-info>RiderImportsList:</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>version</expression-string>
+        <language-id>C#</language-id>
+        <custom-info>RiderImportsList:</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>indexUrl</expression-string>
+        <language-id>C#</language-id>
+        <custom-info>RiderImportsList:</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>index</expression-string>
+        <language-id>C#</language-id>
+        <custom-info>RiderImportsList:</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>CefRuntime</expression-string>
+        <language-id>C#</language-id>
+        <custom-info>RiderImportsList:</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/AD5DFFE5-F544-42F7-9A54-B7C392FFF64D/0f/dd43fcbe/CefSettingKeys.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5882BE13-8660-4E43-BD35-F213E33F6DE6/94/dd603517/Match.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1102">
+          <caret line="58" column="8" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D0C6795B-7B6A-4864-AC94-7F21FBFB9353/2b/e1ca8342/RuntimeInformation.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1026">
+          <caret line="54" column="78" selection-start-line="54" selection-start-column="78" selection-end-line="54" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1958E2A4-108B-49F9-BA0D-94D24260EDB5/8b/f79bd44e/CefRuntime.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2033">
+          <caret line="112" selection-start-line="112" selection-end-line="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.nuget/packages/chromely.cefglue.gtk/68.0.0-beta02/build/Chromely.CefGlue.Gtk.props">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" selection-start-line="18" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CefLoader.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="75" column="38" lean-forward="true" selection-start-line="75" selection-start-column="38" selection-end-line="75" selection-end-column="38" />
+          <folding>
+            <marker date="1548100424830" expanded="false" signature="6:199" ph="..." />
+            <marker date="1548100424830" expanded="true" signature="229:4683" ph="{...}" />
+            <marker date="1548100424830" expanded="true" signature="265:4681" ph="{...}" />
+            <marker date="1548100424830" expanded="true" signature="775:4039" ph="{...}" />
+            <marker date="1548100424830" expanded="true" signature="1503:3626" ph="{...}" />
+            <marker date="1548100424830" expanded="true" signature="1570:3612" ph="{...}" />
+            <marker date="1548100424830" expanded="true" signature="1768:1922" ph="{...}" />
+            <marker date="1548100424830" expanded="true" signature="2373:2510" ph="{...}" />
+            <marker date="1548100424830" expanded="true" signature="2596:2979" ph="{...}" />
+            <marker date="1548100424830" expanded="true" signature="3021:3173" ph="/* now we have all files in the temporary directory ... */" />
+            <marker date="1548100424830" expanded="true" signature="3659:3749" ph="{...}" />
+            <marker date="1548100424830" expanded="true" signature="3769:4029" ph="{...}" />
+            <marker date="1548100424830" expanded="true" signature="3920:4015" ph="{...}" />
+            <marker date="1548100424830" expanded="true" signature="4114:4675" ph="{...}" />
+            <marker date="1548100424830" expanded="true" signature="4278:4384" ph="{...}" />
+            <marker date="1548100424830" expanded="true" signature="4560:4665" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+          <folding>
+            <marker date="1548100857630" expanded="false" signature="6:153" ph="..." />
+            <marker date="1548100857630" expanded="true" signature="183:2238" ph="{...}" />
+            <marker date="1548100857630" expanded="true" signature="219:2236" ph="{...}" />
+            <marker date="1548100857630" expanded="true" signature="272:2230" ph="{...}" />
+            <marker date="1548100857630" expanded="true" signature="484:1078" ph="{...}" />
+            <marker date="1548100857630" expanded="true" signature="775:850" ph="{...}" />
+            <marker date="1548100857630" expanded="true" signature="887:1029" ph="{...}" />
+            <marker date="1548100857630" expanded="true" signature="1111:1215" ph="{...}" />
+            <marker date="1548100857630" expanded="true" signature="1453:1538" ph="/* Set multi-threaded_message_loop false ... */" />
+            <marker date="1548100857630" expanded="true" signature="2151:2220" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
