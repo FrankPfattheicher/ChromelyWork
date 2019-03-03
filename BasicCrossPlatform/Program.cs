@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Diagnostics;
-using Chromely.CefGlue.Gtk.BrowserWindow;
+using Chromely.CefGlue.Loader;
+using Chromely.CefGlue.Winapi.BrowserWindow;
 using Chromely.Core;
-using Chromely.Core.Helpers;
 using Xilium.CefGlue;
 
 namespace BasicCrossPlatform
@@ -11,16 +11,11 @@ namespace BasicCrossPlatform
     {
         private static int Main(string[] args)
         {
-            var appDirectory = AppDomain.CurrentDomain.BaseDirectory;
-            //var startUrl = $"file:///{appDirectory}index.html";
-            var startUrl = $"https://google.de";
-
             try
             {
                 var platform = CefRuntime.Platform;
                 var version = CefRuntime.ChromeVersion;
                 Console.WriteLine($"Running {platform} chromium {version}");
-                Console.WriteLine($"App directory is {appDirectory}");
 
                 try
                 {
@@ -29,9 +24,8 @@ namespace BasicCrossPlatform
                 catch (Exception ex)
                 {
                     Debug.WriteLine(ex.Message);
-                    BasicCrossPlatform.CefLoader.Load();
+                    CefLoader.Load();
                 }
-                CefRuntime.Load();
             }
             catch (Exception ex)
             {
@@ -40,6 +34,10 @@ namespace BasicCrossPlatform
             }
 
 
+            var appDirectory = AppDomain.CurrentDomain.BaseDirectory;
+            Console.WriteLine($"App directory is {appDirectory}");
+            var startUrl = $"file:///{appDirectory}index.html";
+            //var startUrl = $"https://google.de";
 
             var config = ChromelyConfiguration
                 .Create()
@@ -63,7 +61,8 @@ namespace BasicCrossPlatform
             {
                 using (var window = new CefGlueBrowserWindow(config))
                 {
-                    return window.Run(args);
+                    var result = window.Run(args);
+                    Console.WriteLine("Run returns " + result);
                 }
             }
             catch (Exception ex)
@@ -71,6 +70,8 @@ namespace BasicCrossPlatform
                 Console.WriteLine(ex);
                 throw;
             }
+            Console.WriteLine("Done.");
+            return 0;
         }
     }
 }

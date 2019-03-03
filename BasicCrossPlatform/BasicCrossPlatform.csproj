@@ -10,8 +10,6 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="Chromely.CefGlue.Gtk" Version="68.0.0-beta02" />
-      <PackageReference Include="Chromely.Core" Version="0.9.2" />
       <PackageReference Include="SharpZipLib" Version="1.1.0" />
     </ItemGroup>
 
@@ -20,6 +18,14 @@
       <Content Include="index.html">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </Content>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\Chromely\src\Chromely.CefGlue.Gtk\Chromely.CefGlue.Gtk.csproj" />
+      <ProjectReference Include="..\..\Chromely\src\Chromely.CefGlue.Loader\Chromely.CefGlue.Loader.csproj" />
+      <ProjectReference Include="..\..\Chromely\src\Chromely.CefGlue.Winapi\Chromely.CefGlue.Winapi.csproj" />
+      <ProjectReference Include="..\..\Chromely\src\Chromely.CefGlue\Chromely.CefGlue.csproj" />
+      <ProjectReference Include="..\..\Chromely\src\Chromely.Core\Chromely.Core.csproj" />
     </ItemGroup>
 
 </Project>
