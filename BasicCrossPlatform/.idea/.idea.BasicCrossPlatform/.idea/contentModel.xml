@@ -747,9 +747,6 @@
       </e>
       <e p="bin" t="ExcludeRecursive" />
       <e p="index.html" t="Include" />
-      <e p="logs" t="Include">
-        <e p="chromely.cef.log" t="Include" />
-      </e>
       <e p="obj" t="ExcludeRecursive">
         <e p="Debug" t="Include">
           <e p="netcoreapp2.1" t="Include">

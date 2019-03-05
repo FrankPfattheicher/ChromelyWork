@@ -47,6 +47,7 @@ namespace BasicCrossPlatform
                 .WithHostSize(1000, 600)
                 .WithStartUrl(startUrl)
 
+                //TODO: check linux defaults
             // Set multi-threaded_message_loop false
             // only supported on windows
             .WithCustomSetting(CefSettingKeys.MultiThreadedMessageLoop, false)
