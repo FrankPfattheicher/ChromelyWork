@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Diagnostics;
+using Chromely.CefGlue;
 using Chromely.CefGlue.Loader;
 using Chromely.CefGlue.Winapi.BrowserWindow;
 using Chromely.Core;
+using Chromely.Core.Host;
 using Xilium.CefGlue;
 
 namespace BasicCrossPlatform
@@ -36,7 +38,7 @@ namespace BasicCrossPlatform
 
             var appDirectory = AppDomain.CurrentDomain.BaseDirectory;
             Console.WriteLine($"App directory is {appDirectory}");
-            var startUrl = $"file:///{appDirectory}index.html";
+            var startUrl = $"file:///{appDirectory}/index.html";
             //var startUrl = $"https://google.de";
 
             var config = ChromelyConfiguration
@@ -59,9 +61,10 @@ namespace BasicCrossPlatform
 
             try
             {
-                using (var window = new CefGlueBrowserWindow(config))
+                using (var window = BrowserWindow.Create(config))
+                    //using (var window = new CefGlueBrowserWindow(config))
                 {
-                    var result = window.Run(args);
+                    var result = ((IChromelyWindow) window).Run(args);
                     Console.WriteLine("Run returns " + result);
                 }
             }
