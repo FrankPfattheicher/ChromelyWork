@@ -2,8 +2,8 @@
 using System.Diagnostics;
 using Chromely.CefGlue;
 using Chromely.CefGlue.Loader;
-using Chromely.CefGlue.Winapi.BrowserWindow;
 using Chromely.Core;
+using Chromely.Core.Helpers;
 using Chromely.Core.Host;
 using Xilium.CefGlue;
 
@@ -45,24 +45,24 @@ namespace BasicCrossPlatform
                 .Create()
                 .WithAppArgs(args)
                 .WithHostSize(1000, 600)
-                .WithStartUrl(startUrl);
+                .WithStartUrl(startUrl)
 
             // Set multi-threaded_message_loop false
             // only supported on windows
-            //.WithCustomSetting(CefSettingKeys.MultiThreadedMessageLoop, false)
-            //.WithCustomSetting(CefSettingKeys.SingleProcess, true)
-            //.WithCustomSetting(CefSettingKeys.NoSandbox, true)
+            .WithCustomSetting(CefSettingKeys.MultiThreadedMessageLoop, false)
+            .WithCustomSetting(CefSettingKeys.SingleProcess, true)
+            .WithCustomSetting(CefSettingKeys.NoSandbox, true)
 
-            //.WithCommandLineArg("disable-extensions", "1")
-            //.WithCommandLineArg("disable-gpu", "1")
-            //.WithCommandLineArg("disable-gpu-compositing", "1")
-            //.WithCommandLineArg("disable-smooth-scrolling", "1")
-            //.WithCommandLineArg("no-sandbox", "1");
+            .WithCommandLineArg("disable-extensions", "1")
+            .WithCommandLineArg("disable-gpu", "1")
+            .WithCommandLineArg("disable-gpu-compositing", "1")
+            .WithCommandLineArg("disable-smooth-scrolling", "1")
+            .WithCommandLineArg("no-sandbox", "1");
 
             try
             {
                 using (var window = BrowserWindow.Create(config))
-                    //using (var window = new CefGlueBrowserWindow(config))
+                //using (var window = new CefGlueBrowserWindow(config))
                 {
                     var result = ((IChromelyWindow) window).Run(args);
                     Console.WriteLine("Run returns " + result);
