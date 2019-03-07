@@ -7,10 +7,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicCrossPlatform", "Basic
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chromely.Core", "..\..\Chromely\src\Chromely.Core\Chromely.Core.csproj", "{EA703E36-3061-4F2A-AA95-4637D67C698B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chromely.CefGlue.Gtk", "..\..\Chromely\src\Chromely.CefGlue.Gtk\Chromely.CefGlue.Gtk.csproj", "{5E9881CF-5FAF-403D-BBA4-8E6EF32E0DE0}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chromely.CefGlue.Winapi", "..\..\Chromely\src\Chromely.CefGlue.Winapi\Chromely.CefGlue.Winapi.csproj", "{82C3A1F1-93EA-4FC6-BA85-FBF702728DF7}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chromely.CefGlue", "..\..\Chromely\src\Chromely.CefGlue\Chromely.CefGlue.csproj", "{C1F74579-A591-44E5-AD4E-2E19651C8CF1}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chromely.CefGlue.Loader", "..\..\Chromely\src\Chromely.CefGlue.Loader\Chromely.CefGlue.Loader.csproj", "{DF7D1881-C0E0-4244-9901-EC58C9FFA423}"
@@ -29,14 +25,6 @@ Global
 		{EA703E36-3061-4F2A-AA95-4637D67C698B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA703E36-3061-4F2A-AA95-4637D67C698B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA703E36-3061-4F2A-AA95-4637D67C698B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5E9881CF-5FAF-403D-BBA4-8E6EF32E0DE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5E9881CF-5FAF-403D-BBA4-8E6EF32E0DE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5E9881CF-5FAF-403D-BBA4-8E6EF32E0DE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5E9881CF-5FAF-403D-BBA4-8E6EF32E0DE0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{82C3A1F1-93EA-4FC6-BA85-FBF702728DF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{82C3A1F1-93EA-4FC6-BA85-FBF702728DF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{82C3A1F1-93EA-4FC6-BA85-FBF702728DF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{82C3A1F1-93EA-4FC6-BA85-FBF702728DF7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C1F74579-A591-44E5-AD4E-2E19651C8CF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C1F74579-A591-44E5-AD4E-2E19651C8CF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1F74579-A591-44E5-AD4E-2E19651C8CF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
