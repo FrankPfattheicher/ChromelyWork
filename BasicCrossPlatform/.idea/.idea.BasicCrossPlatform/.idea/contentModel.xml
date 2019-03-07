@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
+    <e p="$APPLICATION_CONFIG_DIR$/extensions" t="IncludeRecursive" />
     <e p="$USER_HOME$/.Rider2018.3/system/extResources" t="IncludeRecursive" />
     <e p="$USER_HOME$/.Rider2018.3/system/resharper-host/local/Transient/ReSharperHost/v183/SolutionCaches/_BasicCrossPlatform.1488223351.00" t="ExcludeRecursive" />
     <e p="$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue" t="IncludeRecursive">
@@ -51,7 +52,18 @@
           <e p="RequestInfo.cs" t="Include" />
         </e>
       </e>
-      <e p="BrowserWindow.cs" t="Include" />
+      <e p="BrowserWindow" t="Include">
+        <e p="GtkCefGlueBrowserWindow.cs" t="Include" />
+        <e p="GtkNativeMethods.cs" t="Include" />
+        <e p="GtkNativeWindow.cs" t="Include" />
+        <e p="GtkWindow.cs" t="Include" />
+        <e p="HostBase.cs" t="Include" />
+        <e p="IWindow.cs" t="Include" />
+        <e p="WinApiCefGlueBrowserWindow.cs" t="Include" />
+        <e p="WinApiNativeMethods.cs" t="Include" />
+        <e p="WinApiNativeWindow.cs" t="Include" />
+        <e p="WinApiWindow.cs" t="Include" />
+      </e>
       <e p="CefGlue" t="Include">
         <e p="CefRuntime.cs" t="Include" />
         <e p="CefRuntimePlatform.cs" t="Include" />
@@ -551,6 +563,7 @@
       </e>
       <e p="CefSettingsExtension.cs" t="Include" />
       <e p="Chromely.CefGlue.csproj" t="IncludeRecursive" />
+      <e p="ChromelyBrowserWindow.cs" t="Include" />
       <e p="FrameHandler.cs" t="Include" />
       <e p="HostHelpers.cs" t="Include" />
       <e p="RegisteredExternalUrl.cs" t="Include" />
@@ -559,42 +572,12 @@
       </e>
       <e p="WebsocketMessageSender.cs" t="Include" />
       <e p="WebsocketServerRunner.cs" t="Include" />
+      <e p="WinApiNativeMethods.cs" t="Include" />
       <e p="bin" t="ExcludeRecursive" />
       <e p="obj" t="ExcludeRecursive">
         <e p="Debug" t="Include">
           <e p="netstandard2.0" t="Include">
             <e p="Chromely.CefGlue.AssemblyInfo.cs" t="Include" />
-          </e>
-        </e>
-      </e>
-    </e>
-    <e p="$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue.Gtk" t="IncludeRecursive">
-      <e p="BrowserWindow" t="Include">
-        <e p="Application.cs" t="Include" />
-        <e p="CefGlueBrowserWindow.cs" t="Include" />
-        <e p="HostBase.cs" t="Include" />
-        <e p="NativeMethods.cs" t="Include" />
-        <e p="NativeWindow.cs" t="Include" />
-        <e p="Window.cs" t="Include" />
-      </e>
-      <e p="Chromely.CefGlue.Gtk.csproj" t="IncludeRecursive" />
-      <e p="bin" t="ExcludeRecursive" />
-      <e p="build" t="Include">
-        <e p="Chromely.CefGlue.Gtk.props" t="Include" />
-        <e p="linux" t="Include">
-          <e p="chromelycef.deps.json" t="Include" />
-          <e p="chromelycef.dll" t="Include" />
-          <e p="chromelycef.runtimeconfig.json" t="Include" />
-        </e>
-        <e p="win" t="Include">
-          <e p="chromelycef.exe" t="Include" />
-          <e p="chromelycef.exe.config" t="Include" />
-        </e>
-      </e>
-      <e p="obj" t="ExcludeRecursive">
-        <e p="Debug" t="Include">
-          <e p="netstandard2.0" t="Include">
-            <e p="Chromely.CefGlue.Gtk.AssemblyInfo.cs" t="Include" />
           </e>
         </e>
       </e>
@@ -637,30 +620,6 @@
         <e p="Debug" t="Include">
           <e p="netstandard2.0" t="Include">
             <e p="Chromely.CefGlue.Loader.AssemblyInfo.cs" t="Include" />
-          </e>
-        </e>
-      </e>
-    </e>
-    <e p="$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue.Winapi" t="IncludeRecursive">
-      <e p="BrowserWindow" t="Include">
-        <e p="CefGlueBrowserWindow.cs" t="Include" />
-        <e p="HostBase.cs" t="Include" />
-        <e p="NativeMethods.cs" t="Include" />
-        <e p="NativeWindow.cs" t="Include" />
-        <e p="Window.cs" t="Include" />
-      </e>
-      <e p="Chromely.CefGlue.Winapi.csproj" t="IncludeRecursive" />
-      <e p="NativeMethods.cs" t="Include" />
-      <e p="bin" t="ExcludeRecursive" />
-      <e p="build" t="Include">
-        <e p="Chromely.CefGlue.Winapi.props" t="Include" />
-        <e p="chromelycef.exe" t="Include" />
-        <e p="chromelycef.exe.config" t="Include" />
-      </e>
-      <e p="obj" t="ExcludeRecursive">
-        <e p="Debug" t="Include">
-          <e p="netstandard2.0" t="Include">
-            <e p="Chromely.CefGlue.Winapi.AssemblyInfo.cs" t="Include" />
           </e>
         </e>
       </e>
@@ -747,6 +706,9 @@
       </e>
       <e p="bin" t="ExcludeRecursive" />
       <e p="index.html" t="Include" />
+      <e p="logs" t="Include">
+        <e p="chromely.cef.log" t="Include" />
+      </e>
       <e p="obj" t="ExcludeRecursive">
         <e p="Debug" t="Include">
           <e p="netcoreapp2.1" t="Include">
