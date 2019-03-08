@@ -51,7 +51,7 @@ namespace BasicCrossPlatform
                 using (var window = ChromelyBrowserWindow.Create(config))
                 //using (var window = new CefGlueBrowserWindow(config))
                 {
-                    var result = ((IChromelyWindow) window).Run(args);
+                    var result = window.Run(args);
                     Console.WriteLine("Run returns " + result);
                 }
             }
