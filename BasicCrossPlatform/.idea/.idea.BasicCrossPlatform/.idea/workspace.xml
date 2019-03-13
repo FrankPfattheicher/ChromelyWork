@@ -5,7 +5,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BasicCrossPlatform/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BasicCrossPlatform/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BasicCrossPlatform/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BasicCrossPlatform/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BasicCrossPlatform/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BasicCrossPlatform/riderModule.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasicCrossPlatform.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BasicCrossPlatform.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasicCrossPlatform.sln" beforeDir="false" afterPath="$PROJECT_DIR$/BasicCrossPlatform.sln" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,29 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Program.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
-              <folding>
-                <marker date="1551969495081" expanded="true" signature="222:1903" ph="{...}" />
-                <marker date="1551969495081" expanded="true" signature="258:1901" ph="{...}" />
-                <marker date="1551969495081" expanded="true" signature="311:1895" ph="{...}" />
-                <marker date="1551969495081" expanded="true" signature="337:806" ph="{...}" />
-                <marker date="1551969495081" expanded="true" signature="557:632" ph="{...}" />
-                <marker date="1551969495081" expanded="true" signature="669:792" ph="{...}" />
-                <marker date="1551969495081" expanded="true" signature="839:943" ph="{...}" />
-                <marker date="1551969495081" expanded="true" signature="1355:1700" ph="{...}" />
-                <marker date="1551969495081" expanded="true" signature="1515:1686" ph="{...}" />
-                <marker date="1551969495081" expanded="true" signature="1733:1823" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -58,9 +37,13 @@
     <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.Core/Host/IChromelyWindow.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/CefGlue/CefRuntimePlatform.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.Core/JsonMapper/JsonReader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.Core/RestfulService/ChromelyRequest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.Core/RestfulService/Route.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.Core/JsonMapper/JsonMockWrapper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/CefSettingsExtension.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/Browser/Handlers/CefGlueMessageRouterHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/RestfulService/RequestTaskRunner.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/CefGlue/Wrapper/MessageRouter/CefMessageRouterRendererSide.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -77,6 +60,10 @@
         <option value="$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/BrowserWindow.cs" />
         <option value="$PROJECT_DIR$/BasicCrossPlatform.csproj" />
         <option value="$PROJECT_DIR$/Program.cs" />
+        <option value="$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/Browser/Handlers/CefGlueMessageRouterHandler.cs" />
+        <option value="$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/RestfulService/RequestTaskRunner.cs" />
+        <option value="$PROJECT_DIR$/../../Chromely/src/Chromely.Core/RestfulService/ChromelyRequest.cs" />
+        <option value="$PROJECT_DIR$/../../Chromely/src/Chromely.Core/RestfulService/Route.cs" />
       </list>
     </option>
   </component>
@@ -94,7 +81,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AssemblyExplorer" />
       <pane id="FileSystemExplorer" />
       <pane id="SolutionExplorer">
         <subPane>
@@ -108,6 +94,7 @@
         </subPane>
         <option name="show-all-files" value="false" />
       </pane>
+      <pane id="AssemblyExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -115,7 +102,7 @@
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/BasicCrossPlatform.sln" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue.Gtk/Chromely.CefGlue.Gtk.csproj" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.general" />
@@ -208,11 +195,15 @@
       <workItem from="1551821633903" duration="235000" />
       <workItem from="1551969124714" duration="420000" />
       <workItem from="1551969573126" duration="18000" />
+      <workItem from="1552042676391" duration="580000" />
+      <workItem from="1552049371076" duration="28000" />
+      <workItem from="1552469376605" duration="32000" />
+      <workItem from="1552469523934" duration="147000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26857000" />
+    <option name="totallyTimeSpent" value="27644000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -226,7 +217,7 @@
   <component name="ToolWindowManager">
     <frame x="51" y="27" width="2613" height="1520" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25633034" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2645111" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -234,7 +225,7 @@
       <window_info anchor="bottom" id="Performance Profiler" order="0" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49980733" weight="0.32803467" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49980733" weight="0.32731214" />
       <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.49980733" weight="0.47398844" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -246,7 +237,7 @@
       <window_info anchor="bottom" id="Unit Tests" order="12" weight="0.32969603" />
       <window_info anchor="bottom" id="Terminal" order="13" weight="0.28251445" />
       <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Build" order="15" sideWeight="0.4990366" visible="true" weight="0.32803467" />
+      <window_info anchor="bottom" id="Build" order="15" sideWeight="0.4990366" weight="0.32731214" />
       <window_info anchor="bottom" id="Change Signature" order="16" sideWeight="0.5009634" side_tool="true" weight="0.32853025" />
       <window_info anchor="right" id="Unit Tests Coverage" order="0" />
       <window_info anchor="right" id="PlantUML" order="1" />
@@ -379,170 +370,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1160">
           <caret line="64" column="41" lean-forward="true" selection-start-line="64" selection-start-column="41" selection-end-line="64" selection-end-column="41" />
-          <folding>
-            <marker date="1548589860501" expanded="true" signature="24:52075" ph="{...}" />
-            <marker date="1548589860501" expanded="false" signature="37:213" ph="..." />
-            <marker date="1548589860501" expanded="true" signature="256:52073" ph="{...}" />
-            <marker date="1548589860501" expanded="true" signature="433:495" ph="{...}" />
-            <marker date="1548589860501" expanded="true" signature="505:1918" ph="Platform Detection" />
-            <marker date="1548589860501" expanded="true" signature="590:993" ph="{...}" />
-            <marker date="1548589860501" expanded="true" signature="1084:1708" ph="{...}" />
-            <marker date="1548589860501" expanded="true" signature="1148:1515" ph="{...}" />
-            <marker date="1548589860501" expanded="true" signature="1326:1501" ph="{...}" />
-            <marker date="1548589860501" expanded="true" signature="1557:1671" ph="{...}" />
-            <marker date="1548589860501" expanded="true" signature="1841:1899" ph="{...}" />
-            <marker date="1548589860501" expanded="true" signature="1928:2199" ph="/// Loads CEF runtime. ... " />
-            <marker date="1548589860501" expanded="true" signature="2233:2277" ph="{...}" />
-            <marker date="1548589860501" expanded="true" signature="2287:2578" ph="/// Loads CEF runtime from specified path. ... " />
-            <marker date="1548589860501" expanded="true" signature="2623:3097" ph="{...}" />
-            <marker date="1548589860501" expanded="true" signature="2712:3029" ph="{...}" />
-            <marker date="1548589860501" expanded="true" signature="3158:3454" ph="{...}" />
-            <marker date="1548589860501" expanded="false" signature="3464:5201" ph="cef_version" />
-            <marker date="1548589860501" expanded="true" signature="3527:3764" ph="{...}" />
-            <marker date="1548589860501" expanded="true" signature="3553:3754" ph="{...}" />
-            <marker date="1548589860501" expanded="true" signature="3808:3865" ph="{...}" />
-            <marker date="1548589860501" expanded="true" signature="3918:5181" ph="{...}" />
-            <marker date="1548589860501" expanded="true" signature="4012:4164" ph="{...}" />
-            <marker date="1548589860501" expanded="true" signature="4215:4335" ph="{...}" />
-            <marker date="1548589860501" expanded="true" signature="4487:4888" ph="{...}" />
-            <marker date="1548589860501" expanded="true" signature="4980:5171" ph="{...}" />
-            <marker date="1548589860501" expanded="false" signature="5211:11856" ph="cef_app" />
-            <marker date="1548589860501" expanded="true" signature="5236:6093" ph="/// This function should be called from the application entry point function to ... " />
-            <marker date="1548589860501" expanded="true" signature="6199:6589" ph="{...}" />
-            <marker date="1548589860501" expanded="true" signature="6372:6489" ph="{...}" />
-            <marker date="1548589860501" expanded="true" signature="6509:6579" ph="{...}" />
-            <marker date="1548589860501" expanded="true" signature="6688:6775" ph="{...}" />
-            <marker date="1548589860501" expanded="true" signature="6786:7226" ph="/// This function should be called on the main application thread to initialize ... " />
-            <marker date="1548589860501" expanded="true" signature="7351:8307" ph="{...}" />
-            <marker date="1548589860501" expanded="true" signature="7816:8156" ph="{...}" />
-            <marker date="1548589860501" expanded="true" signature="7933:8010" ph="{...}" />
-            <marker date="1548589860501" expanded="true" signature="8031:8142" ph="{...}" />
-            <marker date="1548589860501" expanded="true" signature="8176:8297" ph="{...}" />
-            <marker date="1548589860501" expanded="true" signature="8425:8511" ph="{...}" />
-            <marker date="1548589860501" expanded="true" signature="8522:8711" ph="/// This function should be called on the main application thread to shut down ... " />
-            <marker date="1548589860501" expanded="true" signature="8749:8951" ph="{...}" />
-            <marker date="1548589860501" expanded="true" signature="8961:9984" ph="/// Perform a single iteration of CEF message loop processing. This function is ... " />
-            <marker date="1548589860501" expanded="true" signature="10031:10094" ph="{...}" />
-            <marker date="1548589860501" expanded="true" signature="10104:10605" ph="/// Run the CEF message loop. Use this function instead of an application- ... " />
-            <marker date="1548589860501" expanded="true" signature="10649:10708" ph="{...}" />
-            <marker date="1548589860501" expanded="true" signature="10718:10974" ph="/// Quit the CEF message loop that was started by calling CefRunMessageLoop(). ... " />
-            <marker date="1548589860501" expanded="true" signature="11019:11079" ph="{...}" />
-            <marker date="1548589860501" expanded="true" signature="11089:11293" ph="/// Set to true before calling Windows APIs like TrackPopupMenu that enter a ... " />
-            <marker date="1548589860501" expanded="true" signature="11353:11431" ph="{...}" />
-            <marker date="1548589860501" expanded="true" signature="11441:11721" ph="/// Call during process startup to enable High-DPI support on Windows 7 or newer. ... " />
-            <marker date="1548589860501" expanded="true" signature="11771:11836" ph="{...}" />
-            <marker date="1548589860501" expanded="false" signature="11866:13428" ph="cef_task" />
-            <marker date="1548589860501" expanded="true" signature="11892:12302" ph="/// CEF maintains multiple internal threads that are used for handling different ... " />
-            <marker date="1548589860501" expanded="true" signature="12363:12438" ph="{...}" />
-            <marker date="1548589860501" expanded="true" signature="12448:12673" ph="/// Post a task for execution on the specified thread. This function may be ... " />
-            <marker date="1548589860501" expanded="true" signature="12745:12906" ph="{...}" />
-            <marker date="1548589860501" expanded="true" signature="12916:13149" ph="/// Post a task for delayed execution on the specified thread. This function may ... " />
-            <marker date="1548589860501" expanded="true" signature="13233:13409" ph="{...}" />
-            <marker date="1548589860501" expanded="false" signature="13438:18707" ph="cef_origin_whitelist" />
-            <marker date="1548589860501" expanded="true" signature="13476:15842" ph="/// Add an entry to the cross-origin access whitelist. ... " />
-            <marker date="1548589860501" expanded="true" signature="15991:16999" ph="{...}" />
-            <marker date="1548589860501" expanded="true" signature="16390:16989" ph="{...}" />
-            <marker date="1548589860501" expanded="true" signature="17009:17206" ph="/// Remove an entry from the cross-origin access whitelist. Returns false if ... " />
-            <marker date="1548589860501" expanded="true" signature="17358:18369" ph="{...}" />
-            <marker date="1548589860501" expanded="true" signature="17757:18359" ph="{...}" />
-            <marker date="1548589860501" expanded="true" signature="18379:18549" ph="/// Remove all entries from the cross-origin access whitelist. Returns false if ... " />
-            <marker date="1548589860501" expanded="true" signature="18604:18687" ph="{...}" />
-            <marker date="1548589860501" expanded="false" signature="18717:20819" ph="cef_scheme" />
-            <marker date="1548589860501" expanded="true" signature="18745:19672" ph="/// Register a scheme handler factory for the specified |scheme_name| and ... " />
-            <marker date="1548589860501" expanded="true" signature="19799:20450" ph="{...}" />
-            <marker date="1548589860501" expanded="true" signature="20092:20440" ph="{...}" />
-            <marker date="1548589860501" expanded="true" signature="20460:20657" ph="/// Clear all registered scheme handler factories. Returns false on error. This ... " />
-            <marker date="1548589860501" expanded="true" signature="20714:20799" ph="{...}" />
-            <marker date="1548589860501" expanded="false" signature="20829:23914" ph="cef_trace" />
-            <marker date="1548589860501" expanded="true" signature="20857:21771" ph="/// Start tracing events on all processes. Tracing is initialized asynchronously ... " />
-            <marker date="1548589860501" expanded="true" signature="21876:22248" ph="{...}" />
-            <marker date="1548589860501" expanded="true" signature="21940:22238" ph="{...}" />
-            <marker date="1548589860501" expanded="true" signature="22258:22952" ph="/// Stop tracing events on all processes. ... " />
-            <marker date="1548589860501" expanded="true" signature="23056:23433" ph="{...}" />
-            <marker date="1548589860501" expanded="true" signature="23122:23423" ph="{...}" />
-            <marker date="1548589860501" expanded="true" signature="23443:23685" ph="/// Returns the current system trace time or, if none is defined, the current ... " />
-            <marker date="1548589860501" expanded="true" signature="23737:23813" ph="{...}" />
-            <marker date="1548589860501" expanded="false" signature="23924:32126" ph="cef_parser" />
-            <marker date="1548589860501" expanded="true" signature="23991:24149" ph="/// Parse the specified |url| into its component parts. ... " />
-            <marker date="1548589860501" expanded="true" signature="24220:24670" ph="{...}" />
-            <marker date="1548589860501" expanded="true" signature="24270:24660" ph="{...}" />
-            <marker date="1548589860501" expanded="true" signature="24743:25173" ph="{...}" />
-            <marker date="1548589860501" expanded="true" signature="25183:25329" ph="/// Returns the mime type for the specified file extension or an empty string if ... " />
-            <marker date="1548589860501" expanded="true" signature="25388:25728" ph="{...}" />
-            <marker date="1548589860501" expanded="true" signature="25450:25718" ph="{...}" />
-            <marker date="1548589860501" expanded="true" signature="25738:26108" ph="/// Get the extensions associated with the given mime type. This should be passed ... " />
-            <marker date="1548589860501" expanded="true" signature="26181:26658" ph="{...}" />
-            <marker date="1548589860501" expanded="true" signature="26241:26648" ph="{...}" />
-            <marker date="1548589860501" expanded="true" signature="26668:26751" ph="/// Encodes |data| as a base64 string. ... " />
-            <marker date="1548589860501" expanded="true" signature="26822:26970" ph="{...}" />
-            <marker date="1548589860501" expanded="true" signature="27051:27243" ph="{...}" />
-            <marker date="1548589860501" expanded="true" signature="27149:27233" ph="{...}" />
-            <marker date="1548589860501" expanded="true" signature="27300:27377" ph="{...}" />
-            <marker date="1548589860501" expanded="true" signature="27387:27544" ph="/// Decodes the base64 encoded string |data|. The returned value will be NULL if ... " />
-            <marker date="1548589860501" expanded="true" signature="27607:27866" ph="{...}" />
-            <marker date="1548589860501" expanded="true" signature="27659:27856" ph="{...}" />
-            <marker date="1548589860501" expanded="true" signature="27877:28239" ph="/// Escapes characters in |text| which are unsuitable for use as a query ... " />
-            <marker date="1548589860501" expanded="true" signature="28305:28623" ph="{...}" />
-            <marker date="1548589860501" expanded="true" signature="28357:28613" ph="{...}" />
-            <marker date="1548589860501" expanded="true" signature="28633:29330" ph="/// Unescapes |text| and returns the result. Unescaping consists of looking for ... " />
-            <marker date="1548589860501" expanded="true" signature="29436:29774" ph="{...}" />
-            <marker date="1548589860501" expanded="true" signature="29488:29764" ph="{...}" />
-            <marker date="1548589860501" expanded="true" signature="29784:29976" ph="/// Parses the specified |json_string| and returns a dictionary or list ... " />
-            <marker date="1548589860501" expanded="true" signature="30061:30375" ph="{...}" />
-            <marker date="1548589860501" expanded="true" signature="30115:30365" ph="{...}" />
-            <marker date="1548589860501" expanded="true" signature="30385:30714" ph="/// Parses the specified |json_string| and returns a dictionary or list ... " />
-            <marker date="1548589860501" expanded="true" signature="30872:31500" ph="{...}" />
-            <marker date="1548589860501" expanded="true" signature="30926:31490" ph="{...}" />
-            <marker date="1548589860501" expanded="true" signature="31510:31796" ph="/// Generates a JSON string from the specified root |node| which should be a ... " />
-            <marker date="1548589860501" expanded="true" signature="31881:32106" ph="{...}" />
-            <marker date="1548589860501" expanded="false" signature="32136:35716" ph="cef_v8" />
-            <marker date="1548589860501" expanded="true" signature="32160:34870" ph="/// Register a new V8 extension with the specified JavaScript extension code and ... " />
-            <marker date="1548589860501" expanded="true" signature="34982:35696" ph="{...}" />
-            <marker date="1548589860501" expanded="true" signature="35323:35686" ph="{...}" />
-            <marker date="1548589860501" expanded="false" signature="35726:41317" ph="cef_web_plugin" />
-            <marker date="1548589860501" expanded="true" signature="35829:35971" ph="/// Visit web plugin information. Can be called on any thread in the browser ... " />
-            <marker date="1548589860501" expanded="true" signature="36050:36210" ph="{...}" />
-            <marker date="1548589860501" expanded="true" signature="36220:36456" ph="/// Cause the plugin list to refresh the next time it is accessed regardless ... " />
-            <marker date="1548589860501" expanded="true" signature="36503:36565" ph="{...}" />
-            <marker date="1548589860501" expanded="true" signature="36575:36797" ph="/// Unregister an internal plugin. This may be undone the next time ... " />
-            <marker date="1548589860501" expanded="true" signature="36865:37175" ph="{...}" />
-            <marker date="1548589860501" expanded="true" signature="37003:37165" ph="{...}" />
-            <marker date="1548589860501" expanded="true" signature="37185:37360" ph="/// Register a plugin crash. Can be called on any thread in the browser process ... " />
-            <marker date="1548589860501" expanded="true" signature="37423:37728" ph="{...}" />
-            <marker date="1548589860501" expanded="true" signature="37561:37718" ph="{...}" />
-            <marker date="1548589860501" expanded="true" signature="37738:37881" ph="/// Query if a plugin is unstable. Can be called on any thread in the browser ... " />
-            <marker date="1548589860501" expanded="true" signature="37980:38382" ph="{...}" />
-            <marker date="1548589860501" expanded="true" signature="38197:38372" ph="{...}" />
-            <marker date="1548589860501" expanded="true" signature="38392:40912" ph="/// Register the Widevine CDM plugin. ... " />
-            <marker date="1548589860501" expanded="true" signature="41015:41297" ph="{...}" />
-            <marker date="1548589860501" expanded="true" signature="41067:41287" ph="{...}" />
-            <marker date="1548589860501" expanded="false" signature="41327:42124" ph="cef_path_util" />
-            <marker date="1548589860501" expanded="true" signature="41358:41550" ph="/// Retrieve the path associated with the specified |key|. Returns true on ... " />
-            <marker date="1548589860501" expanded="true" signature="41607:42104" ph="{...}" />
-            <marker date="1548589860501" expanded="true" signature="41856:42068" ph="{...}" />
-            <marker date="1548589860501" expanded="false" signature="42134:42971" ph="cef_process_util" />
-            <marker date="1548589860501" expanded="true" signature="42168:42705" ph="/// Launches the process specified via |command_line|. Returns true upon ... " />
-            <marker date="1548589860501" expanded="true" signature="42774:42951" ph="{...}" />
-            <marker date="1548589860501" expanded="false" signature="42981:43089" ph="cef_sandbox_win" />
-            <marker date="1548589860501" expanded="false" signature="43099:43757" ph="cef_ssl_info" />
-            <marker date="1548589860501" expanded="true" signature="43129:43247" ph="/// Returns true if the certificate status has any error, major or minor. ... " />
-            <marker date="1548589860501" expanded="true" signature="43314:43395" ph="{...}" />
-            <marker date="1548589860501" expanded="true" signature="43405:43582" ph="/// Returns true if the certificate status represents only minor errors ... " />
-            <marker date="1548589860501" expanded="true" signature="43654:43741" ph="{...}" />
-            <marker date="1548589860501" expanded="false" signature="43767:50716" ph="cef_crash_util" />
-            <marker date="1548589860501" expanded="true" signature="43799:50019" ph="/// Crash reporting is configured using an INI-style config file named ... " />
-            <marker date="1548589860501" expanded="true" signature="50070:50148" ph="{...}" />
-            <marker date="1548589860501" expanded="true" signature="50158:50272" ph="/// Sets or clears a specific key-value pair from the crash metadata. ... " />
-            <marker date="1548589860501" expanded="true" signature="50342:50696" ph="{...}" />
-            <marker date="1548589860501" expanded="true" signature="50436:50686" ph="{...}" />
-            <marker date="1548589860501" expanded="false" signature="50726:51676" ph="file_util" />
-            <marker date="1548589860501" expanded="true" signature="50753:51311" ph="/// Loads the existing &quot;Certificate Revocation Lists&quot; file that is managed by ... " />
-            <marker date="1548589860501" expanded="true" signature="51367:51656" ph="{...}" />
-            <marker date="1548589860501" expanded="true" signature="51497:51646" ph="{...}" />
-            <marker date="1548589860501" expanded="true" signature="51718:51772" ph="{...}" />
-            <marker date="1548589860501" expanded="false" signature="51782:52067" ph="linux" />
-            <marker date="1548589860501" expanded="true" signature="51805:52047" ph="/* Return the singleton X11 display shared with Chromium. The display is not ... */" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -767,16 +594,125 @@
         <state relative-caret-position="342">
           <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
           <folding>
-            <marker date="1551969495081" expanded="true" signature="222:1903" ph="{...}" />
-            <marker date="1551969495081" expanded="true" signature="258:1901" ph="{...}" />
-            <marker date="1551969495081" expanded="true" signature="311:1895" ph="{...}" />
-            <marker date="1551969495081" expanded="true" signature="337:806" ph="{...}" />
-            <marker date="1551969495081" expanded="true" signature="557:632" ph="{...}" />
-            <marker date="1551969495081" expanded="true" signature="669:792" ph="{...}" />
-            <marker date="1551969495081" expanded="true" signature="839:943" ph="{...}" />
-            <marker date="1551969495081" expanded="true" signature="1355:1700" ph="{...}" />
-            <marker date="1551969495081" expanded="true" signature="1515:1686" ph="{...}" />
-            <marker date="1551969495081" expanded="true" signature="1733:1823" ph="{...}" />
+            <marker date="1552042293174" expanded="true" signature="222:1883" ph="{...}" />
+            <marker date="1552042293174" expanded="true" signature="258:1881" ph="{...}" />
+            <marker date="1552042293174" expanded="true" signature="311:1875" ph="{...}" />
+            <marker date="1552042293174" expanded="true" signature="337:806" ph="{...}" />
+            <marker date="1552042293174" expanded="true" signature="557:632" ph="{...}" />
+            <marker date="1552042293174" expanded="true" signature="669:792" ph="{...}" />
+            <marker date="1552042293174" expanded="true" signature="839:943" ph="{...}" />
+            <marker date="1552042293174" expanded="true" signature="1355:1680" ph="{...}" />
+            <marker date="1552042293174" expanded="true" signature="1515:1666" ph="{...}" />
+            <marker date="1552042293174" expanded="true" signature="1713:1803" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/RestfulService/RequestTaskRunner.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3800">
+          <caret line="205" column="158" selection-start-line="205" selection-start-column="158" selection-end-line="205" selection-end-column="158" />
+          <folding>
+            <marker date="1552042918350" expanded="true" signature="0:474" ph="/* -------------------------------------------------------------------------------------------------------------- ... */" />
+            <marker date="1552042918350" expanded="true" signature="679:9699" ph="{...}" />
+            <marker date="1552042918350" expanded="true" signature="686:751" ph="/// The request task runner. ... " />
+            <marker date="1552042918350" expanded="true" signature="793:9697" ph="{...}" />
+            <marker date="1552042918350" expanded="true" signature="808:1159" ph="/// The run. ... " />
+            <marker date="1552042918350" expanded="true" signature="1222:2310" ph="{...}" />
+            <marker date="1552042918350" expanded="true" signature="1410:1673" ph="{...}" />
+            <marker date="1552042918350" expanded="true" signature="1722:1821" ph="{...}" />
+            <marker date="1552042918350" expanded="true" signature="1985:2098" ph="{...}" />
+            <marker date="1552042918350" expanded="true" signature="2320:2671" ph="/// The run. ... " />
+            <marker date="1552042918350" expanded="true" signature="2739:4112" ph="{...}" />
+            <marker date="1552042918350" expanded="true" signature="2853:3116" ph="{...}" />
+            <marker date="1552042918350" expanded="true" signature="3179:3442" ph="{...}" />
+            <marker date="1552042918350" expanded="true" signature="3509:3608" ph="{...}" />
+            <marker date="1552042918350" expanded="true" signature="3714:3840" ph="{...}" />
+            <marker date="1552042918350" expanded="true" signature="4122:4838" ph="/// The run. ... " />
+            <marker date="1552042918350" expanded="true" signature="4976:5837" ph="{...}" />
+            <marker date="1552042918350" expanded="true" signature="5100:5363" ph="{...}" />
+            <marker date="1552042918350" expanded="true" signature="5422:5521" ph="{...}" />
+            <marker date="1552042918350" expanded="true" signature="5619:5737" ph="{...}" />
+            <marker date="1552042918350" expanded="true" signature="5847:6572" ph="/// The excute route. ... " />
+            <marker date="1552042918350" expanded="true" signature="6719:7331" ph="{...}" />
+            <marker date="1552042918350" expanded="true" signature="6827:6945" ph="{...}" />
+            <marker date="1552042918350" expanded="true" signature="7341:7496" ph="/// The get info. ... " />
+            <marker date="1552042918350" expanded="true" signature="7546:8715" ph="{...}" />
+            <marker date="1552042918350" expanded="true" signature="7740:8460" ph="{...}" />
+            <marker date="1552042918350" expanded="true" signature="8725:8956" ph="/// The get post data. ... " />
+            <marker date="1552042918350" expanded="true" signature="9018:9691" ph="{...}" />
+            <marker date="1552042918350" expanded="true" signature="9173:9238" ph="{...}" />
+            <marker date="1552042918350" expanded="true" signature="9336:9646" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.Core/RestfulService/ChromelyRequest.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2451">
+          <caret line="131" selection-start-line="131" selection-end-line="131" />
+          <folding>
+            <marker date="1552042999331" expanded="true" signature="0:472" ph="/* -------------------------------------------------------------------------------------------------------------- ... */" />
+            <marker date="1552042999331" expanded="true" signature="512:4446" ph="{...}" />
+            <marker date="1552042999331" expanded="false" signature="525:572" ph="..." />
+            <marker date="1552042999331" expanded="true" signature="578:640" ph="/// The chromely request. ... " />
+            <marker date="1552042999331" expanded="true" signature="673:4444" ph="{...}" />
+            <marker date="1552042999331" expanded="true" signature="688:1064" ph="/// Initializes a new instance of the &lt;see cref=&quot;ChromelyRequest&quot;/&gt; class. ... " />
+            <marker date="1552042999331" expanded="true" signature="1173:1298" ph="{...}" />
+            <marker date="1552042999331" expanded="true" signature="1308:1755" ph="/// Initializes a new instance of the &lt;see cref=&quot;ChromelyRequest&quot;/&gt; class. ... " />
+            <marker date="1552042999331" expanded="true" signature="1875:2021" ph="{...}" />
+            <marker date="1552042999331" expanded="true" signature="2031:2560" ph="/// Initializes a new instance of the &lt;see cref=&quot;ChromelyRequest&quot;/&gt; class. ... " />
+            <marker date="1552042999331" expanded="true" signature="2696:2873" ph="{...}" />
+            <marker date="1552042999331" expanded="true" signature="2883:3086" ph="/// Initializes a new instance of the &lt;see cref=&quot;ChromelyRequest&quot;/&gt; class. ... " />
+            <marker date="1552042999331" expanded="true" signature="3136:3701" ph="{...}" />
+            <marker date="1552042999331" expanded="true" signature="3711:3780" ph="/// Gets or sets the id. ... " />
+            <marker date="1552042999331" expanded="true" signature="3829:3906" ph="/// Gets or sets the route path. ... " />
+            <marker date="1552042999331" expanded="true" signature="3965:4042" ph="/// Gets or sets the parameters. ... " />
+            <marker date="1552042999331" expanded="true" signature="4120:4196" ph="/// Gets or sets the post data. ... " />
+            <marker date="1552042999331" expanded="true" signature="4251:4394" ph="/// Gets or sets the raw json. ... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.Core/RestfulService/Route.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9">
+          <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+          <folding>
+            <marker date="1552043040331" expanded="true" signature="0:462" ph="/* -------------------------------------------------------------------------------------------------------------- ... */" />
+            <marker date="1552043040331" expanded="true" signature="502:3078" ph="{...}" />
+            <marker date="1552043040331" expanded="false" signature="515:594" ph="..." />
+            <marker date="1552043040331" expanded="true" signature="600:651" ph="/// The route. ... " />
+            <marker date="1552043040331" expanded="true" signature="674:3076" ph="{...}" />
+            <marker date="1552043040331" expanded="true" signature="689:1031" ph="/// Initializes a new instance of the &lt;see cref=&quot;Route&quot;/&gt; class. ... " />
+            <marker date="1552043040331" expanded="true" signature="1128:1231" ph="{...}" />
+            <marker date="1552043040331" expanded="true" signature="1241:1314" ph="/// Gets or sets the method. ... " />
+            <marker date="1552043040331" expanded="true" signature="1367:1438" ph="/// Gets or sets the path. ... " />
+            <marker date="1552043040331" expanded="true" signature="1489:1562" ph="/// Gets or sets the action. ... " />
+            <marker date="1552043040331" expanded="true" signature="1648:1727" ph="/// Gets or sets the action async. ... " />
+            <marker date="1552043040331" expanded="true" signature="1824:2347" ph="/// Invokes the registered action. ... " />
+            <marker date="1552043040331" expanded="true" signature="2505:2680" ph="{...}" />
+            <marker date="1552043040331" expanded="true" signature="2690:2943" ph="/// Invokes the registered action. ... " />
+            <marker date="1552043040331" expanded="true" signature="3007:3070" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/Browser/Handlers/CefGlueMessageRouterHandler.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1102">
+          <caret line="63" column="54" selection-start-line="63" selection-start-column="54" selection-end-line="63" selection-end-column="54" />
+          <folding>
+            <marker date="1552042712023" expanded="true" signature="0:484" ph="/* -------------------------------------------------------------------------------------------------------------- ... */" />
+            <marker date="1552042712023" expanded="true" signature="702:3395" ph="{...}" />
+            <marker date="1552042712023" expanded="true" signature="709:785" ph="/// The CefGlue message router handler. ... " />
+            <marker date="1552042712023" expanded="true" signature="868:3393" ph="{...}" />
+            <marker date="1552042712023" expanded="true" signature="883:1517" ph="/// The on query. ... " />
+            <marker date="1552042712023" expanded="true" signature="1684:2951" ph="{...}" />
+            <marker date="1552042712023" expanded="true" signature="1994:2854" ph="{...}" />
+            <marker date="1552042712023" expanded="true" signature="2039:2800" ph="{...}" />
+            <marker date="1552042712023" expanded="true" signature="2961:3272" ph="/// The on query canceled. ... " />
+            <marker date="1552042712023" expanded="true" signature="3367:3387" ph="{...}" />
           </folding>
         </state>
       </provider>
