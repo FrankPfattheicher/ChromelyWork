@@ -2,7 +2,9 @@
 
     <PropertyGroup>
         <OutputType>Exe</OutputType>
-        <TargetFramework>netcoreapp2.1</TargetFramework>
+        <RuntimeFrameworkVersion>2.1.1</RuntimeFrameworkVersion>
+        <RuntimeIdentifiers>win7-x64;linux-x64</RuntimeIdentifiers>
+        <TargetFrameworks>net461;netcoreapp2.1</TargetFrameworks>
     </PropertyGroup>
 
     <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -17,7 +19,6 @@
       <ProjectReference Include="..\..\Chromely\src\Chromely.CefGlue.Gtk\Chromely.CefGlue.Gtk.csproj">
         <Private>true</Private>
       </ProjectReference>
-      <ProjectReference Include="..\..\Chromely\src\Chromely.CefGlue.Loader\Chromely.CefGlue.Loader.csproj" />
       <ProjectReference Include="..\..\Chromely\src\Chromely.CefGlue.Winapi\Chromely.CefGlue.Winapi.csproj">
         <Private>true</Private>
       </ProjectReference>

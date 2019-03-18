@@ -4,7 +4,6 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../../Chromely/src/Chromely.CefGlue" />
     <content url="file://$MODULE_DIR$/../../../../Chromely/src/Chromely.CefGlue.Gtk" />
-    <content url="file://$MODULE_DIR$/../../../../Chromely/src/Chromely.CefGlue.Loader" />
     <content url="file://$MODULE_DIR$/../../../../Chromely/src/Chromely.CefGlue.Winapi" />
     <content url="file://$MODULE_DIR$/../../../../Chromely/src/Chromely.Core" />
     <content url="file://$MODULE_DIR$/../.." />

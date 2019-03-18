@@ -53,6 +53,7 @@
         </e>
       </e>
       <e p="BrowserWindow" t="Include">
+        <e p="CefBinariesLoader.cs" t="Include" />
         <e p="HostBase.cs" t="Include" />
         <e p="IWindow.cs" t="Include" />
       </e>
@@ -557,14 +558,45 @@
       <e p="Chromely.CefGlue.csproj" t="IncludeRecursive" />
       <e p="ChromelyBrowserWindow.cs" t="Include" />
       <e p="FrameHandler.cs" t="Include" />
-      <e p="HostHelpers.cs" t="Include" />
+      <e p="Loader" t="Include">
+        <e p="CefLoader.cs" t="Include" />
+        <e p="SharpZipLib" t="Include">
+          <e p="BZip2" t="Include">
+            <e p="BZip2.cs" t="Include" />
+            <e p="BZip2Constants.cs" t="Include" />
+            <e p="BZip2Exception.cs" t="Include" />
+            <e p="BZip2InputStream.cs" t="Include" />
+          </e>
+          <e p="Checksum" t="Include">
+            <e p="BZip2Crc.cs" t="Include" />
+            <e p="IChecksum.cs" t="Include" />
+          </e>
+          <e p="Core" t="Include">
+            <e p="FileSystemScanner.cs" t="Include" />
+            <e p="IScanFilter.cs" t="Include" />
+            <e p="NameFilter.cs" t="Include" />
+            <e p="PathFilter.cs" t="Include" />
+            <e p="StreamUtils.cs" t="Include" />
+          </e>
+          <e p="SharpZipBaseException.cs" t="Include" />
+          <e p="Tar" t="Include">
+            <e p="InvalidHeaderException.cs" t="Include" />
+            <e p="TarArchive..cs" t="Include" />
+            <e p="TarBuffer.cs" t="Include" />
+            <e p="TarEntry.cs" t="Include" />
+            <e p="TarException.cs" t="Include" />
+            <e p="TarHeader.cs" t="Include" />
+            <e p="TarInputStream.cs" t="Include" />
+            <e p="TarOutputStream.cs" t="Include" />
+          </e>
+        </e>
+      </e>
       <e p="RegisteredExternalUrl.cs" t="Include" />
       <e p="RestfulService" t="Include">
         <e p="RequestTaskRunner.cs" t="Include" />
       </e>
       <e p="WebsocketMessageSender.cs" t="Include" />
       <e p="WebsocketServerRunner.cs" t="Include" />
-      <e p="WinApiNativeMethods.cs" t="Include" />
       <e p="bin" t="ExcludeRecursive" />
       <e p="obj" t="ExcludeRecursive">
         <e p="Debug" t="Include">
@@ -591,48 +623,6 @@
         </e>
       </e>
     </e>
-    <e p="$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue.Loader" t="IncludeRecursive">
-      <e p="CefLoader.cs" t="Include" />
-      <e p="Chromely.CefGlue.Loader.csproj" t="IncludeRecursive" />
-      <e p="SharpZipLib" t="Include">
-        <e p="BZip2" t="Include">
-          <e p="BZip2.cs" t="Include" />
-          <e p="BZip2Constants.cs" t="Include" />
-          <e p="BZip2Exception.cs" t="Include" />
-          <e p="BZip2InputStream.cs" t="Include" />
-        </e>
-        <e p="Checksum" t="Include">
-          <e p="BZip2Crc.cs" t="Include" />
-          <e p="IChecksum.cs" t="Include" />
-        </e>
-        <e p="Core" t="Include">
-          <e p="FileSystemScanner.cs" t="Include" />
-          <e p="IScanFilter.cs" t="Include" />
-          <e p="NameFilter.cs" t="Include" />
-          <e p="PathFilter.cs" t="Include" />
-          <e p="StreamUtils.cs" t="Include" />
-        </e>
-        <e p="SharpZipBaseException.cs" t="Include" />
-        <e p="Tar" t="Include">
-          <e p="InvalidHeaderException.cs" t="Include" />
-          <e p="TarArchive..cs" t="Include" />
-          <e p="TarBuffer.cs" t="Include" />
-          <e p="TarEntry.cs" t="Include" />
-          <e p="TarException.cs" t="Include" />
-          <e p="TarHeader.cs" t="Include" />
-          <e p="TarInputStream.cs" t="Include" />
-          <e p="TarOutputStream.cs" t="Include" />
-        </e>
-      </e>
-      <e p="bin" t="ExcludeRecursive" />
-      <e p="obj" t="ExcludeRecursive">
-        <e p="Debug" t="Include">
-          <e p="netstandard2.0" t="Include">
-            <e p="Chromely.CefGlue.Loader.AssemblyInfo.cs" t="Include" />
-          </e>
-        </e>
-      </e>
-    </e>
     <e p="$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue.Winapi" t="IncludeRecursive">
       <e p="BrowserWindow" t="Include">
         <e p="WinapiCefGlueBrowserWindow.cs" t="Include" />
@@ -641,6 +631,7 @@
         <e p="WinapiWindow.cs" t="Include" />
       </e>
       <e p="Chromely.CefGlue.Winapi.csproj" t="IncludeRecursive" />
+      <e p="HostHelpers.cs" t="Include" />
       <e p="bin" t="ExcludeRecursive" />
       <e p="obj" t="ExcludeRecursive">
         <e p="Debug" t="Include">
@@ -734,6 +725,9 @@
       <e p="index.html" t="Include" />
       <e p="obj" t="ExcludeRecursive">
         <e p="Debug" t="Include">
+          <e p="net461" t="Include">
+            <e p="BasicCrossPlatform.AssemblyInfo.cs" t="Include" />
+          </e>
           <e p="netcoreapp2.1" t="Include">
             <e p="BasicCrossPlatform.AssemblyInfo.cs" t="Include" />
           </e>
