@@ -13,27 +13,27 @@ namespace BasicCrossPlatform
     {
         private static int Main(string[] args)
         {
-            try
-            {
-                var platform = CefRuntime.Platform;
-                var version = CefRuntime.ChromeVersion;
-                Console.WriteLine($"Running {platform} chromium {version}");
+            //try
+            //{
+            //    var platform = CefRuntime.Platform;
+            //    var version = CefRuntime.ChromeVersion;
+            //    Console.WriteLine($"Running {platform} chromium {version}");
 
-                try
-                {
-                    CefRuntime.Load();
-                }
-                catch (Exception ex)
-                {
-                    Debug.WriteLine(ex.Message);
-                    CefLoader.Load();
-                }
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine(ex);
-                Environment.Exit(0);
-            }
+            //    try
+            //    {
+            //        CefRuntime.Load();
+            //    }
+            //    catch (Exception ex)
+            //    {
+            //        Debug.WriteLine(ex.Message);
+            //        CefLoader.Load();
+            //    }
+            //}
+            //catch (Exception ex)
+            //{
+            //    Console.WriteLine(ex);
+            //    Environment.Exit(0);
+            //}
 
 
             var appDirectory = AppDomain.CurrentDomain.BaseDirectory;
@@ -42,6 +42,7 @@ namespace BasicCrossPlatform
 
             var config = ChromelyConfiguration
                 .Create()
+                .WithLoadingCefBinariesIfNotFound(true)
                 .WithAppArgs(args)
                 .WithHostSize(1000, 600)
                 .WithStartUrl(startUrl);
