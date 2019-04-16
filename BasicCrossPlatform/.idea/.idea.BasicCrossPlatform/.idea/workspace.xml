@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64b640a5-e33b-4d54-adf5-f586662fef19" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BasicCrossPlatform/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BasicCrossPlatform/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BasicCrossPlatform/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BasicCrossPlatform/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BasicCrossPlatform.sln.DotSettings" beforeDir="false" afterPath="$PROJECT_DIR$/BasicCrossPlatform.sln.DotSettings" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,53 +14,18 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/Loader/CefLoader.cs">
+        <entry file="file://$PROJECT_DIR$/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-24">
-              <caret line="208" column="52" selection-start-line="208" selection-start-column="52" selection-end-line="208" selection-end-column="52" />
+            <state relative-caret-position="300">
+              <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
               <folding>
-                <marker date="1552914468359" expanded="false" signature="6:362" ph="..." />
-                <marker date="1552914468359" expanded="true" signature="397:11814" ph="{...}" />
-                <marker date="1552914468359" expanded="true" signature="404:768" ph="/// Loads the necessary CEF runtime files from opensource.spotify.com ... " />
-                <marker date="1552914468359" expanded="true" signature="795:11812" ph="{...}" />
-                <marker date="1552914468359" expanded="true" signature="1164:1289" ph="/// Load CEF runtime files. ... " />
-                <marker date="1552914468359" expanded="true" signature="1323:2770" ph="{...}" />
-                <marker date="1552914468359" expanded="true" signature="1480:2052" ph="{...}" />
-                <marker date="1552914468359" expanded="true" signature="2085:2191" ph="{...}" />
-                <marker date="1552914468359" expanded="true" signature="2211:2760" ph="{...}" />
-                <marker date="1552914468359" expanded="true" signature="2289:2379" ph="{...}" />
-                <marker date="1552914468359" expanded="true" signature="2444:2534" ph="{...}" />
-                <marker date="1552914468359" expanded="true" signature="2643:2746" ph="{...}" />
-                <marker date="1552914468359" expanded="true" signature="3329:4362" ph="{...}" />
-                <marker date="1552914468359" expanded="true" signature="4410:4522" ph="{...}" />
-                <marker date="1552914468359" expanded="true" signature="4556:8624" ph="{...}" />
-                <marker date="1552914468359" expanded="true" signature="4626:8614" ph="{...}" />
-                <marker date="1552914468359" expanded="true" signature="4816:5078" ph="{...}" />
-                <marker date="1552914468359" expanded="true" signature="5431:5564" ph="{...}" />
-                <marker date="1552914468359" expanded="true" signature="5783:5888" ph="/* client.DownloadFileTaskAsync(_downloadUrl, _tempBz2File).Wait(); ... */" />
-                <marker date="1552914468359" expanded="true" signature="6029:6396" ph="{...}" />
-                <marker date="1552914468359" expanded="true" signature="6116:6330" ph="{...}" />
-                <marker date="1552914468359" expanded="true" signature="6460:6609" ph="{...}" />
-                <marker date="1552914468359" expanded="true" signature="6893:7922" ph="{...}" />
-                <marker date="1552914468359" expanded="true" signature="7316:7902" ph="{...}" />
-                <marker date="1552914468359" expanded="true" signature="7647:7878" ph="{...}" />
-                <marker date="1552914468359" expanded="true" signature="8016:8103" ph="{...}" />
-                <marker date="1552914468359" expanded="true" signature="8201:8598" ph="{...}" />
-                <marker date="1552914468359" expanded="true" signature="8307:8580" ph="{...}" />
-                <marker date="1552914468359" expanded="true" signature="8666:9548" ph="{...}" />
-                <marker date="1552914468359" expanded="true" signature="8793:9538" ph="{...}" />
-                <marker date="1552914468359" expanded="true" signature="8923:9060" ph="{...}" />
-                <marker date="1552914468359" expanded="true" signature="9596:10234" ph="{...}" />
-                <marker date="1552914468359" expanded="true" signature="9691:9839" ph="/* now we have all files in the temporary directory ... */" />
-                <marker date="1552914468359" expanded="true" signature="10312:10647" ph="{...}" />
-                <marker date="1552914468359" expanded="true" signature="10351:10413" ph="{...}" />
-                <marker date="1552914468359" expanded="true" signature="10476:10531" ph="{...}" />
-                <marker date="1552914468359" expanded="true" signature="10751:11169" ph="{...}" />
-                <marker date="1552914468359" expanded="true" signature="10873:10935" ph="{...}" />
-                <marker date="1552914468359" expanded="true" signature="10999:11054" ph="{...}" />
-                <marker date="1552914468359" expanded="true" signature="11244:11805" ph="{...}" />
-                <marker date="1552914468359" expanded="true" signature="11408:11514" ph="{...}" />
-                <marker date="1552914468359" expanded="true" signature="11690:11795" ph="{...}" />
+                <marker date="1554753555929" expanded="false" signature="6:192" ph="..." />
+                <marker date="1554753555929" expanded="true" signature="222:1280" ph="{...}" />
+                <marker date="1554753555929" expanded="true" signature="258:1278" ph="{...}" />
+                <marker date="1554753555929" expanded="true" signature="311:1272" ph="{...}" />
+                <marker date="1554753555929" expanded="true" signature="824:1077" ph="{...}" />
+                <marker date="1554753555929" expanded="true" signature="912:1063" ph="{...}" />
+                <marker date="1554753555929" expanded="true" signature="1110:1200" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -94,28 +59,28 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/Loader/SharpZipLib/Tar/TarBuffer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/CefGlue/CefRuntimePlatform.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/Loader/CefLoader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.Core/JsonMapper/JsonReader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/CefGlue/CefRuntime.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/Loader/SharpZipLib/BZip2/BZip2.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/CefGlue/Wrapper/MessageRouter/CefMessageRouterRendererSide.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/Loader/SharpZipLib/BZip2/BZip2Constants.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/Loader/SharpZipLib/Tar/TarArchive..cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/Loader/SharpZipLib/Tar/TarInputStream.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.Core/Host/IChromelyWindow.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.Core/RestfulService/ChromelyRequest.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.Core/RestfulService/Route.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/Loader/SharpZipLib/Checksum/BZip2Crc.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/Loader/SharpZipLib/BZip2/BZip2InputStream.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.Core/JsonMapper/JsonMockWrapper.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/CefGlue/Wrapper/MessageRouter/CefMessageRouterRendererSide.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/Loader/SharpZipLib/BZip2/BZip2.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/Loader/SharpZipLib/BZip2/BZip2Constants.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/Loader/SharpZipLib/Core/StreamUtils.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/RestfulService/RequestTaskRunner.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.Core/JsonMapper/JsonReader.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/Loader/SharpZipLib/Tar/TarBuffer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/CefSettingsExtension.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/CefGlue/CefRuntimePlatform.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/Loader/SharpZipLib/Tar/TarInputStream.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/Loader/SharpZipLib/Tar/TarArchive..cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/CefGlue/CefRuntime.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/Browser/Handlers/CefGlueMessageRouterHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/Loader/SharpZipLib/Core/StreamUtils.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.Core/ChromelyConfiguration.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/Loader/CefLoader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.Core/RestfulService/Route.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/CefSettingsExtension.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/Loader/SharpZipLib/Checksum/BZip2Crc.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.Core/JsonMapper/JsonMockWrapper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/Loader/SharpZipLib/BZip2/BZip2InputStream.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/RestfulService/RequestTaskRunner.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -146,8 +111,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="450" />
-    <option name="y" value="110" />
+    <option name="x" value="414" />
+    <option name="y" value="47" />
     <option name="width" value="2174" />
     <option name="height" value="1423" />
   </component>
@@ -159,6 +124,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="FileSystemExplorer" />
+      <pane id="AssemblyExplorer" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -171,53 +138,11 @@
               <item name="BasicCrossPlatform" type="24d0babc:SolutionExplorerModelNode" />
               <item name="BasicCrossPlatform" type="24d0babc:SolutionExplorerModelNode" />
             </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="BasicCrossPlatform" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="BasicCrossPlatform" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Dependencies" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="BasicCrossPlatform" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Chromely.CefGlue" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="BasicCrossPlatform" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Chromely.CefGlue" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Loader" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="BasicCrossPlatform" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Chromely.CefGlue" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Loader" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="SharpZipLib" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="BasicCrossPlatform" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Chromely.CefGlue" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Loader" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="SharpZipLib" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="BZip2" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="BasicCrossPlatform" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Chromely.CefGlue" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Loader" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="SharpZipLib" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Checksum" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
           </expand>
           <select />
         </subPane>
         <option name="show-all-files" value="false" />
       </pane>
-      <pane id="AssemblyExplorer" />
-      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -326,11 +251,12 @@
       <workItem from="1552492603244" duration="46000" />
       <workItem from="1552898938225" duration="11944000" />
       <workItem from="1552919032751" duration="12000" />
+      <workItem from="1555311809696" duration="542000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39646000" />
+    <option name="totallyTimeSpent" value="40188000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -342,10 +268,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="450" y="110" width="2174" height="1423" extended-state="0" />
+    <frame x="414" y="47" width="2174" height="1423" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4978355" visible="true" weight="0.32800752" />
-      <window_info id="Structure" order="1" sideWeight="0.5021645" side_tool="true" visible="true" weight="0.32800752" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49622437" visible="true" weight="0.33112583" />
+      <window_info id="Structure" order="1" sideWeight="0.5037756" side_tool="true" visible="true" weight="0.33112583" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
@@ -362,9 +289,9 @@
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Unit Tests" order="12" weight="0.32969603" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="13" visible="true" weight="0.2820513" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="13" visible="true" weight="0.28139535" />
       <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
-      <window_info anchor="bottom" id="Build" order="15" sideWeight="0.4990366" weight="0.32400933" />
+      <window_info anchor="bottom" id="Build" order="15" sideWeight="0.4990366" weight="0.3232558" />
       <window_info anchor="bottom" id="Change Signature" order="16" sideWeight="0.5009634" side_tool="true" weight="0.32853025" />
       <window_info anchor="right" id="Unit Tests Coverage" order="0" />
       <window_info anchor="right" id="PlantUML" order="1" />
@@ -641,13 +568,7 @@
     <entry file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue.Gtk/BrowserWindow/CefGlueBrowserWindow.cs" />
     <entry file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue.Gtk/BrowserWindow/HostBase.cs" />
     <entry file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue.Winapi/BrowserWindow/HostBase.cs" />
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html" />
     <entry file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.Core/JsonMapper/JsonReader.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -705,25 +626,6 @@
             <marker date="1544443187898" expanded="true" signature="13611:13987" ph="{...}" />
             <marker date="1544443187898" expanded="true" signature="14057:14199" ph="{...}" />
             <marker date="1544443187898" expanded="true" signature="14246:14358" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
-          <folding>
-            <marker date="1552042293174" expanded="true" signature="222:1883" ph="{...}" />
-            <marker date="1552042293174" expanded="true" signature="258:1881" ph="{...}" />
-            <marker date="1552042293174" expanded="true" signature="311:1875" ph="{...}" />
-            <marker date="1552042293174" expanded="true" signature="337:806" ph="{...}" />
-            <marker date="1552042293174" expanded="true" signature="557:632" ph="{...}" />
-            <marker date="1552042293174" expanded="true" signature="669:792" ph="{...}" />
-            <marker date="1552042293174" expanded="true" signature="839:943" ph="{...}" />
-            <marker date="1552042293174" expanded="true" signature="1355:1680" ph="{...}" />
-            <marker date="1552042293174" expanded="true" signature="1515:1666" ph="{...}" />
-            <marker date="1552042293174" expanded="true" signature="1713:1803" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -834,13 +736,6 @@
             <marker date="1552042712023" expanded="true" signature="2961:3272" ph="/// The on query canceled. ... " />
             <marker date="1552042712023" expanded="true" signature="3367:3387" ph="{...}" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BasicCrossPlatform.csproj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
         </state>
       </provider>
     </entry>
@@ -1728,53 +1623,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/BasicCrossPlatform.csproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/Loader/CefLoader.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-24">
+        <state relative-caret-position="20">
           <caret line="208" column="52" selection-start-line="208" selection-start-column="52" selection-end-line="208" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
           <folding>
-            <marker date="1552914468359" expanded="false" signature="6:362" ph="..." />
-            <marker date="1552914468359" expanded="true" signature="397:11814" ph="{...}" />
-            <marker date="1552914468359" expanded="true" signature="404:768" ph="/// Loads the necessary CEF runtime files from opensource.spotify.com ... " />
-            <marker date="1552914468359" expanded="true" signature="795:11812" ph="{...}" />
-            <marker date="1552914468359" expanded="true" signature="1164:1289" ph="/// Load CEF runtime files. ... " />
-            <marker date="1552914468359" expanded="true" signature="1323:2770" ph="{...}" />
-            <marker date="1552914468359" expanded="true" signature="1480:2052" ph="{...}" />
-            <marker date="1552914468359" expanded="true" signature="2085:2191" ph="{...}" />
-            <marker date="1552914468359" expanded="true" signature="2211:2760" ph="{...}" />
-            <marker date="1552914468359" expanded="true" signature="2289:2379" ph="{...}" />
-            <marker date="1552914468359" expanded="true" signature="2444:2534" ph="{...}" />
-            <marker date="1552914468359" expanded="true" signature="2643:2746" ph="{...}" />
-            <marker date="1552914468359" expanded="true" signature="3329:4362" ph="{...}" />
-            <marker date="1552914468359" expanded="true" signature="4410:4522" ph="{...}" />
-            <marker date="1552914468359" expanded="true" signature="4556:8624" ph="{...}" />
-            <marker date="1552914468359" expanded="true" signature="4626:8614" ph="{...}" />
-            <marker date="1552914468359" expanded="true" signature="4816:5078" ph="{...}" />
-            <marker date="1552914468359" expanded="true" signature="5431:5564" ph="{...}" />
-            <marker date="1552914468359" expanded="true" signature="5783:5888" ph="/* client.DownloadFileTaskAsync(_downloadUrl, _tempBz2File).Wait(); ... */" />
-            <marker date="1552914468359" expanded="true" signature="6029:6396" ph="{...}" />
-            <marker date="1552914468359" expanded="true" signature="6116:6330" ph="{...}" />
-            <marker date="1552914468359" expanded="true" signature="6460:6609" ph="{...}" />
-            <marker date="1552914468359" expanded="true" signature="6893:7922" ph="{...}" />
-            <marker date="1552914468359" expanded="true" signature="7316:7902" ph="{...}" />
-            <marker date="1552914468359" expanded="true" signature="7647:7878" ph="{...}" />
-            <marker date="1552914468359" expanded="true" signature="8016:8103" ph="{...}" />
-            <marker date="1552914468359" expanded="true" signature="8201:8598" ph="{...}" />
-            <marker date="1552914468359" expanded="true" signature="8307:8580" ph="{...}" />
-            <marker date="1552914468359" expanded="true" signature="8666:9548" ph="{...}" />
-            <marker date="1552914468359" expanded="true" signature="8793:9538" ph="{...}" />
-            <marker date="1552914468359" expanded="true" signature="8923:9060" ph="{...}" />
-            <marker date="1552914468359" expanded="true" signature="9596:10234" ph="{...}" />
-            <marker date="1552914468359" expanded="true" signature="9691:9839" ph="/* now we have all files in the temporary directory ... */" />
-            <marker date="1552914468359" expanded="true" signature="10312:10647" ph="{...}" />
-            <marker date="1552914468359" expanded="true" signature="10351:10413" ph="{...}" />
-            <marker date="1552914468359" expanded="true" signature="10476:10531" ph="{...}" />
-            <marker date="1552914468359" expanded="true" signature="10751:11169" ph="{...}" />
-            <marker date="1552914468359" expanded="true" signature="10873:10935" ph="{...}" />
-            <marker date="1552914468359" expanded="true" signature="10999:11054" ph="{...}" />
-            <marker date="1552914468359" expanded="true" signature="11244:11805" ph="{...}" />
-            <marker date="1552914468359" expanded="true" signature="11408:11514" ph="{...}" />
-            <marker date="1552914468359" expanded="true" signature="11690:11795" ph="{...}" />
+            <marker date="1554753555929" expanded="false" signature="6:192" ph="..." />
+            <marker date="1554753555929" expanded="true" signature="222:1280" ph="{...}" />
+            <marker date="1554753555929" expanded="true" signature="258:1278" ph="{...}" />
+            <marker date="1554753555929" expanded="true" signature="311:1272" ph="{...}" />
+            <marker date="1554753555929" expanded="true" signature="824:1077" ph="{...}" />
+            <marker date="1554753555929" expanded="true" signature="912:1063" ph="{...}" />
+            <marker date="1554753555929" expanded="true" signature="1110:1200" ph="{...}" />
           </folding>
         </state>
       </provider>

@@ -1,11 +1,6 @@
 ﻿using System;
-using System.Diagnostics;
 using Chromely.CefGlue;
-using Chromely.CefGlue.Loader;
 using Chromely.Core;
-using Chromely.Core.Helpers;
-using Chromely.Core.Host;
-using Xilium.CefGlue;
 
 namespace BasicCrossPlatform
 {
@@ -20,7 +15,6 @@ namespace BasicCrossPlatform
             var config = ChromelyConfiguration
                 .Create()
                 .WithLoadingCefBinariesIfNotFound(true)
-                .WithFramelessHost()
                 .WithAppArgs(args)
                 .WithHostSize(1000, 600)
                 .WithStartUrl(startUrl);
