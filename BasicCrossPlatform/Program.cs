@@ -1,6 +1,9 @@
 ﻿using System;
+using System.Threading.Tasks;
 using Chromely.CefGlue;
+using Chromely.CefGlue.Browser.EventParams;
 using Chromely.Core;
+using Chromely.Core.Helpers;
 
 namespace BasicCrossPlatform
 {
@@ -15,6 +18,7 @@ namespace BasicCrossPlatform
             var config = ChromelyConfiguration
                 .Create()
                 .WithLoadingCefBinariesIfNotFound(true)
+                .RegisterEventHandler<ConsoleMessageEventArgs>(CefEventKey.ConsoleMessage, OnWebBrowserConsoleMessage)
                 .WithAppArgs(args)
                 .WithHostSize(1000, 600)
                 .WithStartUrl(startUrl);
@@ -35,5 +39,13 @@ namespace BasicCrossPlatform
             Console.WriteLine("Done.");
             return 0;
         }
+
+        private static void OnWebBrowserConsoleMessage(object sender, ConsoleMessageEventArgs e)
+        {
+            Console.WriteLine("Browser console: " + e.Message);
+            Environment.Exit(0);
+        }
     }
+
 }
+
