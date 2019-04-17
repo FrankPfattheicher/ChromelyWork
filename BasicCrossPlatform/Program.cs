@@ -43,7 +43,11 @@ namespace BasicCrossPlatform
         private static void OnWebBrowserConsoleMessage(object sender, ConsoleMessageEventArgs e)
         {
             Console.WriteLine("Browser console: " + e.Message);
-            Environment.Exit(0);
+            Task.Run(async () =>
+            {
+                await Task.Delay(TimeSpan.FromSeconds(1));
+                Environment.Exit(0);
+            });
         }
     }
 
