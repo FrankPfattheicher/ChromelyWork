@@ -25,7 +25,7 @@ namespace BasicCrossPlatform
 
             try
             {
-                using (var window = ChromelyBrowserWindow.Create(config))
+                using (var window = ChromelyWindow.Create(config))
                 {
                     var result = window.Run(args);
                     Console.WriteLine("Run returns " + result);
