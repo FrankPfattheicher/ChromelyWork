@@ -25,7 +25,7 @@ namespace BasicCrossPlatform
 
             try
             {
-                using (var window = ChromelyBrowserWindow.Create(config))
+                using (var window = ChromelyWindow.Create(config))
                 {
                     var result = window.Run(args);
                     Console.WriteLine("Run returns " + result);
@@ -43,11 +43,11 @@ namespace BasicCrossPlatform
         private static void OnWebBrowserConsoleMessage(object sender, ConsoleMessageEventArgs e)
         {
             Console.WriteLine("Browser console: " + e.Message);
-            Task.Run(async () =>
-            {
-                await Task.Delay(TimeSpan.FromSeconds(1));
-                Environment.Exit(0);
-            });
+//            Task.Run(async () =>
+//            {
+//                await Task.Delay(TimeSpan.FromSeconds(1));
+//                Environment.Exit(0);
+//            });
         }
     }
 
