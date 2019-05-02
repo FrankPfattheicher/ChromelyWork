@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Threading.Tasks;
 using Chromely.CefGlue;
 using Chromely.CefGlue.Browser.EventParams;
 using Chromely.Core;
@@ -18,6 +17,8 @@ namespace BasicCrossPlatform
             var config = ChromelyConfiguration
                 .Create()
                 .WithLoadingCefBinariesIfNotFound(true)
+                //.WithFramelessHost()
+                //.WithGtkHostApi()
                 .RegisterEventHandler<ConsoleMessageEventArgs>(CefEventKey.ConsoleMessage, OnWebBrowserConsoleMessage)
                 .WithAppArgs(args)
                 .WithHostSize(1000, 600)
