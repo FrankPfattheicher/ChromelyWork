@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="$APPLICATION_CONFIG_DIR$/extensions" t="IncludeRecursive" />
-    <e p="$USER_HOME$/.Rider2018.3/system/extResources" t="IncludeRecursive" />
-    <e p="$USER_HOME$/.Rider2018.3/system/resharper-host/local/Transient/ReSharperHost/v183/SolutionCaches/_BasicCrossPlatform.1488223351.00" t="ExcludeRecursive" />
+    <e p="$USER_HOME$/.Rider2019.1/system/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.Rider2019.1/system/resharper-host/local/Transient/ReSharperHost/v191/SolutionCaches/_BasicCrossPlatform.1488223351.00" t="ExcludeRecursive" />
     <e p="$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue" t="IncludeRecursive">
       <e p="Browser" t="Include">
         <e p="CefBrowserConfig.cs" t="Include" />
@@ -34,6 +34,7 @@
         <e p="Handlers" t="Include">
           <e p="CefGlueContextMenuHandler.cs" t="Include" />
           <e p="CefGlueDisplayHandler.cs" t="Include" />
+          <e p="CefGlueDragHandler.cs" t="Include" />
           <e p="CefGlueHttpSchemeHandler.cs" t="Include" />
           <e p="CefGlueHttpSchemeHandlerFactory.cs" t="Include" />
           <e p="CefGlueLifeSpanHandler.cs" t="Include" />
@@ -663,6 +664,7 @@
       <e p="ChromelyConfiguration.cs" t="Include" />
       <e p="ChromelyConfigurationExtension.cs" t="Include" />
       <e p="ChromelyEventHandler.cs" t="Include" />
+      <e p="ChromelyHostApi.cs" t="Include" />
       <e p="ChromelyJsHandler.cs" t="Include" />
       <e p="ChromelyMessageRouter.cs" t="Include" />
       <e p="ChromelyPlatform.cs" t="Include" />
@@ -742,9 +744,6 @@
       </e>
       <e p="bin" t="ExcludeRecursive" />
       <e p="index.html" t="Include" />
-      <e p="logs" t="Include">
-        <e p="chromely.cef.log" t="Include" />
-      </e>
       <e p="obj" t="ExcludeRecursive">
         <e p="Debug" t="Include">
           <e p="net461" t="Include">

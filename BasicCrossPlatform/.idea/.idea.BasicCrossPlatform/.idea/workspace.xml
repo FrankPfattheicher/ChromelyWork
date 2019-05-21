@@ -4,7 +4,7 @@
     <list default="true" id="64b640a5-e33b-4d54-adf5-f586662fef19" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BasicCrossPlatform/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BasicCrossPlatform/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BasicCrossPlatform/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BasicCrossPlatform/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,22 +14,205 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/BrowserWindow/HostBase.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3268">
+              <caret line="317" column="32" selection-start-line="317" selection-start-column="32" selection-end-line="317" selection-end-column="32" />
+              <folding>
+                <marker date="1556802512472" expanded="true" signature="0:465" ph="/* -------------------------------------------------------------------------------------------------------------- ... */" />
+                <marker date="1556802512472" expanded="false" signature="473:848" ph="..." />
+                <marker date="1556802512472" expanded="true" signature="890:17543" ph="{...}" />
+                <marker date="1556802512472" expanded="true" signature="897:952" ph="/// The host base. ... " />
+                <marker date="1556802512472" expanded="true" signature="1005:17541" ph="{...}" />
+                <marker date="1556802512472" expanded="true" signature="1020:1085" ph="/// The m main view. ... " />
+                <marker date="1556802512472" expanded="true" signature="1130:1199" ph="/// The Wwindow created. ... " />
+                <marker date="1556802512472" expanded="true" signature="1246:1446" ph="/// Initializes a new instance of the &lt;see cref=&quot;HostBase&quot;/&gt; class. ... " />
+                <marker date="1556802512472" expanded="true" signature="1507:1564" ph="{...}" />
+                <marker date="1556802512472" expanded="false" signature="1574:1809" ph="Destructor" />
+                <marker date="1556802512472" expanded="true" signature="1602:1710" ph="/// Finalizes an instance of the &lt;see cref=&quot;HostBase&quot;/&gt; class.  ... " />
+                <marker date="1556802512472" expanded="true" signature="1730:1778" ph="{...}" />
+                <marker date="1556802512472" expanded="true" signature="1819:1900" ph="/// Gets the browser message router. ... " />
+                <marker date="1556802512472" expanded="true" signature="1996:6212" ph="IChromelyWindow implementations" />
+                <marker date="1556802512472" expanded="true" signature="2045:2115" ph="/// Gets the host config. ... " />
+                <marker date="1556802512472" expanded="true" signature="2182:2248" ph="/// Gets the browser. ... " />
+                <marker date="1556802512472" expanded="true" signature="2311:2865" ph="/// Runs the application. ... " />
+                <marker date="1556802512472" expanded="true" signature="2903:3141" ph="{...}" />
+                <marker date="1556802512472" expanded="true" signature="2929:2999" ph="{...}" />
+                <marker date="1556802512472" expanded="true" signature="3039:3131" ph="{...}" />
+                <marker date="1556802512472" expanded="true" signature="3151:3850" ph="/// The register event handler. ... " />
+                <marker date="1556802512472" expanded="true" signature="3936:4187" ph="{...}" />
+                <marker date="1556802512472" expanded="true" signature="3978:4116" ph="{...}" />
+                <marker date="1556802512472" expanded="true" signature="4197:4585" ph="/// The register event handler. ... " />
+                <marker date="1556802512472" expanded="true" signature="4679:4930" ph="{...}" />
+                <marker date="1556802512472" expanded="true" signature="4721:4859" ph="{...}" />
+                <marker date="1556802512472" expanded="true" signature="4940:5499" ph="/// The register custom handler.  ... " />
+                <marker date="1556802512472" expanded="true" signature="5581:5841" ph="{...}" />
+                <marker date="1556802512472" expanded="true" signature="5623:5762" ph="{...}" />
+                <marker date="1556802512472" expanded="true" signature="5851:5954" ph="/// The close - closing window externally/programatically. ... " />
+                <marker date="1556802512472" expanded="true" signature="5982:6002" ph="{...}" />
+                <marker date="1556802512472" expanded="true" signature="6012:6114" ph="/// The Exit - closing window externally/programatically. ... " />
+                <marker date="1556802512472" expanded="true" signature="6141:6192" ph="{...}" />
+                <marker date="1556802512472" expanded="false" signature="6222:8648" ph="IChromelyServiceProvider implementations" />
+                <marker date="1556802512472" expanded="true" signature="6280:6432" ph="/// The register url scheme. ... " />
+                <marker date="1556802512472" expanded="true" signature="6488:6562" ph="{...}" />
+                <marker date="1556802512472" expanded="true" signature="6572:6734" ph="/// The register service assembly. ... " />
+                <marker date="1556802512472" expanded="true" signature="6795:6893" ph="{...}" />
+                <marker date="1556802512472" expanded="true" signature="6903:7065" ph="/// The register service assembly. ... " />
+                <marker date="1556802512472" expanded="true" signature="7128:7226" ph="{...}" />
+                <marker date="1556802512472" expanded="true" signature="7236:7396" ph="/// The register service assemblies. ... " />
+                <marker date="1556802512472" expanded="true" signature="7457:7555" ph="{...}" />
+                <marker date="1556802512472" expanded="true" signature="7565:7731" ph="/// The register service assemblies. ... " />
+                <marker date="1556802512472" expanded="true" signature="7801:7902" ph="{...}" />
+                <marker date="1556802512472" expanded="true" signature="7912:7981" ph="/// The scan assemblies. ... " />
+                <marker date="1556802512472" expanded="true" signature="8018:8629" ph="{...}" />
+                <marker date="1556802512472" expanded="true" signature="8131:8183" ph="{...}" />
+                <marker date="1556802512472" expanded="true" signature="8252:8619" ph="{...}" />
+                <marker date="1556802512472" expanded="true" signature="8307:8605" ph="{...}" />
+                <marker date="1556802512472" expanded="false" signature="8658:9305" ph="Quit/IDisposable" />
+                <marker date="1556802512472" expanded="true" signature="8692:8750" ph="/// The quit. ... " />
+                <marker date="1556802512472" expanded="true" signature="8785:8836" ph="{...}" />
+                <marker date="1556802512472" expanded="true" signature="8846:8907" ph="/// The dispose. ... " />
+                <marker date="1556802512472" expanded="true" signature="8937:9023" ph="{...}" />
+                <marker date="1556802512472" expanded="true" signature="9033:9179" ph="/// The dispose. ... " />
+                <marker date="1556802512472" expanded="true" signature="9231:9285" ph="{...}" />
+                <marker date="1556802512472" expanded="true" signature="9315:10002" ph="Abstract Methods" />
+                <marker date="1556802512472" expanded="true" signature="9349:9422" ph="/// The platform initialize. ... " />
+                <marker date="1556802512472" expanded="true" signature="9478:9557" ph="/// The platform run message loop. ... " />
+                <marker date="1556802512472" expanded="true" signature="9617:9697" ph="/// The platform quit message loop. ... " />
+                <marker date="1556802512472" expanded="true" signature="9758:9912" ph="/// The create main view. ... " />
+                <marker date="1556802512472" expanded="true" signature="10012:10238" ph="/// The post task. ... " />
+                <marker date="1556802512472" expanded="true" signature="10312:10399" ph="{...}" />
+                <marker date="1556802512472" expanded="true" signature="10409:10630" ph="/// The run internal. ... " />
+                <marker date="1556802512472" expanded="true" signature="10677:13578" ph="{...}" />
+                <marker date="1556802512472" expanded="true" signature="10954:11229" ph="{...}" />
+                <marker date="1556802512472" expanded="true" signature="11273:11682" ph="{...}" />
+                <marker date="1556802512472" expanded="true" signature="11350:11507" ph="{...}" />
+                <marker date="1556802512472" expanded="true" signature="12008:12178" ph="{...}" />
+                <marker date="1556802512472" expanded="true" signature="12570:12734" ph="{...}" />
+                <marker date="1556802512472" expanded="true" signature="12813:12955" ph="{...}" />
+                <marker date="1556802512472" expanded="true" signature="12874:12941" ph="{...}" />
+                <marker date="1556802512472" expanded="true" signature="13222:13294" ph="{...}" />
+                <marker date="1556802512472" expanded="true" signature="13588:13666" ph="/// The register scheme handlers. ... " />
+                <marker date="1556802512472" expanded="true" signature="13712:15143" ph="{...}" />
+                <marker date="1556802512472" expanded="true" signature="13893:15133" ph="{...}" />
+                <marker date="1556802512472" expanded="true" signature="14025:15119" ph="{...}" />
+                <marker date="1556802512472" expanded="true" signature="14106:15101" ph="{...}" />
+                <marker date="1556802512472" expanded="true" signature="14188:14785" ph="{...}" />
+                <marker date="1556802512472" expanded="true" signature="14274:14490" ph="{...}" />
+                <marker date="1556802512472" expanded="true" signature="14547:14759" ph="{...}" />
+                <marker date="1556802512472" expanded="true" signature="14869:15079" ph="{...}" />
+                <marker date="1556802512472" expanded="true" signature="15153:15231" ph="/// The register message routers. ... " />
+                <marker date="1556802512472" expanded="true" signature="15277:16547" ph="{...}" />
+                <marker date="1556802512472" expanded="true" signature="15344:15462" ph="{...}" />
+                <marker date="1556802512472" expanded="true" signature="15887:16408" ph="{...}" />
+                <marker date="1556802512472" expanded="true" signature="16024:16394" ph="{...}" />
+                <marker date="1556802512472" expanded="true" signature="16215:16376" ph="{...}" />
+                <marker date="1556802512472" expanded="true" signature="16425:16537" ph="{...}" />
+                <marker date="1556802512472" expanded="true" signature="16557:16619" ph="/// The shutdown. ... " />
+                <marker date="1556802512472" expanded="true" signature="16651:16702" ph="{...}" />
+                <marker date="1556802512472" expanded="true" signature="16712:16777" ph="/// The action task. ... " />
+                <marker date="1556802512472" expanded="true" signature="16827:17535" ph="{...}" />
+                <marker date="1556802512472" expanded="true" signature="16850:17063" ph="/// Initializes a new instance of the &lt;see cref=&quot;ActionTask&quot;/&gt; class. ... " />
+                <marker date="1556802512472" expanded="true" signature="17108:17169" ph="{...}" />
+                <marker date="1556802512472" expanded="true" signature="17183:17264" ph="/// Gets or sets the action. ... " />
+                <marker date="1556802512472" expanded="true" signature="17325:17394" ph="/// The execute. ... " />
+                <marker date="1556802512472" expanded="true" signature="17440:17525" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="76">
+              <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
               <folding>
-                <marker date="1556030105784" expanded="false" signature="6:161" ph="..." />
-                <marker date="1556030105784" expanded="true" signature="191:1676" ph="{...}" />
-                <marker date="1556030105784" expanded="true" signature="227:1673" ph="{...}" />
-                <marker date="1556030105784" expanded="true" signature="280:1316" ph="{...}" />
-                <marker date="1556030105784" expanded="true" signature="875:1121" ph="{...}" />
-                <marker date="1556030105784" expanded="true" signature="956:1107" ph="{...}" />
-                <marker date="1556030105784" expanded="true" signature="1154:1244" ph="{...}" />
-                <marker date="1556030105784" expanded="true" signature="1414:1667" ph="{...}" />
-                <marker date="1556030105784" expanded="true" signature="1489:1657" ph="/* Task.Run(async () =&gt; ... */" />
+                <marker date="1556802549051" expanded="false" signature="6:131" ph="..." />
+                <marker date="1556802549051" expanded="true" signature="161:1721" ph="{...}" />
+                <marker date="1556802549051" expanded="true" signature="197:1718" ph="{...}" />
+                <marker date="1556802549051" expanded="true" signature="250:1361" ph="{...}" />
+                <marker date="1556802549051" expanded="true" signature="609:667" ph="/* .WithFramelessHost() ... */" />
+                <marker date="1556802549051" expanded="true" signature="920:1166" ph="{...}" />
+                <marker date="1556802549051" expanded="true" signature="1018:1152" ph="{...}" />
+                <marker date="1556802549051" expanded="true" signature="1199:1289" ph="{...}" />
+                <marker date="1556802549051" expanded="true" signature="1459:1712" ph="{...}" />
+                <marker date="1556802549051" expanded="true" signature="1534:1702" ph="/* Task.Run(async () =&gt; ... */" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue.Gtk/BrowserWindow/NativeWindow.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="324" column="32" selection-start-line="324" selection-start-column="32" selection-end-line="324" selection-end-column="32" />
+              <folding>
+                <marker date="1556803101637" expanded="true" signature="0:467" ph="/* -------------------------------------------------------------------------------------------------------------- ... */" />
+                <marker date="1556803101637" expanded="false" signature="475:529" ph="..." />
+                <marker date="1556803101637" expanded="true" signature="616:10080" ph="{...}" />
+                <marker date="1556803101637" expanded="true" signature="623:682" ph="/// The native window. ... " />
+                <marker date="1556803101637" expanded="true" signature="712:10078" ph="{...}" />
+                <marker date="1556803101637" expanded="true" signature="727:798" ph="/// The event lock object. ... " />
+                <marker date="1556803101637" expanded="true" signature="867:934" ph="/// The m host config. ... " />
+                <marker date="1556803101637" expanded="true" signature="1004:1069" ph="/// The main window. ... " />
+                <marker date="1556803101637" expanded="true" signature="1402:1518" ph="/// Initializes a new instance of the &lt;see cref=&quot;NativeWindow&quot;/&gt; class. ... " />
+                <marker date="1556803101637" expanded="true" signature="1548:1665" ph="{...}" />
+                <marker date="1556803101637" expanded="true" signature="1675:1879" ph="/// Initializes a new instance of the &lt;see cref=&quot;NativeWindow&quot;/&gt; class. ... " />
+                <marker date="1556803101637" expanded="true" signature="1941:2038" ph="{...}" />
+                <marker date="1556803101637" expanded="true" signature="2048:4709" ph="Events" />
+                <marker date="1556803101637" expanded="true" signature="2072:2134" ph="/// The realized. ... " />
+                <marker date="1556803101637" expanded="true" signature="2189:2929" ph="{...}" />
+                <marker date="1556803101637" expanded="true" signature="2215:2611" ph="{...}" />
+                <marker date="1556803101637" expanded="true" signature="2631:2919" ph="{...}" />
+                <marker date="1556803101637" expanded="true" signature="2939:3000" ph="/// The resized. ... " />
+                <marker date="1556803101637" expanded="true" signature="3054:3816" ph="{...}" />
+                <marker date="1556803101637" expanded="true" signature="3080:3494" ph="{...}" />
+                <marker date="1556803101637" expanded="true" signature="3514:3806" ph="{...}" />
+                <marker date="1556803101637" expanded="true" signature="3826:3886" ph="/// The exited. ... " />
+                <marker date="1556803101637" expanded="true" signature="3939:4682" ph="{...}" />
+                <marker date="1556803101637" expanded="true" signature="3965:4364" ph="{...}" />
+                <marker date="1556803101637" expanded="true" signature="4384:4672" ph="{...}" />
+                <marker date="1556803101637" expanded="true" signature="4719:4784" ph="/// Gets the handle. ... " />
+                <marker date="1556803101637" expanded="true" signature="4839:4897" ph="/// The host. ... " />
+                <marker date="1556803101637" expanded="true" signature="4950:5012" ph="/// The host xid. ... " />
+                <marker date="1556803101637" expanded="true" signature="5096:5161" ph="/// The show window. ... " />
+                <marker date="1556803101637" expanded="true" signature="5194:5242" ph="{...}" />
+                <marker date="1556803101637" expanded="true" signature="5252:5548" ph="/// The resize host. ... " />
+                <marker date="1556803101637" expanded="true" signature="5623:5705" ph="{...}" />
+                <marker date="1556803101637" expanded="true" signature="5715:5933" ph="/// The get size. ... " />
+                <marker date="1556803101637" expanded="true" signature="6003:6238" ph="{...}" />
+                <marker date="1556803101637" expanded="true" signature="6105:6157" ph="{...}" />
+                <marker date="1556803101637" expanded="true" signature="6248:6461" ph="/// The on realized. ... " />
+                <marker date="1556803101637" expanded="true" signature="6531:6551" ph="{...}" />
+                <marker date="1556803101637" expanded="true" signature="6561:6772" ph="/// The on resize. ... " />
+                <marker date="1556803101637" expanded="true" signature="6840:6974" ph="{...}" />
+                <marker date="1556803101637" expanded="true" signature="6984:7193" ph="/// The on exit. ... " />
+                <marker date="1556803101637" expanded="true" signature="7259:7313" ph="{...}" />
+                <marker date="1556803101637" expanded="true" signature="7323:7390" ph="/// The create window. ... " />
+                <marker date="1556803101637" expanded="true" signature="7426:9134" ph="{...}" />
+                <marker date="1556803101637" expanded="true" signature="8003:8142" ph="{...}" />
+                <marker date="1556803101637" expanded="true" signature="8186:8554" ph="{...}" />
+                <marker date="1556803101637" expanded="true" signature="8676:8907" ph="/* A callback was made on a garbage collected delegate of type 'Chromely.CefGlue.Gtk!Chromely.CefGlue.Gtk.Browser ... */" />
+                <marker date="1556803101637" expanded="true" signature="8975:9040" ph="{...}" />
+                <marker date="1556803101637" expanded="true" signature="9144:9298" ph="/// The local realized. ... " />
+                <marker date="1556803101637" expanded="true" signature="9374:9444" ph="{...}" />
+                <marker date="1556803101637" expanded="true" signature="9454:9610" ph="/// The local configured. ... " />
+                <marker date="1556803101637" expanded="true" signature="9688:9760" ph="{...}" />
+                <marker date="1556803101637" expanded="true" signature="9770:9925" ph="/// The local destroyed. ... " />
+                <marker date="1556803101637" expanded="true" signature="10002:10072" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -57,25 +240,25 @@
                 <marker date="1556029895940" expanded="true" signature="3694:4329" ph="{...}" />
                 <marker date="1556029895940" expanded="true" signature="4339:4560" ph="///  ... " />
                 <marker date="1556029895940" expanded="true" signature="4680:6297" ph="{...}" />
-                <marker date="1556029895940" expanded="true" signature="5481:6251" ph="{...}" />
+                <marker date="1556029895940" expanded="true" signature="5494:6251" ph="{...}" />
                 <marker date="1556029895940" expanded="true" signature="5714:5800" ph="{...}" />
                 <marker date="1556029895940" expanded="true" signature="5953:6039" ph="{...}" />
                 <marker date="1556029895940" expanded="true" signature="6336:6448" ph="{...}" />
                 <marker date="1556029895940" expanded="true" signature="6482:10188" ph="{...}" />
-                <marker date="1556029895940" expanded="true" signature="6552:10178" ph="{...}" />
-                <marker date="1556029895940" expanded="true" signature="6966:7099" ph="{...}" />
+                <marker date="1556029895940" expanded="true" signature="6565:10178" ph="{...}" />
+                <marker date="1556029895940" expanded="true" signature="6983:7099" ph="{...}" />
                 <marker date="1556029895940" expanded="true" signature="7481:7848" ph="{...}" />
                 <marker date="1556029895940" expanded="true" signature="7568:7782" ph="{...}" />
                 <marker date="1556029895940" expanded="true" signature="7912:8061" ph="{...}" />
-                <marker date="1556029895940" expanded="true" signature="8345:9486" ph="{...}" />
-                <marker date="1556029895940" expanded="true" signature="8880:9466" ph="{...}" />
-                <marker date="1556029895940" expanded="true" signature="9211:9442" ph="{...}" />
+                <marker date="1556029895940" expanded="true" signature="8362:9486" ph="{...}" />
+                <marker date="1556029895940" expanded="true" signature="8901:9466" ph="{...}" />
+                <marker date="1556029895940" expanded="true" signature="9236:9442" ph="{...}" />
                 <marker date="1556029895940" expanded="true" signature="9580:9667" ph="{...}" />
-                <marker date="1556029895940" expanded="true" signature="9765:10162" ph="{...}" />
+                <marker date="1556029895940" expanded="true" signature="9782:10162" ph="{...}" />
                 <marker date="1556029895940" expanded="true" signature="9871:10144" ph="{...}" />
                 <marker date="1556029895940" expanded="true" signature="10230:11102" ph="{...}" />
-                <marker date="1556029895940" expanded="true" signature="10357:11092" ph="{...}" />
-                <marker date="1556029895940" expanded="true" signature="10487:10616" ph="{...}" />
+                <marker date="1556029895940" expanded="true" signature="10370:11092" ph="{...}" />
+                <marker date="1556029895940" expanded="true" signature="10504:10616" ph="{...}" />
                 <marker date="1556029895940" expanded="true" signature="11150:11601" ph="{...}" />
                 <marker date="1556029895940" expanded="true" signature="11245:11377" ph="/* now we have all files in the temporary directory ... */" />
                 <marker date="1556029895940" expanded="true" signature="11679:12014" ph="{...}" />
@@ -87,6 +270,50 @@
                 <marker date="1556029895940" expanded="true" signature="12611:13172" ph="{...}" />
                 <marker date="1556029895940" expanded="true" signature="12775:12881" ph="{...}" />
                 <marker date="1556029895940" expanded="true" signature="13057:13162" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue.Gtk/BrowserWindow/Window.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+              <folding>
+                <marker date="1556551049662" expanded="true" signature="0:461" ph="/* -------------------------------------------------------------------------------------------------------------- ... */" />
+                <marker date="1556551049662" expanded="false" signature="469:589" ph="..." />
+                <marker date="1556551049662" expanded="true" signature="635:6275" ph="{...}" />
+                <marker date="1556551049662" expanded="true" signature="642:694" ph="/// The window. ... " />
+                <marker date="1556551049662" expanded="true" signature="742:6273" ph="{...}" />
+                <marker date="1556551049662" expanded="true" signature="757:838" ph="/// The host/app/window application. ... " />
+                <marker date="1556551049662" expanded="true" signature="896:961" ph="/// The host config. ... " />
+                <marker date="1556551049662" expanded="true" signature="1031:1106" ph="/// The CefGlueBrowser object. ... " />
+                <marker date="1556551049662" expanded="true" signature="1157:1232" ph="/// The browser window handle. ... " />
+                <marker date="1556551049662" expanded="true" signature="1287:1574" ph="/// Initializes a new instance of the &lt;see cref=&quot;Window&quot;/&gt; class. ... " />
+                <marker date="1556551049662" expanded="true" signature="1683:2020" ph="{...}" />
+                <marker date="1556551049662" expanded="true" signature="2030:2091" ph="/// The browser. ... " />
+                <marker date="1556551049662" expanded="true" signature="2180:2230" ph="{...}" />
+                <marker date="1556551049662" expanded="true" signature="2240:2327" ph="/// The exit - externally/programatically. ... " />
+                <marker date="1556551049662" expanded="true" signature="2354:2408" ph="{...}" />
+                <marker date="1556551049662" expanded="false" signature="2418:2765" ph="Dispose" />
+                <marker date="1556551049662" expanded="true" signature="2443:2504" ph="/// The dispose. ... " />
+                <marker date="1556551049662" expanded="true" signature="2534:2737" ph="{...}" />
+                <marker date="1556551049662" expanded="true" signature="2578:2727" ph="{...}" />
+                <marker date="1556551049662" expanded="true" signature="2775:3122" ph="/// The on realized. ... " />
+                <marker date="1556551049662" expanded="true" signature="3193:4013" ph="{...}" />
+                <marker date="1556551049662" expanded="true" signature="3297:3961" ph="{...}" />
+                <marker date="1556551049662" expanded="true" signature="4023:4234" ph="/// The on resize. ... " />
+                <marker date="1556551049662" expanded="true" signature="4303:4968" ph="{...}" />
+                <marker date="1556551049662" expanded="true" signature="4380:4871" ph="{...}" />
+                <marker date="1556551049662" expanded="true" signature="4451:4857" ph="{...}" />
+                <marker date="1556551049662" expanded="true" signature="4888:4958" ph="{...}" />
+                <marker date="1556551049662" expanded="true" signature="4978:5187" ph="/// The on exit. ... " />
+                <marker date="1556551049662" expanded="true" signature="5254:5308" ph="{...}" />
+                <marker date="1556551049662" expanded="true" signature="5318:5538" ph="/// The on browser created. ... " />
+                <marker date="1556551049662" expanded="true" signature="5604:6266" ph="{...}" />
+                <marker date="1556551049662" expanded="true" signature="5765:6256" ph="{...}" />
+                <marker date="1556551049662" expanded="true" signature="5836:6242" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -123,39 +350,42 @@
       <find>blockRandomised</find>
       <find>i2</find>
       <find>last</find>
+      <find>Resized</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.Core/Host/IChromelyWindow.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/CefSettingsExtension.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/CefGlue/Wrapper/MessageRouter/CefMessageRouterRendererSide.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.Core/RestfulService/ChromelyRequest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.Core/RestfulService/Route.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/CefGlue/CefRuntime.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.Core/ChromelyConfiguration.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/CefGlue/CefRuntimePlatform.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.Core/JsonMapper/JsonMockWrapper.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/Loader/SharpZipLib/Tar/TarBuffer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/Loader/SharpZipLib/Tar/TarInputStream.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.Core/Host/IChromelyWindow.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/Loader/SharpZipLib/Tar/TarArchive..cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/Loader/SharpZipLib/Checksum/BZip2Crc.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/Loader/SharpZipLib/Tar/TarInputStream.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/CefGlue/CefRuntime.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/Loader/SharpZipLib/Tar/TarBuffer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.Core/JsonMapper/JsonMockWrapper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/Loader/SharpZipLib/Core/StreamUtils.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.Core/JsonMapper/JsonReader.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/Loader/SharpZipLib/BZip2/BZip2InputStream.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/Loader/SharpZipLib/BZip2/BZip2Constants.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/Loader/SharpZipLib/BZip2/BZip2.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue.Gtk/BrowserWindow/NativeWindow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/Loader/SharpZipLib/BZip2/BZip2InputStream.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/Loader/SharpZipLib/Checksum/BZip2Crc.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.Core/JsonMapper/JsonReader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue.Gtk/BrowserWindow/Window.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/Loader/CefLoader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/BrowserWindow/HostBase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/RestfulService/RequestTaskRunner.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.Core/RestfulService/ChromelyRequest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.Core/RestfulService/Route.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/Browser/Handlers/CefGlueMessageRouterHandler.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.Core/ChromelyConfiguration.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/CefSettingsExtension.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/CefGlue/Wrapper/MessageRouter/CefMessageRouterRendererSide.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$USER_HOME$/.nuget/packages/chromely.cefglue.gtk/68.0.0-beta02/build/Chromely.CefGlue.Gtk.props" />
         <option value="$PROJECT_DIR$/CefLoader.cs" />
         <option value="$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/IHostBase.cs" />
@@ -177,14 +407,16 @@
         <option value="$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/Loader/SharpZipLib/BZip2/BZip2InputStream.cs" />
         <option value="$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/Loader/CefLoader.cs" />
         <option value="$PROJECT_DIR$/Program.cs" />
+        <option value="$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue.Gtk/BrowserWindow/NativeWindow.cs" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="885" />
-    <option name="y" value="86" />
+    <option name="x" value="362" />
+    <option name="y" value="148" />
     <option name="width" value="2174" />
-    <option name="height" value="1423" />
+    <option name="height" value="1343" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -194,12 +426,16 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="FileSystemExplorer" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
             <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="BasicCrossPlatform" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="BasicCrossPlatform" type="24d0babc:SolutionExplorerModelNode" />
               <item name="BasicCrossPlatform" type="24d0babc:SolutionExplorerModelNode" />
             </path>
           </expand>
@@ -207,6 +443,7 @@
         </subPane>
         <option name="show-all-files" value="false" />
       </pane>
+      <pane id="FileSystemExplorer" />
       <pane id="AssemblyExplorer" />
     </panes>
   </component>
@@ -214,8 +451,9 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue.Gtk/Chromely.CefGlue.Gtk.csproj" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Chromely" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -321,11 +559,14 @@
       <workItem from="1555503662500" duration="354000" />
       <workItem from="1556011044032" duration="1015000" />
       <workItem from="1556030058119" duration="182000" />
+      <workItem from="1556802594179" duration="668000" />
+      <workItem from="1556811000955" duration="42000" />
+      <workItem from="1558278969232" duration="310000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41886000" />
+    <option name="totallyTimeSpent" value="42906000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -337,10 +578,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="885" y="86" width="2174" height="1423" extended-state="0" />
+    <frame x="362" y="148" width="2174" height="1343" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4924406" visible="true" weight="0.34445488" />
-      <window_info id="Structure" order="1" sideWeight="0.5075594" side_tool="true" visible="true" weight="0.34445488" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48996457" visible="true" weight="0.35479322" />
+      <window_info id="Structure" order="1" sideWeight="0.5100354" side_tool="true" visible="true" weight="0.35479322" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
@@ -348,7 +589,7 @@
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
       <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49980733" weight="0.32711732" />
-      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.49980733" weight="0.47398844" />
+      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.49980733" weight="0.47397047" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
@@ -357,7 +598,7 @@
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Unit Tests" order="12" weight="0.32969603" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="13" visible="true" weight="0.28049728" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="13" visible="true" weight="0.29826015" />
       <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="15" sideWeight="0.4990366" weight="0.32323232" />
       <window_info anchor="bottom" id="Change Signature" order="16" sideWeight="0.5009634" side_tool="true" weight="0.32853025" />
@@ -619,7 +860,6 @@
     <entry file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue.Gtk/BrowserWindow/CefGlueBrowserWindow.cs" />
     <entry file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue.Gtk/BrowserWindow/HostBase.cs" />
     <entry file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue.Winapi/BrowserWindow/HostBase.cs" />
-    <entry file="file://$PROJECT_DIR$/index.html" />
     <entry file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.Core/JsonMapper/JsonReader.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -1681,20 +1921,128 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/BrowserWindow/HostBase.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3268">
+          <caret line="317" column="32" selection-start-line="317" selection-start-column="32" selection-end-line="317" selection-end-column="32" />
+          <folding>
+            <marker date="1556802512472" expanded="true" signature="0:465" ph="/* -------------------------------------------------------------------------------------------------------------- ... */" />
+            <marker date="1556802512472" expanded="false" signature="473:848" ph="..." />
+            <marker date="1556802512472" expanded="true" signature="890:17543" ph="{...}" />
+            <marker date="1556802512472" expanded="true" signature="897:952" ph="/// The host base. ... " />
+            <marker date="1556802512472" expanded="true" signature="1005:17541" ph="{...}" />
+            <marker date="1556802512472" expanded="true" signature="1020:1085" ph="/// The m main view. ... " />
+            <marker date="1556802512472" expanded="true" signature="1130:1199" ph="/// The Wwindow created. ... " />
+            <marker date="1556802512472" expanded="true" signature="1246:1446" ph="/// Initializes a new instance of the &lt;see cref=&quot;HostBase&quot;/&gt; class. ... " />
+            <marker date="1556802512472" expanded="true" signature="1507:1564" ph="{...}" />
+            <marker date="1556802512472" expanded="false" signature="1574:1809" ph="Destructor" />
+            <marker date="1556802512472" expanded="true" signature="1602:1710" ph="/// Finalizes an instance of the &lt;see cref=&quot;HostBase&quot;/&gt; class.  ... " />
+            <marker date="1556802512472" expanded="true" signature="1730:1778" ph="{...}" />
+            <marker date="1556802512472" expanded="true" signature="1819:1900" ph="/// Gets the browser message router. ... " />
+            <marker date="1556802512472" expanded="true" signature="1996:6212" ph="IChromelyWindow implementations" />
+            <marker date="1556802512472" expanded="true" signature="2045:2115" ph="/// Gets the host config. ... " />
+            <marker date="1556802512472" expanded="true" signature="2182:2248" ph="/// Gets the browser. ... " />
+            <marker date="1556802512472" expanded="true" signature="2311:2865" ph="/// Runs the application. ... " />
+            <marker date="1556802512472" expanded="true" signature="2903:3141" ph="{...}" />
+            <marker date="1556802512472" expanded="true" signature="2929:2999" ph="{...}" />
+            <marker date="1556802512472" expanded="true" signature="3039:3131" ph="{...}" />
+            <marker date="1556802512472" expanded="true" signature="3151:3850" ph="/// The register event handler. ... " />
+            <marker date="1556802512472" expanded="true" signature="3936:4187" ph="{...}" />
+            <marker date="1556802512472" expanded="true" signature="3978:4116" ph="{...}" />
+            <marker date="1556802512472" expanded="true" signature="4197:4585" ph="/// The register event handler. ... " />
+            <marker date="1556802512472" expanded="true" signature="4679:4930" ph="{...}" />
+            <marker date="1556802512472" expanded="true" signature="4721:4859" ph="{...}" />
+            <marker date="1556802512472" expanded="true" signature="4940:5499" ph="/// The register custom handler.  ... " />
+            <marker date="1556802512472" expanded="true" signature="5581:5841" ph="{...}" />
+            <marker date="1556802512472" expanded="true" signature="5623:5762" ph="{...}" />
+            <marker date="1556802512472" expanded="true" signature="5851:5954" ph="/// The close - closing window externally/programatically. ... " />
+            <marker date="1556802512472" expanded="true" signature="5982:6002" ph="{...}" />
+            <marker date="1556802512472" expanded="true" signature="6012:6114" ph="/// The Exit - closing window externally/programatically. ... " />
+            <marker date="1556802512472" expanded="true" signature="6141:6192" ph="{...}" />
+            <marker date="1556802512472" expanded="false" signature="6222:8648" ph="IChromelyServiceProvider implementations" />
+            <marker date="1556802512472" expanded="true" signature="6280:6432" ph="/// The register url scheme. ... " />
+            <marker date="1556802512472" expanded="true" signature="6488:6562" ph="{...}" />
+            <marker date="1556802512472" expanded="true" signature="6572:6734" ph="/// The register service assembly. ... " />
+            <marker date="1556802512472" expanded="true" signature="6795:6893" ph="{...}" />
+            <marker date="1556802512472" expanded="true" signature="6903:7065" ph="/// The register service assembly. ... " />
+            <marker date="1556802512472" expanded="true" signature="7128:7226" ph="{...}" />
+            <marker date="1556802512472" expanded="true" signature="7236:7396" ph="/// The register service assemblies. ... " />
+            <marker date="1556802512472" expanded="true" signature="7457:7555" ph="{...}" />
+            <marker date="1556802512472" expanded="true" signature="7565:7731" ph="/// The register service assemblies. ... " />
+            <marker date="1556802512472" expanded="true" signature="7801:7902" ph="{...}" />
+            <marker date="1556802512472" expanded="true" signature="7912:7981" ph="/// The scan assemblies. ... " />
+            <marker date="1556802512472" expanded="true" signature="8018:8629" ph="{...}" />
+            <marker date="1556802512472" expanded="true" signature="8131:8183" ph="{...}" />
+            <marker date="1556802512472" expanded="true" signature="8252:8619" ph="{...}" />
+            <marker date="1556802512472" expanded="true" signature="8307:8605" ph="{...}" />
+            <marker date="1556802512472" expanded="false" signature="8658:9305" ph="Quit/IDisposable" />
+            <marker date="1556802512472" expanded="true" signature="8692:8750" ph="/// The quit. ... " />
+            <marker date="1556802512472" expanded="true" signature="8785:8836" ph="{...}" />
+            <marker date="1556802512472" expanded="true" signature="8846:8907" ph="/// The dispose. ... " />
+            <marker date="1556802512472" expanded="true" signature="8937:9023" ph="{...}" />
+            <marker date="1556802512472" expanded="true" signature="9033:9179" ph="/// The dispose. ... " />
+            <marker date="1556802512472" expanded="true" signature="9231:9285" ph="{...}" />
+            <marker date="1556802512472" expanded="true" signature="9315:10002" ph="Abstract Methods" />
+            <marker date="1556802512472" expanded="true" signature="9349:9422" ph="/// The platform initialize. ... " />
+            <marker date="1556802512472" expanded="true" signature="9478:9557" ph="/// The platform run message loop. ... " />
+            <marker date="1556802512472" expanded="true" signature="9617:9697" ph="/// The platform quit message loop. ... " />
+            <marker date="1556802512472" expanded="true" signature="9758:9912" ph="/// The create main view. ... " />
+            <marker date="1556802512472" expanded="true" signature="10012:10238" ph="/// The post task. ... " />
+            <marker date="1556802512472" expanded="true" signature="10312:10399" ph="{...}" />
+            <marker date="1556802512472" expanded="true" signature="10409:10630" ph="/// The run internal. ... " />
+            <marker date="1556802512472" expanded="true" signature="10677:13578" ph="{...}" />
+            <marker date="1556802512472" expanded="true" signature="10954:11229" ph="{...}" />
+            <marker date="1556802512472" expanded="true" signature="11273:11682" ph="{...}" />
+            <marker date="1556802512472" expanded="true" signature="11350:11507" ph="{...}" />
+            <marker date="1556802512472" expanded="true" signature="12008:12178" ph="{...}" />
+            <marker date="1556802512472" expanded="true" signature="12570:12734" ph="{...}" />
+            <marker date="1556802512472" expanded="true" signature="12813:12955" ph="{...}" />
+            <marker date="1556802512472" expanded="true" signature="12874:12941" ph="{...}" />
+            <marker date="1556802512472" expanded="true" signature="13222:13294" ph="{...}" />
+            <marker date="1556802512472" expanded="true" signature="13588:13666" ph="/// The register scheme handlers. ... " />
+            <marker date="1556802512472" expanded="true" signature="13712:15143" ph="{...}" />
+            <marker date="1556802512472" expanded="true" signature="13893:15133" ph="{...}" />
+            <marker date="1556802512472" expanded="true" signature="14025:15119" ph="{...}" />
+            <marker date="1556802512472" expanded="true" signature="14106:15101" ph="{...}" />
+            <marker date="1556802512472" expanded="true" signature="14188:14785" ph="{...}" />
+            <marker date="1556802512472" expanded="true" signature="14274:14490" ph="{...}" />
+            <marker date="1556802512472" expanded="true" signature="14547:14759" ph="{...}" />
+            <marker date="1556802512472" expanded="true" signature="14869:15079" ph="{...}" />
+            <marker date="1556802512472" expanded="true" signature="15153:15231" ph="/// The register message routers. ... " />
+            <marker date="1556802512472" expanded="true" signature="15277:16547" ph="{...}" />
+            <marker date="1556802512472" expanded="true" signature="15344:15462" ph="{...}" />
+            <marker date="1556802512472" expanded="true" signature="15887:16408" ph="{...}" />
+            <marker date="1556802512472" expanded="true" signature="16024:16394" ph="{...}" />
+            <marker date="1556802512472" expanded="true" signature="16215:16376" ph="{...}" />
+            <marker date="1556802512472" expanded="true" signature="16425:16537" ph="{...}" />
+            <marker date="1556802512472" expanded="true" signature="16557:16619" ph="/// The shutdown. ... " />
+            <marker date="1556802512472" expanded="true" signature="16651:16702" ph="{...}" />
+            <marker date="1556802512472" expanded="true" signature="16712:16777" ph="/// The action task. ... " />
+            <marker date="1556802512472" expanded="true" signature="16827:17535" ph="{...}" />
+            <marker date="1556802512472" expanded="true" signature="16850:17063" ph="/// Initializes a new instance of the &lt;see cref=&quot;ActionTask&quot;/&gt; class. ... " />
+            <marker date="1556802512472" expanded="true" signature="17108:17169" ph="{...}" />
+            <marker date="1556802512472" expanded="true" signature="17183:17264" ph="/// Gets or sets the action. ... " />
+            <marker date="1556802512472" expanded="true" signature="17325:17394" ph="/// The execute. ... " />
+            <marker date="1556802512472" expanded="true" signature="17440:17525" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="76">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
           <folding>
-            <marker date="1556030105784" expanded="false" signature="6:161" ph="..." />
-            <marker date="1556030105784" expanded="true" signature="191:1676" ph="{...}" />
-            <marker date="1556030105784" expanded="true" signature="227:1673" ph="{...}" />
-            <marker date="1556030105784" expanded="true" signature="280:1316" ph="{...}" />
-            <marker date="1556030105784" expanded="true" signature="875:1121" ph="{...}" />
-            <marker date="1556030105784" expanded="true" signature="956:1107" ph="{...}" />
-            <marker date="1556030105784" expanded="true" signature="1154:1244" ph="{...}" />
-            <marker date="1556030105784" expanded="true" signature="1414:1667" ph="{...}" />
-            <marker date="1556030105784" expanded="true" signature="1489:1657" ph="/* Task.Run(async () =&gt; ... */" />
+            <marker date="1556802549051" expanded="false" signature="6:131" ph="..." />
+            <marker date="1556802549051" expanded="true" signature="161:1721" ph="{...}" />
+            <marker date="1556802549051" expanded="true" signature="197:1718" ph="{...}" />
+            <marker date="1556802549051" expanded="true" signature="250:1361" ph="{...}" />
+            <marker date="1556802549051" expanded="true" signature="609:667" ph="/* .WithFramelessHost() ... */" />
+            <marker date="1556802549051" expanded="true" signature="920:1166" ph="{...}" />
+            <marker date="1556802549051" expanded="true" signature="1018:1152" ph="{...}" />
+            <marker date="1556802549051" expanded="true" signature="1199:1289" ph="{...}" />
+            <marker date="1556802549051" expanded="true" signature="1459:1712" ph="{...}" />
+            <marker date="1556802549051" expanded="true" signature="1534:1702" ph="/* Task.Run(async () =&gt; ... */" />
           </folding>
         </state>
       </provider>
@@ -1721,25 +2069,25 @@
             <marker date="1556029895940" expanded="true" signature="3694:4329" ph="{...}" />
             <marker date="1556029895940" expanded="true" signature="4339:4560" ph="///  ... " />
             <marker date="1556029895940" expanded="true" signature="4680:6297" ph="{...}" />
-            <marker date="1556029895940" expanded="true" signature="5481:6251" ph="{...}" />
+            <marker date="1556029895940" expanded="true" signature="5494:6251" ph="{...}" />
             <marker date="1556029895940" expanded="true" signature="5714:5800" ph="{...}" />
             <marker date="1556029895940" expanded="true" signature="5953:6039" ph="{...}" />
             <marker date="1556029895940" expanded="true" signature="6336:6448" ph="{...}" />
             <marker date="1556029895940" expanded="true" signature="6482:10188" ph="{...}" />
-            <marker date="1556029895940" expanded="true" signature="6552:10178" ph="{...}" />
-            <marker date="1556029895940" expanded="true" signature="6966:7099" ph="{...}" />
+            <marker date="1556029895940" expanded="true" signature="6565:10178" ph="{...}" />
+            <marker date="1556029895940" expanded="true" signature="6983:7099" ph="{...}" />
             <marker date="1556029895940" expanded="true" signature="7481:7848" ph="{...}" />
             <marker date="1556029895940" expanded="true" signature="7568:7782" ph="{...}" />
             <marker date="1556029895940" expanded="true" signature="7912:8061" ph="{...}" />
-            <marker date="1556029895940" expanded="true" signature="8345:9486" ph="{...}" />
-            <marker date="1556029895940" expanded="true" signature="8880:9466" ph="{...}" />
-            <marker date="1556029895940" expanded="true" signature="9211:9442" ph="{...}" />
+            <marker date="1556029895940" expanded="true" signature="8362:9486" ph="{...}" />
+            <marker date="1556029895940" expanded="true" signature="8901:9466" ph="{...}" />
+            <marker date="1556029895940" expanded="true" signature="9236:9442" ph="{...}" />
             <marker date="1556029895940" expanded="true" signature="9580:9667" ph="{...}" />
-            <marker date="1556029895940" expanded="true" signature="9765:10162" ph="{...}" />
+            <marker date="1556029895940" expanded="true" signature="9782:10162" ph="{...}" />
             <marker date="1556029895940" expanded="true" signature="9871:10144" ph="{...}" />
             <marker date="1556029895940" expanded="true" signature="10230:11102" ph="{...}" />
-            <marker date="1556029895940" expanded="true" signature="10357:11092" ph="{...}" />
-            <marker date="1556029895940" expanded="true" signature="10487:10616" ph="{...}" />
+            <marker date="1556029895940" expanded="true" signature="10370:11092" ph="{...}" />
+            <marker date="1556029895940" expanded="true" signature="10504:10616" ph="{...}" />
             <marker date="1556029895940" expanded="true" signature="11150:11601" ph="{...}" />
             <marker date="1556029895940" expanded="true" signature="11245:11377" ph="/* now we have all files in the temporary directory ... */" />
             <marker date="1556029895940" expanded="true" signature="11679:12014" ph="{...}" />
@@ -1755,10 +2103,121 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue.Gtk/BrowserWindow/Window.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+          <folding>
+            <marker date="1556551049662" expanded="true" signature="0:461" ph="/* -------------------------------------------------------------------------------------------------------------- ... */" />
+            <marker date="1556551049662" expanded="false" signature="469:589" ph="..." />
+            <marker date="1556551049662" expanded="true" signature="635:6275" ph="{...}" />
+            <marker date="1556551049662" expanded="true" signature="642:694" ph="/// The window. ... " />
+            <marker date="1556551049662" expanded="true" signature="742:6273" ph="{...}" />
+            <marker date="1556551049662" expanded="true" signature="757:838" ph="/// The host/app/window application. ... " />
+            <marker date="1556551049662" expanded="true" signature="896:961" ph="/// The host config. ... " />
+            <marker date="1556551049662" expanded="true" signature="1031:1106" ph="/// The CefGlueBrowser object. ... " />
+            <marker date="1556551049662" expanded="true" signature="1157:1232" ph="/// The browser window handle. ... " />
+            <marker date="1556551049662" expanded="true" signature="1287:1574" ph="/// Initializes a new instance of the &lt;see cref=&quot;Window&quot;/&gt; class. ... " />
+            <marker date="1556551049662" expanded="true" signature="1683:2020" ph="{...}" />
+            <marker date="1556551049662" expanded="true" signature="2030:2091" ph="/// The browser. ... " />
+            <marker date="1556551049662" expanded="true" signature="2180:2230" ph="{...}" />
+            <marker date="1556551049662" expanded="true" signature="2240:2327" ph="/// The exit - externally/programatically. ... " />
+            <marker date="1556551049662" expanded="true" signature="2354:2408" ph="{...}" />
+            <marker date="1556551049662" expanded="false" signature="2418:2765" ph="Dispose" />
+            <marker date="1556551049662" expanded="true" signature="2443:2504" ph="/// The dispose. ... " />
+            <marker date="1556551049662" expanded="true" signature="2534:2737" ph="{...}" />
+            <marker date="1556551049662" expanded="true" signature="2578:2727" ph="{...}" />
+            <marker date="1556551049662" expanded="true" signature="2775:3122" ph="/// The on realized. ... " />
+            <marker date="1556551049662" expanded="true" signature="3193:4013" ph="{...}" />
+            <marker date="1556551049662" expanded="true" signature="3297:3961" ph="{...}" />
+            <marker date="1556551049662" expanded="true" signature="4023:4234" ph="/// The on resize. ... " />
+            <marker date="1556551049662" expanded="true" signature="4303:4968" ph="{...}" />
+            <marker date="1556551049662" expanded="true" signature="4380:4871" ph="{...}" />
+            <marker date="1556551049662" expanded="true" signature="4451:4857" ph="{...}" />
+            <marker date="1556551049662" expanded="true" signature="4888:4958" ph="{...}" />
+            <marker date="1556551049662" expanded="true" signature="4978:5187" ph="/// The on exit. ... " />
+            <marker date="1556551049662" expanded="true" signature="5254:5308" ph="{...}" />
+            <marker date="1556551049662" expanded="true" signature="5318:5538" ph="/// The on browser created. ... " />
+            <marker date="1556551049662" expanded="true" signature="5604:6266" ph="{...}" />
+            <marker date="1556551049662" expanded="true" signature="5765:6256" ph="{...}" />
+            <marker date="1556551049662" expanded="true" signature="5836:6242" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file:///usr/share/dotnet/sdk/2.1.500/Microsoft.Common.CurrentVersion.targets">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22382">
           <caret line="1178" column="4" selection-start-line="1178" selection-start-column="4" selection-end-line="1178" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue.Gtk/BrowserWindow/NativeWindow.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="324" column="32" selection-start-line="324" selection-start-column="32" selection-end-line="324" selection-end-column="32" />
+          <folding>
+            <marker date="1556803101637" expanded="true" signature="0:467" ph="/* -------------------------------------------------------------------------------------------------------------- ... */" />
+            <marker date="1556803101637" expanded="false" signature="475:529" ph="..." />
+            <marker date="1556803101637" expanded="true" signature="616:10080" ph="{...}" />
+            <marker date="1556803101637" expanded="true" signature="623:682" ph="/// The native window. ... " />
+            <marker date="1556803101637" expanded="true" signature="712:10078" ph="{...}" />
+            <marker date="1556803101637" expanded="true" signature="727:798" ph="/// The event lock object. ... " />
+            <marker date="1556803101637" expanded="true" signature="867:934" ph="/// The m host config. ... " />
+            <marker date="1556803101637" expanded="true" signature="1004:1069" ph="/// The main window. ... " />
+            <marker date="1556803101637" expanded="true" signature="1402:1518" ph="/// Initializes a new instance of the &lt;see cref=&quot;NativeWindow&quot;/&gt; class. ... " />
+            <marker date="1556803101637" expanded="true" signature="1548:1665" ph="{...}" />
+            <marker date="1556803101637" expanded="true" signature="1675:1879" ph="/// Initializes a new instance of the &lt;see cref=&quot;NativeWindow&quot;/&gt; class. ... " />
+            <marker date="1556803101637" expanded="true" signature="1941:2038" ph="{...}" />
+            <marker date="1556803101637" expanded="true" signature="2048:4709" ph="Events" />
+            <marker date="1556803101637" expanded="true" signature="2072:2134" ph="/// The realized. ... " />
+            <marker date="1556803101637" expanded="true" signature="2189:2929" ph="{...}" />
+            <marker date="1556803101637" expanded="true" signature="2215:2611" ph="{...}" />
+            <marker date="1556803101637" expanded="true" signature="2631:2919" ph="{...}" />
+            <marker date="1556803101637" expanded="true" signature="2939:3000" ph="/// The resized. ... " />
+            <marker date="1556803101637" expanded="true" signature="3054:3816" ph="{...}" />
+            <marker date="1556803101637" expanded="true" signature="3080:3494" ph="{...}" />
+            <marker date="1556803101637" expanded="true" signature="3514:3806" ph="{...}" />
+            <marker date="1556803101637" expanded="true" signature="3826:3886" ph="/// The exited. ... " />
+            <marker date="1556803101637" expanded="true" signature="3939:4682" ph="{...}" />
+            <marker date="1556803101637" expanded="true" signature="3965:4364" ph="{...}" />
+            <marker date="1556803101637" expanded="true" signature="4384:4672" ph="{...}" />
+            <marker date="1556803101637" expanded="true" signature="4719:4784" ph="/// Gets the handle. ... " />
+            <marker date="1556803101637" expanded="true" signature="4839:4897" ph="/// The host. ... " />
+            <marker date="1556803101637" expanded="true" signature="4950:5012" ph="/// The host xid. ... " />
+            <marker date="1556803101637" expanded="true" signature="5096:5161" ph="/// The show window. ... " />
+            <marker date="1556803101637" expanded="true" signature="5194:5242" ph="{...}" />
+            <marker date="1556803101637" expanded="true" signature="5252:5548" ph="/// The resize host. ... " />
+            <marker date="1556803101637" expanded="true" signature="5623:5705" ph="{...}" />
+            <marker date="1556803101637" expanded="true" signature="5715:5933" ph="/// The get size. ... " />
+            <marker date="1556803101637" expanded="true" signature="6003:6238" ph="{...}" />
+            <marker date="1556803101637" expanded="true" signature="6105:6157" ph="{...}" />
+            <marker date="1556803101637" expanded="true" signature="6248:6461" ph="/// The on realized. ... " />
+            <marker date="1556803101637" expanded="true" signature="6531:6551" ph="{...}" />
+            <marker date="1556803101637" expanded="true" signature="6561:6772" ph="/// The on resize. ... " />
+            <marker date="1556803101637" expanded="true" signature="6840:6974" ph="{...}" />
+            <marker date="1556803101637" expanded="true" signature="6984:7193" ph="/// The on exit. ... " />
+            <marker date="1556803101637" expanded="true" signature="7259:7313" ph="{...}" />
+            <marker date="1556803101637" expanded="true" signature="7323:7390" ph="/// The create window. ... " />
+            <marker date="1556803101637" expanded="true" signature="7426:9134" ph="{...}" />
+            <marker date="1556803101637" expanded="true" signature="8003:8142" ph="{...}" />
+            <marker date="1556803101637" expanded="true" signature="8186:8554" ph="{...}" />
+            <marker date="1556803101637" expanded="true" signature="8676:8907" ph="/* A callback was made on a garbage collected delegate of type 'Chromely.CefGlue.Gtk!Chromely.CefGlue.Gtk.Browser ... */" />
+            <marker date="1556803101637" expanded="true" signature="8975:9040" ph="{...}" />
+            <marker date="1556803101637" expanded="true" signature="9144:9298" ph="/// The local realized. ... " />
+            <marker date="1556803101637" expanded="true" signature="9374:9444" ph="{...}" />
+            <marker date="1556803101637" expanded="true" signature="9454:9610" ph="/// The local configured. ... " />
+            <marker date="1556803101637" expanded="true" signature="9688:9760" ph="{...}" />
+            <marker date="1556803101637" expanded="true" signature="9770:9925" ph="/// The local destroyed. ... " />
+            <marker date="1556803101637" expanded="true" signature="10002:10072" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
         </state>
       </provider>
     </entry>
