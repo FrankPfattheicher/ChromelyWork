@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\ICT Baden\Chromely\src\Chromely.CefGlue" t="IncludeRecursive">
-      <e p="bin" t="ExcludeRecursive" />
+    <e p="$APPLICATION_CONFIG_DIR$/extensions" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.Rider2019.1/system/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.Rider2019.1/system/resharper-host/local/Transient/ReSharperHost/v191/SolutionCaches/_BasicCrossPlatform.1488223351.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue" t="IncludeRecursive">
       <e p="Browser" t="Include">
         <e p="CefBrowserConfig.cs" t="Include" />
         <e p="CefGlueApp.cs" t="Include" />
@@ -60,115 +62,6 @@
       <e p="CefGlue" t="Include">
         <e p="CefRuntime.cs" t="Include" />
         <e p="CefRuntimePlatform.cs" t="Include" />
-        <e p="Classes.g" t="Include">
-          <e p="CefAccessibilityHandler.g.cs" t="Include" />
-          <e p="CefApp.g.cs" t="Include" />
-          <e p="CefAuthCallback.g.cs" t="Include" />
-          <e p="CefBeforeDownloadCallback.g.cs" t="Include" />
-          <e p="CefBinaryValue.g.cs" t="Include" />
-          <e p="CefBrowser.g.cs" t="Include" />
-          <e p="CefBrowserHost.g.cs" t="Include" />
-          <e p="CefBrowserProcessHandler.g.cs" t="Include" />
-          <e p="CefCallback.g.cs" t="Include" />
-          <e p="CefClient.g.cs" t="Include" />
-          <e p="CefCommandLine.g.cs" t="Include" />
-          <e p="CefCompletionCallback.g.cs" t="Include" />
-          <e p="CefContextMenuHandler.g.cs" t="Include" />
-          <e p="CefContextMenuParams.g.cs" t="Include" />
-          <e p="CefCookieManager.g.cs" t="Include" />
-          <e p="CefCookieVisitor.g.cs" t="Include" />
-          <e p="CefDeleteCookiesCallback.g.cs" t="Include" />
-          <e p="CefDialogHandler.g.cs" t="Include" />
-          <e p="CefDictionaryValue.g.cs" t="Include" />
-          <e p="CefDisplayHandler.g.cs" t="Include" />
-          <e p="CefDomDocument.g.cs" t="Include" />
-          <e p="CefDomNode.g.cs" t="Include" />
-          <e p="CefDomVisitor.g.cs" t="Include" />
-          <e p="CefDownloadHandler.g.cs" t="Include" />
-          <e p="CefDownloadImageCallback.g.cs" t="Include" />
-          <e p="CefDownloadItem.g.cs" t="Include" />
-          <e p="CefDownloadItemCallback.g.cs" t="Include" />
-          <e p="CefDragData.g.cs" t="Include" />
-          <e p="CefDragHandler.g.cs" t="Include" />
-          <e p="CefEndTracingCallback.g.cs" t="Include" />
-          <e p="CefExtension.g.cs" t="Include" />
-          <e p="CefExtensionHandler.g.cs" t="Include" />
-          <e p="CefFileDialogCallback.g.cs" t="Include" />
-          <e p="CefFindHandler.g.cs" t="Include" />
-          <e p="CefFocusHandler.g.cs" t="Include" />
-          <e p="CefFrame.g.cs" t="Include" />
-          <e p="CefGetExtensionResourceCallback.g.cs" t="Include" />
-          <e p="CefImage.g.cs" t="Include" />
-          <e p="CefJSDialogCallback.g.cs" t="Include" />
-          <e p="CefJSDialogHandler.g.cs" t="Include" />
-          <e p="CefKeyboardHandler.g.cs" t="Include" />
-          <e p="CefLifeSpanHandler.g.cs" t="Include" />
-          <e p="CefListValue.g.cs" t="Include" />
-          <e p="CefLoadHandler.g.cs" t="Include" />
-          <e p="CefMenuModel.g.cs" t="Include" />
-          <e p="CefMenuModelDelegate.g.cs" t="Include" />
-          <e p="CefNavigationEntry.g.cs" t="Include" />
-          <e p="CefNavigationEntryVisitor.g.cs" t="Include" />
-          <e p="CefPdfPrintCallback.g.cs" t="Include" />
-          <e p="CefPostData.g.cs" t="Include" />
-          <e p="CefPostDataElement.g.cs" t="Include" />
-          <e p="CefPrintDialogCallback.g.cs" t="Include" />
-          <e p="CefPrintHandler.g.cs" t="Include" />
-          <e p="CefPrintJobCallback.g.cs" t="Include" />
-          <e p="CefPrintSettings.g.cs" t="Include" />
-          <e p="CefProcessMessage.g.cs" t="Include" />
-          <e p="CefReadHandler.g.cs" t="Include" />
-          <e p="CefRegisterCdmCallback.g.cs" t="Include" />
-          <e p="CefRenderHandler.g.cs" t="Include" />
-          <e p="CefRenderProcessHandler.g.cs" t="Include" />
-          <e p="CefRequest.g.cs" t="Include" />
-          <e p="CefRequestCallback.g.cs" t="Include" />
-          <e p="CefRequestContext.g.cs" t="Include" />
-          <e p="CefRequestContextHandler.g.cs" t="Include" />
-          <e p="CefRequestHandler.g.cs" t="Include" />
-          <e p="CefResolveCallback.g.cs" t="Include" />
-          <e p="CefResourceBundle.g.cs" t="Include" />
-          <e p="CefResourceBundleHandler.g.cs" t="Include" />
-          <e p="CefResourceHandler.g.cs" t="Include" />
-          <e p="CefResponse.g.cs" t="Include" />
-          <e p="CefResponseFilter.g.cs" t="Include" />
-          <e p="CefRunContextMenuCallback.g.cs" t="Include" />
-          <e p="CefRunFileDialogCallback.g.cs" t="Include" />
-          <e p="CefSchemeHandlerFactory.g.cs" t="Include" />
-          <e p="CefSchemeRegistrar.g.cs" t="Include" />
-          <e p="CefSelectClientCertificateCallback.g.cs" t="Include" />
-          <e p="CefServer.g.cs" t="Include" />
-          <e p="CefServerHandler.g.cs" t="Include" />
-          <e p="CefSetCookieCallback.g.cs" t="Include" />
-          <e p="CefSslInfo.g.cs" t="Include" />
-          <e p="CefSslStatus.g.cs" t="Include" />
-          <e p="CefStreamReader.g.cs" t="Include" />
-          <e p="CefStreamWriter.g.cs" t="Include" />
-          <e p="CefStringVisitor.g.cs" t="Include" />
-          <e p="CefTask.g.cs" t="Include" />
-          <e p="CefTaskRunner.g.cs" t="Include" />
-          <e p="CefUrlRequest.g.cs" t="Include" />
-          <e p="CefUrlRequestClient.g.cs" t="Include" />
-          <e p="CefUserData.g.cs" t="Include" />
-          <e p="CefV8Accessor.g.cs" t="Include" />
-          <e p="CefV8ArrayBufferReleaseCallback.g.cs" t="Include" />
-          <e p="CefV8Context.g.cs" t="Include" />
-          <e p="CefV8Exception.g.cs" t="Include" />
-          <e p="CefV8Handler.g.cs" t="Include" />
-          <e p="CefV8Interceptor.g.cs" t="Include" />
-          <e p="CefV8StackFrame.g.cs" t="Include" />
-          <e p="CefV8StackTrace.g.cs" t="Include" />
-          <e p="CefV8Value.g.cs" t="Include" />
-          <e p="CefValue.g.cs" t="Include" />
-          <e p="CefWebPluginInfo.g.cs" t="Include" />
-          <e p="CefWebPluginInfoVisitor.g.cs" t="Include" />
-          <e p="CefWebPluginUnstableCallback.g.cs" t="Include" />
-          <e p="CefWriteHandler.g.cs" t="Include" />
-          <e p="CefX509Certificate.g.cs" t="Include" />
-          <e p="CefX509CertPrincipal.g.cs" t="Include" />
-          <e p="CefXmlReader.g.cs" t="Include" />
-          <e p="CefZipReader.g.cs" t="Include" />
-        </e>
         <e p="Classes.Handlers" t="Include">
           <e p="CefAccessibilityHandler.cs" t="Include" />
           <e p="CefApp.cs" t="Include" />
@@ -275,10 +168,119 @@
           <e p="CefV8Value.cs" t="Include" />
           <e p="CefValue.cs" t="Include" />
           <e p="CefWebPluginInfo.cs" t="Include" />
-          <e p="CefX509Certificate.cs" t="Include" />
           <e p="CefX509CertPrincipal.cs" t="Include" />
+          <e p="CefX509Certificate.cs" t="Include" />
           <e p="CefXmlReader.cs" t="Include" />
           <e p="CefZipReader.cs" t="Include" />
+        </e>
+        <e p="Classes.g" t="Include">
+          <e p="CefAccessibilityHandler.g.cs" t="Include" />
+          <e p="CefApp.g.cs" t="Include" />
+          <e p="CefAuthCallback.g.cs" t="Include" />
+          <e p="CefBeforeDownloadCallback.g.cs" t="Include" />
+          <e p="CefBinaryValue.g.cs" t="Include" />
+          <e p="CefBrowser.g.cs" t="Include" />
+          <e p="CefBrowserHost.g.cs" t="Include" />
+          <e p="CefBrowserProcessHandler.g.cs" t="Include" />
+          <e p="CefCallback.g.cs" t="Include" />
+          <e p="CefClient.g.cs" t="Include" />
+          <e p="CefCommandLine.g.cs" t="Include" />
+          <e p="CefCompletionCallback.g.cs" t="Include" />
+          <e p="CefContextMenuHandler.g.cs" t="Include" />
+          <e p="CefContextMenuParams.g.cs" t="Include" />
+          <e p="CefCookieManager.g.cs" t="Include" />
+          <e p="CefCookieVisitor.g.cs" t="Include" />
+          <e p="CefDeleteCookiesCallback.g.cs" t="Include" />
+          <e p="CefDialogHandler.g.cs" t="Include" />
+          <e p="CefDictionaryValue.g.cs" t="Include" />
+          <e p="CefDisplayHandler.g.cs" t="Include" />
+          <e p="CefDomDocument.g.cs" t="Include" />
+          <e p="CefDomNode.g.cs" t="Include" />
+          <e p="CefDomVisitor.g.cs" t="Include" />
+          <e p="CefDownloadHandler.g.cs" t="Include" />
+          <e p="CefDownloadImageCallback.g.cs" t="Include" />
+          <e p="CefDownloadItem.g.cs" t="Include" />
+          <e p="CefDownloadItemCallback.g.cs" t="Include" />
+          <e p="CefDragData.g.cs" t="Include" />
+          <e p="CefDragHandler.g.cs" t="Include" />
+          <e p="CefEndTracingCallback.g.cs" t="Include" />
+          <e p="CefExtension.g.cs" t="Include" />
+          <e p="CefExtensionHandler.g.cs" t="Include" />
+          <e p="CefFileDialogCallback.g.cs" t="Include" />
+          <e p="CefFindHandler.g.cs" t="Include" />
+          <e p="CefFocusHandler.g.cs" t="Include" />
+          <e p="CefFrame.g.cs" t="Include" />
+          <e p="CefGetExtensionResourceCallback.g.cs" t="Include" />
+          <e p="CefImage.g.cs" t="Include" />
+          <e p="CefJSDialogCallback.g.cs" t="Include" />
+          <e p="CefJSDialogHandler.g.cs" t="Include" />
+          <e p="CefKeyboardHandler.g.cs" t="Include" />
+          <e p="CefLifeSpanHandler.g.cs" t="Include" />
+          <e p="CefListValue.g.cs" t="Include" />
+          <e p="CefLoadHandler.g.cs" t="Include" />
+          <e p="CefMenuModel.g.cs" t="Include" />
+          <e p="CefMenuModelDelegate.g.cs" t="Include" />
+          <e p="CefNavigationEntry.g.cs" t="Include" />
+          <e p="CefNavigationEntryVisitor.g.cs" t="Include" />
+          <e p="CefPdfPrintCallback.g.cs" t="Include" />
+          <e p="CefPostData.g.cs" t="Include" />
+          <e p="CefPostDataElement.g.cs" t="Include" />
+          <e p="CefPrintDialogCallback.g.cs" t="Include" />
+          <e p="CefPrintHandler.g.cs" t="Include" />
+          <e p="CefPrintJobCallback.g.cs" t="Include" />
+          <e p="CefPrintSettings.g.cs" t="Include" />
+          <e p="CefProcessMessage.g.cs" t="Include" />
+          <e p="CefReadHandler.g.cs" t="Include" />
+          <e p="CefRegisterCdmCallback.g.cs" t="Include" />
+          <e p="CefRenderHandler.g.cs" t="Include" />
+          <e p="CefRenderProcessHandler.g.cs" t="Include" />
+          <e p="CefRequest.g.cs" t="Include" />
+          <e p="CefRequestCallback.g.cs" t="Include" />
+          <e p="CefRequestContext.g.cs" t="Include" />
+          <e p="CefRequestContextHandler.g.cs" t="Include" />
+          <e p="CefRequestHandler.g.cs" t="Include" />
+          <e p="CefResolveCallback.g.cs" t="Include" />
+          <e p="CefResourceBundle.g.cs" t="Include" />
+          <e p="CefResourceBundleHandler.g.cs" t="Include" />
+          <e p="CefResourceHandler.g.cs" t="Include" />
+          <e p="CefResponse.g.cs" t="Include" />
+          <e p="CefResponseFilter.g.cs" t="Include" />
+          <e p="CefRunContextMenuCallback.g.cs" t="Include" />
+          <e p="CefRunFileDialogCallback.g.cs" t="Include" />
+          <e p="CefSchemeHandlerFactory.g.cs" t="Include" />
+          <e p="CefSchemeRegistrar.g.cs" t="Include" />
+          <e p="CefSelectClientCertificateCallback.g.cs" t="Include" />
+          <e p="CefServer.g.cs" t="Include" />
+          <e p="CefServerHandler.g.cs" t="Include" />
+          <e p="CefSetCookieCallback.g.cs" t="Include" />
+          <e p="CefSslInfo.g.cs" t="Include" />
+          <e p="CefSslStatus.g.cs" t="Include" />
+          <e p="CefStreamReader.g.cs" t="Include" />
+          <e p="CefStreamWriter.g.cs" t="Include" />
+          <e p="CefStringVisitor.g.cs" t="Include" />
+          <e p="CefTask.g.cs" t="Include" />
+          <e p="CefTaskRunner.g.cs" t="Include" />
+          <e p="CefUrlRequest.g.cs" t="Include" />
+          <e p="CefUrlRequestClient.g.cs" t="Include" />
+          <e p="CefUserData.g.cs" t="Include" />
+          <e p="CefV8Accessor.g.cs" t="Include" />
+          <e p="CefV8ArrayBufferReleaseCallback.g.cs" t="Include" />
+          <e p="CefV8Context.g.cs" t="Include" />
+          <e p="CefV8Exception.g.cs" t="Include" />
+          <e p="CefV8Handler.g.cs" t="Include" />
+          <e p="CefV8Interceptor.g.cs" t="Include" />
+          <e p="CefV8StackFrame.g.cs" t="Include" />
+          <e p="CefV8StackTrace.g.cs" t="Include" />
+          <e p="CefV8Value.g.cs" t="Include" />
+          <e p="CefValue.g.cs" t="Include" />
+          <e p="CefWebPluginInfo.g.cs" t="Include" />
+          <e p="CefWebPluginInfoVisitor.g.cs" t="Include" />
+          <e p="CefWebPluginUnstableCallback.g.cs" t="Include" />
+          <e p="CefWriteHandler.g.cs" t="Include" />
+          <e p="CefX509CertPrincipal.g.cs" t="Include" />
+          <e p="CefX509Certificate.g.cs" t="Include" />
+          <e p="CefXmlReader.g.cs" t="Include" />
+          <e p="CefZipReader.g.cs" t="Include" />
         </e>
         <e p="Enums" t="Include">
           <e p="CefAlphaType.cs" t="Include" />
@@ -350,10 +352,6 @@
           <e p="CefVersionMismatchException.cs" t="Include" />
         </e>
         <e p="Interop" t="Include">
-          <e p="_Platform" t="Include">
-            <e p="NativeMethods.cs" t="Include" />
-            <e p="RECT.cs" t="Include" />
-          </e>
           <e p="Base" t="Include">
             <e p="cef_base_ref_counted_t.cs" t="Include" />
             <e p="cef_base_scoped_t.cs" t="Include" />
@@ -472,13 +470,6 @@
             <e p="cef_xml_reader_t.g.cs" t="Include" />
             <e p="cef_zip_reader_t.g.cs" t="Include" />
           </e>
-          <e p="libcef.cs" t="Include" />
-          <e p="libcef.g.cs" t="Include" />
-          <e p="libcef.string.cs" t="Include" />
-          <e p="libcef.string_list.cs" t="Include" />
-          <e p="libcef.string_map.cs" t="Include" />
-          <e p="libcef.string_multimap.cs" t="Include" />
-          <e p="libcef.time.cs" t="Include" />
           <e p="Structs" t="Include">
             <e p="cef_browser_settings_t.cs" t="Include" />
             <e p="cef_composition_underline.cs" t="Include" />
@@ -501,6 +492,17 @@
             <e p="cef_urlparts_t.cs" t="Include" />
             <e p="cef_window_info_t.cs" t="Include" />
           </e>
+          <e p="_Platform" t="Include">
+            <e p="NativeMethods.cs" t="Include" />
+            <e p="RECT.cs" t="Include" />
+          </e>
+          <e p="libcef.cs" t="Include" />
+          <e p="libcef.g.cs" t="Include" />
+          <e p="libcef.string.cs" t="Include" />
+          <e p="libcef.string_list.cs" t="Include" />
+          <e p="libcef.string_map.cs" t="Include" />
+          <e p="libcef.string_multimap.cs" t="Include" />
+          <e p="libcef.time.cs" t="Include" />
           <e p="version.g.cs" t="Include" />
         </e>
         <e p="Platform" t="Include">
@@ -592,13 +594,6 @@
           </e>
         </e>
       </e>
-      <e p="obj" t="ExcludeRecursive">
-        <e p="Debug" t="Include">
-          <e p="netstandard2.0" t="Include">
-            <e p="Chromely.CefGlue.AssemblyInfo.cs" t="Include" />
-          </e>
-        </e>
-      </e>
       <e p="RegisteredExternalUrl.cs" t="Include" />
       <e p="RestfulService" t="Include">
         <e p="RequestTaskRunner.cs" t="Include" />
@@ -618,18 +613,27 @@
       </e>
       <e p="WebsocketMessageSender.cs" t="Include" />
       <e p="WebsocketServerRunner.cs" t="Include" />
-    </e>
-    <e p="C:\ICT Baden\Chromely\src\Chromely.CefGlue.Gtk" t="IncludeRecursive">
       <e p="bin" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive">
+        <e p="Debug" t="Include">
+          <e p="netstandard2.0" t="Include">
+            <e p="Chromely.CefGlue.AssemblyInfo.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+    </e>
+    <e p="$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue.Gtk" t="IncludeRecursive">
       <e p="BrowserWindow" t="Include">
         <e p="CefGlueWindow.cs" t="Include" />
         <e p="NativeMethods.cs" t="Include" />
         <e p="NativeWindow.cs" t="Include" />
         <e p="Window.cs" t="Include" />
       </e>
+      <e p="Chromely.CefGlue.Gtk.csproj" t="IncludeRecursive" />
+      <e p="bin" t="ExcludeRecursive" />
       <e p="build" t="Include">
         <e p="Chromely.CefGlue.Gtk.props" t="Include" />
-        <e p="Linux" t="Include">
+        <e p="linux" t="Include">
           <e p="chromelycef.dll" t="Include" />
           <e p="chromelycef.runtimeconfig.json" t="Include" />
         </e>
@@ -638,7 +642,6 @@
           <e p="chromelycef.exe.config" t="Include" />
         </e>
       </e>
-      <e p="Chromely.CefGlue.Gtk.csproj" t="IncludeRecursive" />
       <e p="obj" t="ExcludeRecursive">
         <e p="Debug" t="Include">
           <e p="netstandard2.0" t="Include">
@@ -647,21 +650,21 @@
         </e>
       </e>
     </e>
-    <e p="C:\ICT Baden\Chromely\src\Chromely.CefGlue.Winapi" t="IncludeRecursive">
-      <e p="bin" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue.Winapi" t="IncludeRecursive">
       <e p="BrowserWindow" t="Include">
         <e p="CefGlueWindow.cs" t="Include" />
         <e p="NativeMethods.cs" t="Include" />
         <e p="NativeWindow.cs" t="Include" />
         <e p="Window.cs" t="Include" />
       </e>
+      <e p="Chromely.CefGlue.Winapi.csproj" t="IncludeRecursive" />
+      <e p="HostHelpers.cs" t="Include" />
+      <e p="bin" t="ExcludeRecursive" />
       <e p="build" t="Include">
         <e p="Chromely.CefGlue.Winapi.props" t="Include" />
         <e p="chromelycef.exe" t="Include" />
         <e p="chromelycef.exe.config" t="Include" />
       </e>
-      <e p="Chromely.CefGlue.Winapi.csproj" t="IncludeRecursive" />
-      <e p="HostHelpers.cs" t="Include" />
       <e p="obj" t="ExcludeRecursive">
         <e p="Debug" t="Include">
           <e p="netstandard2.0" t="Include">
@@ -670,8 +673,7 @@
         </e>
       </e>
     </e>
-    <e p="C:\ICT Baden\Chromely\src\Chromely.Core" t="IncludeRecursive">
-      <e p="bin" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$/../../Chromely/src/Chromely.Core" t="IncludeRecursive">
       <e p="Chromely.Core.csproj" t="IncludeRecursive" />
       <e p="ChromelyCefWrapper.cs" t="Include" />
       <e p="ChromelyConfiguration.cs" t="Include" />
@@ -721,13 +723,6 @@
         <e p="Lexer.cs" t="Include" />
         <e p="ParserToken.cs" t="Include" />
       </e>
-      <e p="obj" t="ExcludeRecursive">
-        <e p="Debug" t="Include">
-          <e p="netstandard2.0" t="Include">
-            <e p="Chromely.Core.AssemblyInfo.cs" t="Include" />
-          </e>
-        </e>
-      </e>
       <e p="RestfulService" t="Include">
         <e p="ChromelyController.cs" t="Include" />
         <e p="ChromelyControllerFactory.cs" t="Include" />
@@ -744,20 +739,27 @@
         <e p="RoutePath.cs" t="Include" />
         <e p="RouteScanner.cs" t="Include" />
       </e>
+      <e p="bin" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive">
+        <e p="Debug" t="Include">
+          <e p="netstandard2.0" t="Include">
+            <e p="Chromely.Core.AssemblyInfo.cs" t="Include" />
+          </e>
+        </e>
+      </e>
     </e>
-    <e p="C:\ICT Baden\ChromelyWork\BasicCrossPlatform" t="IncludeRecursive">
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
       <e p="BasicCrossPlatform.csproj" t="IncludeRecursive" />
       <e p="BasicCrossPlatform.sln" t="IncludeFlat" />
       <e p="BasicCrossPlatform.sln.DotSettings" t="Include" />
+      <e p="Program.cs" t="Include" />
+      <e p="Properties" t="Include">
+        <e p="PublishProfiles" t="Include">
+          <e p="FolderProfile.pubxml" t="Include" />
+        </e>
+      </e>
       <e p="bin" t="ExcludeRecursive" />
       <e p="debug.log" t="Include" />
-      <e p="GPUCache" t="Include">
-        <e p="data_0" t="Include" />
-        <e p="data_1" t="Include" />
-        <e p="data_2" t="Include" />
-        <e p="data_3" t="Include" />
-        <e p="index" t="Include" />
-      </e>
       <e p="index.html" t="Include" />
       <e p="obj" t="ExcludeRecursive">
         <e p="Debug" t="Include">
@@ -770,15 +772,8 @@
         </e>
       </e>
       <e p="packages" t="ExcludeRecursive" />
-      <e p="Program.cs" t="Include" />
-      <e p="Properties" t="Include">
-        <e p="PublishProfiles" t="Include">
-          <e p="FolderProfile.pubxml" t="Include" />
-        </e>
-      </e>
     </e>
-    <e p="C:\ICT Baden\ChromelyWork\Chromely.Dialogs" t="IncludeRecursive">
-      <e p="bin" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$/../Chromely.Dialogs" t="IncludeRecursive">
       <e p="Chromely.Dialogs.csproj" t="IncludeRecursive" />
       <e p="ChromelyDialogs.cs" t="Include" />
       <e p="DialogIcon.cs" t="Include" />
@@ -787,6 +782,15 @@
       <e p="FileDialogOptions.cs" t="Include" />
       <e p="FileFilter.cs" t="Include" />
       <e p="IChromelyDialogs.cs" t="Include" />
+      <e p="Linux" t="Include">
+        <e p="GtkInterop.cs" t="Include" />
+        <e p="LinuxDialogs.cs" t="Include" />
+      </e>
+      <e p="Windows" t="Include">
+        <e p="WindowsDialogs.cs" t="Include" />
+        <e p="WindowsInterop.cs" t="Include" />
+      </e>
+      <e p="bin" t="ExcludeRecursive" />
       <e p="obj" t="ExcludeRecursive">
         <e p="Debug" t="Include">
           <e p="netstandard2.0" t="Include">
@@ -794,12 +798,6 @@
           </e>
         </e>
       </e>
-      <e p="Windows" t="Include">
-        <e p="WindowsDialogs.cs" t="Include" />
-        <e p="WindowsInterop.cs" t="Include" />
-      </e>
     </e>
-    <e p="C:\Users\Frank\.Rider2019.1\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Frank\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_BasicCrossPlatform.-1926598203.00" t="ExcludeRecursive" />
   </component>
 </project>

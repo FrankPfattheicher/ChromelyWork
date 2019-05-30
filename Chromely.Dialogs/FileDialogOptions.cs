@@ -6,7 +6,8 @@ namespace Chromely.Dialogs
     public class FileDialogOptions : DialogOptions
     {
         public bool MustExist { get; set; }
-        public string InitialDirectory { get; set; }
+        public bool ConfirmOverwrite { get; set; }
+        public string Directory { get; set; }
         public List<FileFilter> Filters { get; set; }
 
         public FileDialogOptions()

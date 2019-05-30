@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using Chromely.CefGlue;
 using Chromely.CefGlue.Browser.EventParams;
 using Chromely.Core;
@@ -47,12 +48,15 @@ namespace BasicCrossPlatform
                 new FileFilter { Name = "Text files (*.txt)", Extension = "txt" }
             };
             var fileResponse = ChromelyDialogs.FileOpen("Select cfg",
-                new FileDialogOptions { Title = "Config", MustExist = true, Filters = filters, InitialDirectory = "C:\\Temp"});
+                new FileDialogOptions { Title = "Config", MustExist = true, Filters = filters, Directory = folderResponse.Value.ToString() });
             
             response = ChromelyDialogs.MessageBox(fileResponse.Value.ToString(), new DialogOptions { Icon = DialogIcon.Error, Title = "Sample"});
 
-            fileResponse = ChromelyDialogs.FileSave("Save cfg", fileResponse.Value.ToString(),
-                new FileDialogOptions { Title = "Config", Filters = filters, InitialDirectory = "C:\\Temp"});
+            var fileName = Path.GetFileName(fileResponse.Value.ToString());
+            fileName = Path.ChangeExtension(fileName, "bak");
+            
+            fileResponse = ChromelyDialogs.FileSave("Save cfg", fileName,
+                new FileDialogOptions { Title = "Config", Filters = filters, Directory = folderResponse.Value.ToString(), ConfirmOverwrite = true });
 
             response = ChromelyDialogs.MessageBox(fileResponse.Value.ToString(), new DialogOptions { Icon = DialogIcon.Error, Title = "Sample"});
             

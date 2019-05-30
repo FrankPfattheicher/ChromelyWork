@@ -86,9 +86,9 @@ namespace Chromely.Dialogs.Windows
 
         private DialogResponse SelectFolderInternal(string message, FileDialogOptions options)
         {
-            if (Directory.Exists(options.InitialDirectory))
+            if (Directory.Exists(options.Directory))
             {
-                _initialPath = options.InitialDirectory;
+                _initialPath = options.Directory;
             }
             var pidl = IntPtr.Zero;
             var sb = new StringBuilder(256);
@@ -133,9 +133,9 @@ namespace Chromely.Dialogs.Windows
             var ofn = new WindowsInterop.OPENFILENAME();
             ofn.lstructSize = Marshal.SizeOf(ofn);
             
-            if (Directory.Exists(options.InitialDirectory))
+            if (Directory.Exists(options.Directory))
             {
-                ofn.lpstrInitialDir = options.InitialDirectory;
+                ofn.lpstrInitialDir = options.Directory;
             }
 
             ofn.lpstrFilter = options.Filters
@@ -164,9 +164,9 @@ namespace Chromely.Dialogs.Windows
             var ofn = new WindowsInterop.OPENFILENAME();
             ofn.lstructSize = Marshal.SizeOf(ofn);
             
-            if (Directory.Exists(options.InitialDirectory))
+            if (Directory.Exists(options.Directory))
             {
-                ofn.lpstrInitialDir = options.InitialDirectory;
+                ofn.lpstrInitialDir = options.Directory;
             }
 
             ofn.lpstrFilter = options.Filters

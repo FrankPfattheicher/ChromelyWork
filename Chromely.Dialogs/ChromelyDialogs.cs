@@ -1,5 +1,6 @@
 using System;
 using Chromely.Core;
+using Chromely.Dialogs.Linux;
 using Chromely.Dialogs.Windows;
 // ReSharper disable MemberCanBePrivate.Global
 
@@ -17,7 +18,8 @@ namespace Chromely.Dialogs
                     _dialogs = new WindowsDialogs();
                     return;
                 case ChromelyPlatform.Linux:
-                    break;
+                    _dialogs = new LinuxDialogs();
+                    return;
                 case ChromelyPlatform.MacOSX:
                     break;
             }
