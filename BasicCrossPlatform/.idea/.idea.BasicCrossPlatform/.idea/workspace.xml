@@ -4,8 +4,13 @@
     <list default="true" id="64b640a5-e33b-4d54-adf5-f586662fef19" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BasicCrossPlatform/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BasicCrossPlatform/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BasicCrossPlatform/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BasicCrossPlatform/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BasicCrossPlatform/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BasicCrossPlatform/riderModule.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BasicCrossPlatform.sln" beforeDir="false" afterPath="$PROJECT_DIR$/BasicCrossPlatform.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasicCrossPlatform.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BasicCrossPlatform.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chromely.Dialogs/Chromely.Dialogs.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../Chromely.Dialogs/Chromely.Dialogs.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chromely.Dialogs/DialogOptions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Chromely.Dialogs/DialogOptions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chromely.Dialogs/DialogResponse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Chromely.Dialogs/DialogResponse.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chromely.Dialogs/FileDialogOptions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Chromely.Dialogs/FileDialogOptions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chromely.Dialogs/IChromelyDialogs.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Chromely.Dialogs/IChromelyDialogs.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,41 +23,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+            <state relative-caret-position="325">
+              <caret line="54" column="68" selection-start-line="54" selection-start-column="68" selection-end-line="54" selection-end-column="68" />
               <folding>
-                <marker date="1558899632476" expanded="false" signature="6:131" ph="..." />
-                <marker date="1558899632476" expanded="true" signature="161:1721" ph="{...}" />
-                <marker date="1558899632476" expanded="true" signature="197:1718" ph="{...}" />
-                <marker date="1558899632476" expanded="true" signature="250:1361" ph="{...}" />
-                <marker date="1558899632476" expanded="true" signature="609:667" ph="/* .WithFramelessHost() ... */" />
-                <marker date="1558899632476" expanded="true" signature="920:1166" ph="{...}" />
-                <marker date="1558899632476" expanded="true" signature="1018:1152" ph="{...}" />
-                <marker date="1558899632476" expanded="true" signature="1199:1289" ph="{...}" />
-                <marker date="1558899632476" expanded="true" signature="1459:1712" ph="{...}" />
-                <marker date="1558899632476" expanded="true" signature="1534:1702" ph="/* Task.Run(async () =&gt; ... */" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../Chromely.Dialogs/IChromelyDialogs.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-              <folding>
-                <marker date="1558901753001" expanded="true" signature="26:432" ph="{...}" />
-                <marker date="1558901753001" expanded="true" signature="66:430" ph="{...}" />
+                <marker date="1559222170349" expanded="false" signature="6:189" ph="..." />
+                <marker date="1559222170349" expanded="true" signature="219:3369" ph="{...}" />
+                <marker date="1559222170349" expanded="true" signature="255:3366" ph="{...}" />
+                <marker date="1559222170349" expanded="true" signature="308:3009" ph="{...}" />
+                <marker date="1559222170349" expanded="true" signature="667:725" ph="/* .WithFramelessHost() ... */" />
+                <marker date="1559222170349" expanded="true" signature="1202:1371" ph="{...}" />
+                <marker date="1559222170349" expanded="true" signature="1388:1580" ph="{...}" />
+                <marker date="1559222170349" expanded="true" signature="1653:1828" ph="{...}" />
+                <marker date="1559222170349" expanded="true" signature="2568:2814" ph="{...}" />
+                <marker date="1559222170349" expanded="true" signature="2666:2800" ph="{...}" />
+                <marker date="1559222170349" expanded="true" signature="2847:2937" ph="{...}" />
+                <marker date="1559222170349" expanded="true" signature="3107:3360" ph="{...}" />
+                <marker date="1559222170349" expanded="true" signature="3182:3350" ph="/* Task.Run(async () =&gt; ... */" />
               </folding>
             </state>
           </provider>
@@ -61,11 +47,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Chromely.Dialogs/FileDialogOptions.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="160">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
               <folding>
-                <marker date="1558901934173" expanded="true" signature="61:235" ph="{...}" />
-                <marker date="1558901934173" expanded="true" signature="114:233" ph="{...}" />
+                <marker date="1559222147990" expanded="true" signature="6:57" ph="..." />
+                <marker date="1559222147990" expanded="true" signature="85:720" ph="{...}" />
+                <marker date="1559222147990" expanded="true" signature="138:718" ph="{...}" />
+                <marker date="1559222147990" expanded="true" signature="331:712" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Chromely.Dialogs/IChromelyDialogs.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="9" column="48" lean-forward="true" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="65" />
+              <folding>
+                <marker date="1559222148014" expanded="true" signature="26:493" ph="{...}" />
+                <marker date="1559222148014" expanded="true" signature="66:491" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -74,24 +75,33 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Chromely.Dialogs/FileFilter.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="40">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
               <folding>
-                <marker date="1558902001277" expanded="true" signature="26:157" ph="{...}" />
-                <marker date="1558902001277" expanded="true" signature="56:155" ph="{...}" />
+                <marker date="1558939661037" expanded="true" signature="26:157" ph="{...}" />
+                <marker date="1558939661037" expanded="true" signature="56:155" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Chromely.Dialogs/DialogIcon.cs">
+        <entry file="file://$PROJECT_DIR$/../Chromely.Dialogs/ChromelyDialogs.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+            <state relative-caret-position="488">
+              <caret line="52" column="46" lean-forward="true" selection-start-line="52" selection-start-column="46" selection-end-line="52" selection-end-column="46" />
               <folding>
-                <marker date="1558901502090" expanded="true" signature="26:153" ph="{...}" />
-                <marker date="1558901502090" expanded="true" signature="55:151" ph="{...}" />
+                <marker date="1559222148011" expanded="true" signature="6:66" ph="..." />
+                <marker date="1559222148011" expanded="true" signature="141:1744" ph="{...}" />
+                <marker date="1559222148011" expanded="true" signature="183:1742" ph="{...}" />
+                <marker date="1559222148011" expanded="true" signature="273:696" ph="{...}" />
+                <marker date="1559222148011" expanded="true" signature="329:630" ph="{...}" />
+                <marker date="1559222148011" expanded="true" signature="769:850" ph="{...}" />
+                <marker date="1559222148011" expanded="true" signature="937:1015" ph="{...}" />
+                <marker date="1559222148011" expanded="true" signature="1118:1194" ph="{...}" />
+                <marker date="1559222148011" expanded="true" signature="1288:1368" ph="{...}" />
+                <marker date="1559222148011" expanded="true" signature="1458:1534" ph="{...}" />
+                <marker date="1559222148011" expanded="true" signature="1641:1727" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -100,11 +110,49 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Chromely.Dialogs/DialogOptions.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="260">
+              <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
               <folding>
-                <marker date="1558901426858" expanded="true" signature="26:124" ph="{...}" />
-                <marker date="1558901426858" expanded="true" signature="59:122" ph="{...}" />
+                <marker date="1559212474220" expanded="true" signature="41:297" ph="{...}" />
+                <marker date="1559212474220" expanded="true" signature="74:295" ph="{...}" />
+                <marker date="1559212474220" expanded="true" signature="199:289" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../Chromely.Dialogs/Windows/WindowsDialogs.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="9" column="50" lean-forward="true" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
+              <folding>
+                <marker date="1559222247088" expanded="true" signature="6:130" ph="..." />
+                <marker date="1559222247088" expanded="true" signature="166:7217" ph="{...}" />
+                <marker date="1559222247088" expanded="true" signature="219:7215" ph="{...}" />
+                <marker date="1559222247088" expanded="true" signature="305:1238" ph="{...}" />
+                <marker date="1559222247088" expanded="true" signature="507:1049" ph="{...}" />
+                <marker date="1559222247088" expanded="true" signature="1317:1393" ph="{...}" />
+                <marker date="1559222247088" expanded="true" signature="1521:2668" ph="{...}" />
+                <marker date="1559222247088" expanded="true" signature="1555:2635" ph="{...}" />
+                <marker date="1559222247088" expanded="true" signature="1693:1871" ph="/* Win32.SendMessage(new HandleRef(null, hWnd), BFFM_SETSELECTIONA, 1, lpData); ... */" />
+                <marker date="1559222247088" expanded="true" signature="1932:2107" ph="{...}" />
+                <marker date="1559222247088" expanded="true" signature="2755:3262" ph="{...}" />
+                <marker date="1559222247088" expanded="true" signature="2900:3039" ph="{...}" />
+                <marker date="1559222247088" expanded="true" signature="3054:3177" ph="{...}" />
+                <marker date="1559222247088" expanded="true" signature="3358:4874" ph="{...}" />
+                <marker date="1559222247088" expanded="true" signature="3428:3513" ph="{...}" />
+                <marker date="1559222247088" expanded="true" signature="3717:4093" ph="{...}" />
+                <marker date="1559222247088" expanded="true" signature="4123:4639" ph="{...}" />
+                <marker date="1559222247088" expanded="true" signature="4260:4365" ph="{...}" />
+                <marker date="1559222247088" expanded="true" signature="4450:4558" ph="{...}" />
+                <marker date="1559222247088" expanded="true" signature="4659:4798" ph="{...}" />
+                <marker date="1559222247088" expanded="true" signature="4957:6018" ph="{...}" />
+                <marker date="1559222247088" expanded="true" signature="5148:5240" ph="{...}" />
+                <marker date="1559222247088" expanded="true" signature="5727:5854" ph="{...}" />
+                <marker date="1559222247088" expanded="true" signature="6118:7200" ph="{...}" />
+                <marker date="1559222247088" expanded="true" signature="6309:6401" ph="{...}" />
+                <marker date="1559222247088" expanded="true" signature="6909:7036" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -113,11 +161,33 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Chromely.Dialogs/DialogResponse.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="80">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
               <folding>
-                <marker date="1558900414457" expanded="true" signature="26:161" ph="{...}" />
-                <marker date="1558900414457" expanded="true" signature="60:159" ph="{...}" />
+                <marker date="1559213567094" expanded="true" signature="26:246" ph="{...}" />
+                <marker date="1559213567094" expanded="true" signature="60:244" ph="{...}" />
+                <marker date="1559213567094" expanded="true" signature="186:238" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Chromely.Dialogs/Windows/WindowsInterop.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="230" column="8" selection-start-line="230" selection-start-column="8" selection-end-line="230" selection-end-column="8" />
+              <folding>
+                <marker date="1559222148001" expanded="true" signature="6:70" ph="..." />
+                <marker date="1559222148001" expanded="true" signature="72:591" ph="/* ReSharper disable InconsistentNaming ... */" />
+                <marker date="1559222148001" expanded="true" signature="683:11721" ph="{...}" />
+                <marker date="1559222148001" expanded="true" signature="726:11719" ph="{...}" />
+                <marker date="1559222148001" expanded="true" signature="3663:4067" ph="{...}" />
+                <marker date="1559222148001" expanded="true" signature="5324:5540" ph="/* this flag is set.  Passing the message BFFM_SETSTATUSTEXTA to the hwnd can set the ... */" />
+                <marker date="1559222148001" expanded="true" signature="7135:7296" ph="/* Note that the BROWSEINFO object's pszDisplayName only gives you the name of the folder. ... */" />
+                <marker date="1559222148001" expanded="true" signature="7365:7488" ph="/* static extern uint SHGetPathFromIDList(IntPtr pidl, [MarshalAs(UnmanagedType.LPWStr)] ... */" />
+                <marker date="1559222148001" expanded="true" signature="8633:9463" ph="{...}" />
+                <marker date="1559222148001" expanded="true" signature="10875:10984" ph="/* OFN_ENABLEINCLUDENOTIFY and OFN_ENABLESIZING require ... */" />
               </folding>
             </state>
           </provider>
@@ -148,25 +218,43 @@
       <find>Resized</find>
       <find>warning</find>
       <find>severity</find>
+      <find>private</find>
+      <find>#define</find>
+      <find>FileSave</find>
     </findStrings>
+    <replaceStrings>
+      <replace>internal const int</replace>
+      <replace>internal</replace>
+      <replace>internal const uint</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.Core/RestfulService/Route.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.Core/ChromelyPlatform.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/obj/Debug/netstandard2.0/Chromely.CefGlue.AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue.Winapi/BrowserWindow/Window.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/CefGlue/Enums/CefLogSeverity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/BrowserWindow/CefBinariesLoader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/CefGlue/Classes.Handlers/CefDisplayHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4A23620C-45EB-41F2-B48D-9612A57926F8/0d/b1ca7d59/ExecutionContext.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Chromely.Dialogs/obj/Debug/netstandard2.0/Chromely.Dialogs.AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.Core/ChromelyConfiguration.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.Core/RestfulService/ChromelyControllerFactory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4A23620C-45EB-41F2-B48D-9612A57926F8/f1/99de7229/ThreadHelper.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/Subprocess/Subprocess.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Chromely.Dialogs/DialogIcon.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Chromely.Dialogs/ChromelyDialogs.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Chromely.Dialogs/DialogOptions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Chromely.Dialogs/DialogResponse.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../Chromely.Dialogs/FileFilter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Chromely.Dialogs/Windows/WindowsDialogs.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Chromely.Dialogs/FileDialogOptions.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../Chromely.Dialogs/DialogIcon.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/obj/Debug/netstandard2.0/Chromely.CefGlue.AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/CefGlue/Enums/CefLogSeverity.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/BrowserWindow/CefBinariesLoader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Chromely.Dialogs/FileFilter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Chromely.Dialogs/Windows/WindowsInterop.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Chromely.Dialogs/IChromelyDialogs.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.Core/Host/HostType.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/CefGlue/Classes.Handlers/CefDisplayHandler.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../Chromely.Dialogs/obj/Debug/netstandard2.0/Chromely.Dialogs.AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -182,7 +270,6 @@
         <option value="$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/Browser/Handlers/CefGlueMessageRouterHandler.cs" />
         <option value="$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/RestfulService/RequestTaskRunner.cs" />
         <option value="$PROJECT_DIR$/../../Chromely/src/Chromely.Core/RestfulService/ChromelyRequest.cs" />
-        <option value="$PROJECT_DIR$/../../Chromely/src/Chromely.Core/RestfulService/Route.cs" />
         <option value="$PROJECT_DIR$/BasicCrossPlatform.csproj" />
         <option value="$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/Loader/SharpZipLib/Core/StreamUtils.cs" />
         <option value="$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/Loader/Compression/Precondition.cs" />
@@ -191,24 +278,33 @@
         <option value="$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/Loader/SharpZipLib/BZip2/BZip2.cs" />
         <option value="$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/Loader/SharpZipLib/BZip2/BZip2InputStream.cs" />
         <option value="$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/Loader/CefLoader.cs" />
-        <option value="$PROJECT_DIR$/Program.cs" />
         <option value="$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue.Gtk/BrowserWindow/NativeWindow.cs" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/../Chromely.Dialigs/Class1.cs" />
         <option value="$PROJECT_DIR$/../Chromely.Dialogs/Class1.cs" />
         <option value="$PROJECT_DIR$/../Chromely.Dialogs/DialogResult.cs" />
-        <option value="$PROJECT_DIR$/../Chromely.Dialogs/DialogResponse.cs" />
-        <option value="$PROJECT_DIR$/../Chromely.Dialogs/DialogOptions.cs" />
         <option value="$PROJECT_DIR$/../Chromely.Dialogs/DialogIcon.cs" />
-        <option value="$PROJECT_DIR$/../Chromely.Dialogs/IChromelyDialogs.cs" />
-        <option value="$PROJECT_DIR$/../Chromely.Dialogs/FileDialogOptions.cs" />
         <option value="$PROJECT_DIR$/../Chromely.Dialogs/FileFilter.cs" />
+        <option value="$PROJECT_DIR$/../../Chromely/src/Chromely.Core/RestfulService/Route.cs" />
+        <option value="$PROJECT_DIR$/../../Chromely/src/Chromely.Core/ChromelyConfiguration.cs" />
+        <option value="$PROJECT_DIR$/../../Chromely/src/Chromely.Core/RestfulService/ChromelyControllerFactory.cs" />
+        <option value="$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/Subprocess/Subprocess.cs" />
+        <option value="$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue.Winapi/BrowserWindow/Window.cs" />
+        <option value="$PROJECT_DIR$/../Chromely.Dialogs/WIndows/WindowsDialogs.cs" />
+        <option value="$PROJECT_DIR$/../Chromely.Dialogs/DialogOptions.cs" />
+        <option value="$PROJECT_DIR$/../Chromely.Dialogs/DialogResponse.cs" />
+        <option value="$PROJECT_DIR$/../Chromely.Dialogs/Windows/WindowsInterop.cs" />
+        <option value="$PROJECT_DIR$/../Chromely.Dialogs/FileDialogOptions.cs" />
+        <option value="$PROJECT_DIR$/../Chromely.Dialogs/IChromelyDialogs.cs" />
+        <option value="$PROJECT_DIR$/../Chromely.Dialogs/ChromelyDialogs.cs" />
+        <option value="$PROJECT_DIR$/Program.cs" />
+        <option value="$PROJECT_DIR$/../Chromely.Dialogs/Windows/WindowsDialogs.cs" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="360" />
-    <option name="y" value="147" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="440" />
+    <option name="y" value="233" />
     <option name="width" value="2176" />
     <option name="height" value="1344" />
   </component>
@@ -217,9 +313,11 @@
   </component>
   <component name="ProjectView">
     <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <autoscrollFromSource SolutionExplorer="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="FileSystemExplorer" />
       <pane id="AssemblyExplorer" />
       <pane id="SolutionExplorer">
         <subPane>
@@ -236,25 +334,19 @@
             <path>
               <item name="" type="784c90a0:SolutionExplorerRootNode" />
               <item name="BasicCrossPlatform" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Chromely.Core" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="BasicCrossPlatform" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Chromely.Core" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Host" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Chromely.Dialogs" type="24d0babc:SolutionExplorerModelNode" />
             </path>
             <path>
               <item name="" type="784c90a0:SolutionExplorerRootNode" />
               <item name="BasicCrossPlatform" type="24d0babc:SolutionExplorerModelNode" />
               <item name="Chromely.Dialogs" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Windows" type="24d0babc:SolutionExplorerModelNode" />
             </path>
           </expand>
           <select />
         </subPane>
         <option name="show-all-files" value="false" />
       </pane>
-      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -298,7 +390,7 @@
       <method v="2" />
     </configuration>
     <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
-      <option name="EXE_PATH" value="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/BasicCrossPlatform.dll" />
+      <option name="EXE_PATH" value="$PROJECT_DIR$/bin/Debug/net461/BasicCrossPlatform.exe" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -314,7 +406,7 @@
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
       <option name="PROJECT_KIND" value="DotNetCore" />
-      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v2.1" />
+      <option name="PROJECT_TFM" value=".NETFramework,Version=v4.6.1" />
       <browser url="http://localhost:5000" />
       <method v="2">
         <option name="Build" enabled="true" />
@@ -376,11 +468,13 @@
       <workItem from="1556811000955" duration="42000" />
       <workItem from="1558278969232" duration="310000" />
       <workItem from="1558899695102" duration="2398000" />
+      <workItem from="1559208992072" duration="1716000" />
+      <workItem from="1559210752277" duration="9176000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45304000" />
+    <option name="totallyTimeSpent" value="56196000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -392,18 +486,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="2208" height="1208" extended-state="6" />
+    <frame x="440" y="233" width="2176" height="1344" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48783785" visible="true" weight="0.17860465" />
-      <window_info id="Structure" order="1" sideWeight="0.51216215" side_tool="true" visible="true" weight="0.17860465" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4868421" visible="true" weight="0.25094518" />
+      <window_info id="Structure" order="1" sideWeight="0.5131579" side_tool="true" visible="true" weight="0.25094518" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Performance Profiler" order="0" />
+      <window_info anchor="bottom" id="Performance Profiler" order="0" weight="0.32927817" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49980733" weight="0.32711732" />
-      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.49980733" weight="0.47397047" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49980733" weight="0.32603407" />
+      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.49980733" weight="0.4736415" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
@@ -414,7 +508,7 @@
       <window_info anchor="bottom" id="Unit Tests" order="12" weight="0.32969603" />
       <window_info anchor="bottom" id="Terminal" order="13" weight="0.17948718" />
       <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Build" order="15" sideWeight="0.4990366" visible="true" weight="0.32234433" />
+      <window_info active="true" anchor="bottom" id="Build" order="15" sideWeight="0.4990366" visible="true" weight="0.32197893" />
       <window_info anchor="bottom" id="Change Signature" order="16" sideWeight="0.5009634" side_tool="true" weight="0.32853025" />
       <window_info anchor="right" id="Unit Tests Coverage" order="0" />
       <window_info anchor="right" id="PlantUML" order="1" />
@@ -500,15 +594,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/AD5DFFE5-F544-42F7-9A54-B7C392FFF64D/0f/dd43fcbe/CefSettingKeys.cs" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5882BE13-8660-4E43-BD35-F213E33F6DE6/94/dd603517/Match.cs" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D0C6795B-7B6A-4864-AC94-7F21FBFB9353/2b/e1ca8342/RuntimeInformation.cs" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1958E2A4-108B-49F9-BA0D-94D24260EDB5/8b/f79bd44e/CefRuntime.cs" />
-    <entry file="file://$PROJECT_DIR$/CefLoader.cs" />
-    <entry file="file://$USER_HOME$/.nuget/packages/chromely.cefglue.gtk/68.0.0-beta02/build/Chromely.CefGlue.Gtk.props" />
-    <entry file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/CefGlue/CefRuntimePlatform.cs" />
-    <entry file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.Core/Host/IChromelyWindow.cs" />
-    <entry file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/CefGlue/CefRuntime.cs" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6DADD22E-0197-42CE-80AA-EFEF99855BE0/0b/897ec4e5/AssemblyLoadEventArgs.cs" />
     <entry file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/CefSettingsExtension.cs" />
     <entry file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue.Winapi/BrowserWindow/CefGlueBrowserWindow.cs" />
@@ -522,7 +607,6 @@
     <entry file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.Core/JsonMapper/JsonReader.cs" />
     <entry file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/RestfulService/RequestTaskRunner.cs" />
     <entry file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.Core/RestfulService/ChromelyRequest.cs" />
-    <entry file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.Core/RestfulService/Route.cs" />
     <entry file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/Browser/Handlers/CefGlueMessageRouterHandler.cs" />
     <entry file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/Loader/Compression/Precondition.cs" />
     <entry file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/Loader/Compression/CompressionBase.cs" />
@@ -531,7 +615,6 @@
     <entry file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/Loader/SharpZipLib/BZip2/BZip2Constants.cs" />
     <entry file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/Loader/SharpZipLib/Core/StreamUtils.cs" />
     <entry file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/Loader/SharpZipLib/Checksum/BZip2Crc.cs" />
-    <entry file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.Core/ChromelyConfiguration.cs" />
     <entry file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/Loader/SharpZipLib/BZip2/BZip2InputStream.cs" />
     <entry file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/Loader/SharpZipLib/Tar/TarArchive..cs" />
     <entry file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/Loader/SharpZipLib/Tar/TarInputStream.cs" />
@@ -548,115 +631,465 @@
     <entry file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue.Gtk/BrowserWindow/Window.cs" />
     <entry file="file:///usr/share/dotnet/sdk/2.1.500/Microsoft.Common.CurrentVersion.targets" />
     <entry file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue.Gtk/BrowserWindow/NativeWindow.cs" />
-    <entry file="file://$PROJECT_DIR$/Program.cs">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        <state relative-caret-position="300">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.Core/RestfulService/Route.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="21" column="98" selection-start-line="21" selection-start-column="98" selection-end-line="21" selection-end-column="98" />
           <folding>
-            <marker date="1558899632476" expanded="false" signature="6:131" ph="..." />
-            <marker date="1558899632476" expanded="true" signature="161:1721" ph="{...}" />
-            <marker date="1558899632476" expanded="true" signature="197:1718" ph="{...}" />
-            <marker date="1558899632476" expanded="true" signature="250:1361" ph="{...}" />
-            <marker date="1558899632476" expanded="true" signature="609:667" ph="/* .WithFramelessHost() ... */" />
-            <marker date="1558899632476" expanded="true" signature="920:1166" ph="{...}" />
-            <marker date="1558899632476" expanded="true" signature="1018:1152" ph="{...}" />
-            <marker date="1558899632476" expanded="true" signature="1199:1289" ph="{...}" />
-            <marker date="1558899632476" expanded="true" signature="1459:1712" ph="{...}" />
-            <marker date="1558899632476" expanded="true" signature="1534:1702" ph="/* Task.Run(async () =&gt; ... */" />
+            <marker date="1559209916237" expanded="true" signature="0:462" ph="/* -------------------------------------------------------------------------------------------------------------- ... */" />
+            <marker date="1559209916237" expanded="true" signature="502:5359" ph="{...}" />
+            <marker date="1559209916237" expanded="false" signature="515:594" ph="..." />
+            <marker date="1559209916237" expanded="true" signature="600:651" ph="/// The route. ... " />
+            <marker date="1559209916237" expanded="true" signature="674:5357" ph="{...}" />
+            <marker date="1559209916237" expanded="true" signature="689:1058" ph="/// Initializes a new instance of the &lt;see cref=&quot;Route&quot;/&gt; class using a synchronous action. ... " />
+            <marker date="1559209916237" expanded="true" signature="1155:1258" ph="{...}" />
+            <marker date="1559209916237" expanded="true" signature="1268:1632" ph="/// Initializes a new instance of the &lt;see cref=&quot;Route&quot;/&gt; class using an async action. ... " />
+            <marker date="1559209916237" expanded="true" signature="1735:1871" ph="{...}" />
+            <marker date="1559209916237" expanded="true" signature="1881:1979" ph="/// Gets if the action for this route is asynchronous ... " />
+            <marker date="1559209916237" expanded="true" signature="2039:2112" ph="/// Gets or sets the method. ... " />
+            <marker date="1559209916237" expanded="true" signature="2165:2236" ph="/// Gets or sets the path. ... " />
+            <marker date="1559209916237" expanded="true" signature="2287:2360" ph="/// Gets or sets the action. ... " />
+            <marker date="1559209916237" expanded="true" signature="2446:2525" ph="/// Gets or sets the action async. ... " />
+            <marker date="1559209916237" expanded="true" signature="2622:3236" ph="/// Invokes the registered action. ... " />
+            <marker date="1559209916237" expanded="true" signature="3394:3569" ph="{...}" />
+            <marker date="1559209916237" expanded="true" signature="3579:3832" ph="/// Invokes the registered action. ... " />
+            <marker date="1559209916237" expanded="true" signature="3896:3959" ph="{...}" />
+            <marker date="1559209916237" expanded="true" signature="3969:4589" ph="/// Invokes the registered async action. ... " />
+            <marker date="1559209916237" expanded="true" signature="4758:4938" ph="{...}" />
+            <marker date="1559209916237" expanded="true" signature="4948:5207" ph="/// Invokes the registered async action. ... " />
+            <marker date="1559209916237" expanded="true" signature="5282:5350" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.Core/ChromelyConfiguration.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="190">
+          <caret line="55" column="87" selection-start-line="55" selection-start-column="87" selection-end-line="55" selection-end-column="87" />
+          <folding>
+            <marker date="1559209916223" expanded="true" signature="0:723" ph="/* -------------------------------------------------------------------------------------------------------------- ... */" />
+            <marker date="1559209916223" expanded="false" signature="731:980" ph="..." />
+            <marker date="1559209916223" expanded="true" signature="1005:30184" ph="{...}" />
+            <marker date="1559209916223" expanded="true" signature="1012:1080" ph="/// The Chromely configuration. ... " />
+            <marker date="1559209916223" expanded="true" signature="1194:30182" ph="{...}" />
+            <marker date="1559209916223" expanded="true" signature="1209:1271" ph="/// The instance. ... " />
+            <marker date="1559209916223" expanded="true" signature="1597:1742" ph="/// Prevents a default instance of the &lt;see cref=&quot;ChromelyConfiguration&quot;/&gt; class from being created. ... " />
+            <marker date="1559209916223" expanded="true" signature="1940:2849" ph="{...}" />
+            <marker date="1559209916223" expanded="true" signature="2859:2926" ph="/// Gets the instance. ... " />
+            <marker date="1559209916223" expanded="true" signature="2979:3206" ph="{...}" />
+            <marker date="1559209916223" expanded="true" signature="3068:3196" ph="{...}" />
+            <marker date="1559209916223" expanded="true" signature="3216:3316" ph="/// Gets or sets the desired host interface technology. ... " />
+            <marker date="1559209916223" expanded="true" signature="3379:3499" ph="/// Gets or sets a value indicating whether load cef binaries if not found. ... " />
+            <marker date="1559209916223" expanded="true" signature="3569:3686" ph="/// Gets or sets a value indicating whether silent cef binaries loading. ... " />
+            <marker date="1559209916223" expanded="true" signature="3755:3832" ph="/// Gets or sets the host state. ... " />
+            <marker date="1559209916223" expanded="true" signature="3893:4001" ph="/// Gets or sets a value indicating whether host center screen. ... " />
+            <marker date="1559209916223" expanded="true" signature="4062:4174" ph="/// Gets or sets a value indicating whether use default subprocess. ... " />
+            <marker date="1559209916223" expanded="true" signature="4239:4386" ph="/// Gets or sets a value indicating whether host to not display borders, minimize, maximize and close. ... " />
+            <marker date="1559209916223" expanded="true" signature="4444:4532" ph="/// Gets or sets the host/window/app title. ... " />
+            <marker date="1559209916223" expanded="true" signature="4588:4676" ph="/// Gets or sets the host/window/app width. ... " />
+            <marker date="1559209916223" expanded="true" signature="4729:4818" ph="/// Gets or sets the host/window/app height. ... " />
+            <marker date="1559209916223" expanded="true" signature="4872:4964" ph="/// Gets or sets the host/window/app icon file. ... " />
+            <marker date="1559209916223" expanded="true" signature="5023:5165" ph="/// Gets or sets a value indicating whether CEF browser creation should perform dependency check. ... " />
+            <marker date="1559209916223" expanded="true" signature="5232:5393" ph="/// Gets or sets a value indicating whether CEF should be shutdown on application exit. ... " />
+            <marker date="1559209916223" expanded="true" signature="5455:5530" ph="/// Gets or sets the app args. ... " />
+            <marker date="1559209916223" expanded="true" signature="5586:5667" ph="/// Gets or sets the start url/file. ... " />
+            <marker date="1559209916223" expanded="true" signature="5722:5801" ph="/// Gets or sets the log severity. ... " />
+            <marker date="1559209916223" expanded="true" signature="5864:5939" ph="/// Gets or sets the log file. ... " />
+            <marker date="1559209916223" expanded="true" signature="5993:6066" ph="/// Gets or sets the locale. ... " />
+            <marker date="1559209916223" expanded="true" signature="6119:6225" ph="/// Gets or sets a value indicating whether start web socket. ... " />
+            <marker date="1559209916223" expanded="true" signature="6284:6368" ph="/// Gets or sets the websocket address. ... " />
+            <marker date="1559209916223" expanded="true" signature="6431:6512" ph="/// Gets or sets the websocket port. ... " />
+            <marker date="1559209916223" expanded="true" signature="6569:6671" ph="/// Gets or sets a value indicating whether is debugging. ... " />
+            <marker date="1559209916223" expanded="true" signature="6729:6806" ph="/// Gets the service assemblies. ... " />
+            <marker date="1559209916223" expanded="true" signature="6887:7064" ph="/// Gets or sets the command line args. ... " />
+            <marker date="1559209916223" expanded="true" signature="7153:7235" ph="/// Gets or sets the custom settings. ... " />
+            <marker date="1559209916223" expanded="true" signature="7316:7617" ph="/// The create methods. ... " />
+            <marker date="1559209916223" expanded="true" signature="7705:8982" ph="{...}" />
+            <marker date="1559209916223" expanded="true" signature="7750:7821" ph="{...}" />
+            <marker date="1559209916223" expanded="true" signature="7868:8972" ph="{...}" />
+            <marker date="1559209916223" expanded="true" signature="8992:9234" ph="/// Set app args. ... " />
+            <marker date="1559209916223" expanded="true" signature="9298:9371" ph="{...}" />
+            <marker date="1559209916223" expanded="true" signature="9381:9669" ph="/// The with loading cef binaries if not found. ... " />
+            <marker date="1559209916223" expanded="true" signature="9760:9861" ph="{...}" />
+            <marker date="1559209916223" expanded="true" signature="9871:10149" ph="/// The with silent cef binaries loading. ... " />
+            <marker date="1559209916223" expanded="true" signature="10235:10334" ph="{...}" />
+            <marker date="1559209916223" expanded="true" signature="10344:10626" ph="/// Sets Cef dependency check. ... " />
+            <marker date="1559209916223" expanded="true" signature="10707:10808" ph="{...}" />
+            <marker date="1559209916223" expanded="true" signature="10818:11108" ph="/// The with shutdown cef on exit. ... " />
+            <marker date="1559209916223" expanded="true" signature="11195:11295" ph="{...}" />
+            <marker date="1559209916223" expanded="true" signature="11305:11562" ph="/// The with is debugging. ... " />
+            <marker date="1559209916223" expanded="true" signature="11633:11717" ph="{...}" />
+            <marker date="1559209916223" expanded="true" signature="11727:11980" ph="/// Sets start url. ... " />
+            <marker date="1559209916223" expanded="true" signature="12047:12125" ph="{...}" />
+            <marker date="1559209916223" expanded="true" signature="12135:12483" ph="/// The with host mode. ... " />
+            <marker date="1559209916223" expanded="true" signature="12584:12711" ph="{...}" />
+            <marker date="1559209916223" expanded="true" signature="12721:12892" ph="/// Set frameless host mode. ... " />
+            <marker date="1559209916223" expanded="true" signature="12970:13054" ph="{...}" />
+            <marker date="1559209916223" expanded="true" signature="13064:13179" ph="/// Sets the hosting api to use to GTK ... " />
+            <marker date="1559209916223" expanded="true" signature="13233:13321" ph="{...}" />
+            <marker date="1559209916223" expanded="true" signature="13331:13448" ph="/// Sets the hosting api to use to Libui ... " />
+            <marker date="1559209916223" expanded="true" signature="13504:13594" ph="{...}" />
+            <marker date="1559209916223" expanded="true" signature="13604:13867" ph="/// The with default subprocess. ... " />
+            <marker date="1559209916223" expanded="true" signature="13950:14476" ph="{...}" />
+            <marker date="1559209916223" expanded="true" signature="14036:14440" ph="{...}" />
+            <marker date="1559209916223" expanded="true" signature="14486:14753" ph="/// Sets host/window/app title. ... " />
+            <marker date="1559209916223" expanded="true" signature="14822:14902" ph="{...}" />
+            <marker date="1559209916223" expanded="true" signature="14912:15190" ph="/// Sets host/window/app icon file. ... " />
+            <marker date="1559209916223" expanded="true" signature="15265:15351" ph="{...}" />
+            <marker date="1559209916223" expanded="true" signature="15361:15697" ph="/// Sets host/window/app size. ... " />
+            <marker date="1559209916223" expanded="true" signature="15770:15879" ph="{...}" />
+            <marker date="1559209916223" expanded="true" signature="15889:16151" ph="/// Sets log severity. ... " />
+            <marker date="1559209916223" expanded="true" signature="16229:16313" ph="{...}" />
+            <marker date="1559209916223" expanded="true" signature="16323:16573" ph="/// Sets log file. ... " />
+            <marker date="1559209916223" expanded="true" signature="16638:16714" ph="{...}" />
+            <marker date="1559209916223" expanded="true" signature="16724:16969" ph="/// Sets locale. ... " />
+            <marker date="1559209916223" expanded="true" signature="17032:17106" ph="{...}" />
+            <marker date="1559209916223" expanded="true" signature="17116:17585" ph="/// Sets use default logger flag. ... " />
+            <marker date="1559209916223" expanded="true" signature="17719:17953" ph="{...}" />
+            <marker date="1559209916223" expanded="true" signature="17963:18339" ph="/// Sets use default resource scheme handler flag. ... " />
+            <marker date="1559209916223" expanded="true" signature="18446:18626" ph="{...}" />
+            <marker date="1559209916223" expanded="true" signature="18636:19008" ph="/// Sets use default http scheme handler flag. ... " />
+            <marker date="1559209916223" expanded="true" signature="19111:19291" ph="{...}" />
+            <marker date="1559209916223" expanded="true" signature="19301:19739" ph="/// The use default websocket handler. ... " />
+            <marker date="1559209916223" expanded="true" signature="19853:20020" ph="{...}" />
+            <marker date="1559209916223" expanded="true" signature="20030:20386" ph="/// Sets with logger object to use. Should be of type &lt;see cref=&quot;IChromelyLogger&quot;/&gt; ... " />
+            <marker date="1559209916223" expanded="true" signature="20458:20536" ph="{...}" />
+            <marker date="1559209916223" expanded="true" signature="20546:21088" ph="/// Registers a new command line argument. ... " />
+            <marker date="1559209916223" expanded="true" signature="21159:21436" ph="{...}" />
+            <marker date="1559209916223" expanded="true" signature="21210:21313" ph="{...}" />
+            <marker date="1559209916223" expanded="true" signature="21446:21988" ph="/// Registers a new command line argument. ... " />
+            <marker date="1559209916223" expanded="true" signature="22074:22352" ph="{...}" />
+            <marker date="1559209916223" expanded="true" signature="22125:22228" ph="{...}" />
+            <marker date="1559209916223" expanded="true" signature="22362:22716" ph="/// Registers a new custom setting. ... " />
+            <marker date="1559209916223" expanded="true" signature="22806:23037" ph="{...}" />
+            <marker date="1559209916223" expanded="true" signature="22856:22951" ph="{...}" />
+            <marker date="1559209916223" expanded="true" signature="23048:23312" ph="/// Registers service assembly. ... " />
+            <marker date="1559209916223" expanded="true" signature="23390:23520" ph="{...}" />
+            <marker date="1559209916223" expanded="true" signature="23530:23794" ph="/// Registers service assembly. ... " />
+            <marker date="1559209916223" expanded="true" signature="23874:23985" ph="{...}" />
+            <marker date="1559209916223" expanded="true" signature="23995:24257" ph="/// Registers service assemblies. ... " />
+            <marker date="1559209916223" expanded="true" signature="24335:24446" ph="{...}" />
+            <marker date="1559209916223" expanded="true" signature="24456:24725" ph="/// Registers service assemblies. ... " />
+            <marker date="1559209916223" expanded="true" signature="24812:24926" ph="{...}" />
+            <marker date="1559209916223" expanded="true" signature="24936:25296" ph="/// Registers customer url scheme. ... " />
+            <marker date="1559209916223" expanded="true" signature="25405:25575" ph="{...}" />
+            <marker date="1559209916223" expanded="true" signature="25585:25862" ph="/// Registers customer url scheme. ... " />
+            <marker date="1559209916223" expanded="true" signature="25954:26056" ph="{...}" />
+            <marker date="1559209916223" expanded="true" signature="26066:26426" ph="/// Registers external url scheme. ... " />
+            <marker date="1559209916223" expanded="true" signature="26535:26704" ph="{...}" />
+            <marker date="1559209916223" expanded="true" signature="26714:27100" ph="/// The register event handler. ... " />
+            <marker date="1559209916223" expanded="true" signature="27211:27320" ph="{...}" />
+            <marker date="1559209916223" expanded="true" signature="27330:27716" ph="/// The register event handler. ... " />
+            <marker date="1559209916223" expanded="true" signature="27835:28017" ph="{...}" />
+            <marker date="1559209916223" expanded="true" signature="28027:28374" ph="/// Registers custom handler. ... " />
+            <marker date="1559209916223" expanded="true" signature="28481:28714" ph="{...}" />
+            <marker date="1559209916223" expanded="true" signature="28724:29160" ph="/// Registers scheme handler. ... " />
+            <marker date="1559209916223" expanded="true" signature="29281:29403" ph="{...}" />
+            <marker date="1559209916223" expanded="true" signature="29413:29695" ph="/// Registers scheme handler. ... " />
+            <marker date="1559209916223" expanded="true" signature="29799:30176" ph="{...}" />
+            <marker date="1559209916223" expanded="true" signature="29848:30140" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.Core/Host/HostType.cs" />
+    <entry file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.Core/ChromelyPlatform.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <marker date="1559024632160" expanded="true" signature="0:473" ph="/* -------------------------------------------------------------------------------------------------------------- ... */" />
+            <marker date="1559024632160" expanded="true" signature="527:783" ph="{...}" />
+            <marker date="1559024632160" expanded="true" signature="534:613" ph="/// List of currently supported platforms. ... " />
+            <marker date="1559024632160" expanded="true" signature="646:781" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.Core/RestfulService/ChromelyControllerFactory.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="25" column="58" selection-start-line="25" selection-start-column="58" selection-end-line="25" selection-end-column="58" />
+          <folding>
+            <marker date="1559210173775" expanded="true" signature="0:482" ph="/* -------------------------------------------------------------------------------------------------------------- ... */" />
+            <marker date="1559210173775" expanded="false" signature="490:552" ph="..." />
+            <marker date="1559210173775" expanded="true" signature="592:2535" ph="{...}" />
+            <marker date="1559210173775" expanded="true" signature="599:708" ph="/// Static factory class to create chromely controllers from given type. ... " />
+            <marker date="1559210173775" expanded="true" signature="758:2523" ph="{...}" />
+            <marker date="1559210173775" expanded="true" signature="773:1098" ph="/// Creates an instance of a chromely controller of given type. ... " />
+            <marker date="1559210173775" expanded="true" signature="1175:1291" ph="{...}" />
+            <marker date="1559210173775" expanded="true" signature="1344:2516" ph="{...}" />
+            <marker date="1559210173775" expanded="true" signature="1454:2476" ph="{...}" />
+            <marker date="1559210173775" expanded="true" signature="1574:1700" ph="{...}" />
+            <marker date="1559210173775" expanded="true" signature="1830:2186" ph="{...}" />
+            <marker date="1559210173775" expanded="true" signature="2207:2346" ph="{...}" />
+            <marker date="1559210173775" expanded="true" signature="2383:2462" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/Subprocess/Subprocess.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="34" column="50" selection-start-line="34" selection-start-column="50" selection-end-line="34" selection-end-column="50" />
+          <folding>
+            <marker date="1559210173761" expanded="true" signature="0:469" ph="/* -------------------------------------------------------------------------------------------------------------- ... */" />
+            <marker date="1559210173761" expanded="false" signature="477:583" ph="..." />
+            <marker date="1559210173761" expanded="true" signature="622:3661" ph="{...}" />
+            <marker date="1559210173761" expanded="true" signature="629:685" ph="/// The Subprocess. ... " />
+            <marker date="1559210173761" expanded="true" signature="713:3659" ph="{...}" />
+            <marker date="1559210173761" expanded="true" signature="788:902" ph="/// Initializes a new instance of the &lt;see cref=&quot;Subprocess&quot;/&gt; class. ... " />
+            <marker date="1559210173761" expanded="true" signature="950:1112" ph="{...}" />
+            <marker date="1559210173761" expanded="true" signature="1122:1281" ph="/// Executes the &lt;see cref=&quot;Subprocess&quot;/&gt;. ... " />
+            <marker date="1559210173761" expanded="true" signature="1330:2639" ph="{...}" />
+            <marker date="1559210173761" expanded="true" signature="1458:1606" ph="/* The Crashpad Handler doesn't have any HostProcessIdArgument, so we must not try to ... */" />
+            <marker date="1559210173761" expanded="true" signature="1650:2037" ph="{...}" />
+            <marker date="1559210173761" expanded="true" signature="1864:2023" ph="{...}" />
+            <marker date="1559210173761" expanded="true" signature="2216:2346" ph="{...}" />
+            <marker date="1559210173761" expanded="true" signature="2363:2438" ph="{...}" />
+            <marker date="1559210173761" expanded="true" signature="2501:2601" ph="{...}" />
+            <marker date="1559210173761" expanded="true" signature="2680:2846" ph="{...}" />
+            <marker date="1559210173761" expanded="true" signature="2905:3064" ph="{...}" />
+            <marker date="1559210173761" expanded="true" signature="3143:3653" ph="{...}" />
+            <marker date="1559210173761" expanded="true" signature="3169:3319" ph="{...}" />
+            <marker date="1559210173761" expanded="true" signature="3351:3468" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue.Winapi/BrowserWindow/Window.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="38" column="22" lean-forward="true" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+          <folding>
+            <marker date="1559210173785" expanded="true" signature="0:465" ph="/* -------------------------------------------------------------------------------------------------------------- ... */" />
+            <marker date="1559210173785" expanded="false" signature="473:705" ph="..." />
+            <marker date="1559210173785" expanded="true" signature="754:9051" ph="{...}" />
+            <marker date="1559210173785" expanded="true" signature="761:813" ph="/// The window. ... " />
+            <marker date="1559210173785" expanded="true" signature="863:9049" ph="{...}" />
+            <marker date="1559210173785" expanded="true" signature="878:959" ph="/// The host/app/window application. ... " />
+            <marker date="1559210173785" expanded="true" signature="1017:1082" ph="/// The host config. ... " />
+            <marker date="1559210173785" expanded="true" signature="1152:1227" ph="/// The browser window handle. ... " />
+            <marker date="1559210173785" expanded="true" signature="1689:1976" ph="/// Initializes a new instance of the &lt;see cref=&quot;Window&quot;/&gt; class. ... " />
+            <marker date="1559210173785" expanded="true" signature="2085:2419" ph="{...}" />
+            <marker date="1559210173785" expanded="true" signature="2429:2490" ph="/// The browser. ... " />
+            <marker date="1559210173785" expanded="true" signature="2588:2643" ph="{...}" />
+            <marker date="1559210173785" expanded="true" signature="2702:2764" ph="{...}" />
+            <marker date="1559210173785" expanded="false" signature="2774:3118" ph="Dispose" />
+            <marker date="1559210173785" expanded="true" signature="2799:2860" ph="/// The dispose. ... " />
+            <marker date="1559210173785" expanded="true" signature="2890:3090" ph="{...}" />
+            <marker date="1559210173785" expanded="true" signature="2933:3080" ph="{...}" />
+            <marker date="1559210173785" expanded="true" signature="3128:3558" ph="/// The on realized. ... " />
+            <marker date="1559210173785" expanded="true" signature="3635:3860" ph="{...}" />
+            <marker date="1559210173785" expanded="true" signature="3870:4087" ph="/// The on size. ... " />
+            <marker date="1559210173785" expanded="true" signature="4149:4891" ph="{...}" />
+            <marker date="1559210173785" expanded="true" signature="4212:4881" ph="{...}" />
+            <marker date="1559210173785" expanded="true" signature="4273:4672" ph="{...}" />
+            <marker date="1559210173785" expanded="true" signature="4312:4455" ph="/* For windowed browsers when the frame window is minimized set the ... */" />
+            <marker date="1559210173785" expanded="true" signature="4693:4867" ph="{...}" />
+            <marker date="1559210173785" expanded="true" signature="4901:4962" ph="/// The on exit. ... " />
+            <marker date="1559210173785" expanded="true" signature="5003:5056" ph="{...}" />
+            <marker date="1559210173785" expanded="true" signature="5358:5449" ph="{...}" />
+            <marker date="1559210173785" expanded="true" signature="5496:5588" ph="{...}" />
+            <marker date="1559210173785" expanded="true" signature="5627:7063" ph="{...}" />
+            <marker date="1559210173785" expanded="true" signature="5872:6154" ph="{...}" />
+            <marker date="1559210173785" expanded="true" signature="6253:7053" ph="{...}" />
+            <marker date="1559210173785" expanded="true" signature="6441:7003" ph="{...}" />
+            <marker date="1559210173785" expanded="true" signature="6809:6924" ph="{...}" />
+            <marker date="1559210173785" expanded="true" signature="7073:7290" ph="/// The browser created. ... " />
+            <marker date="1559210173785" expanded="true" signature="7356:8476" ph="{...}" />
+            <marker date="1559210173785" expanded="true" signature="7502:8466" ph="{...}" />
+            <marker date="1559210173785" expanded="true" signature="7752:8452" ph="{...}" />
+            <marker date="1559210173785" expanded="true" signature="8112:8330" ph="{...}" />
+            <marker date="1559210173785" expanded="true" signature="8537:9043" ph="{...}" />
+            <marker date="1559210173785" expanded="true" signature="8729:8821" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../Chromely.Dialogs/DialogIcon.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        <state relative-caret-position="200">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
           <folding>
-            <marker date="1558901502090" expanded="true" signature="26:153" ph="{...}" />
-            <marker date="1558901502090" expanded="true" signature="55:151" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Chromely.Dialogs/DialogOptions.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <marker date="1558901426858" expanded="true" signature="26:124" ph="{...}" />
-            <marker date="1558901426858" expanded="true" signature="59:122" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Chromely.Dialogs/DialogResponse.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <marker date="1558900414457" expanded="true" signature="26:161" ph="{...}" />
-            <marker date="1558900414457" expanded="true" signature="60:159" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Chromely.Dialogs/FileDialogOptions.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <marker date="1558901934173" expanded="true" signature="61:235" ph="{...}" />
-            <marker date="1558901934173" expanded="true" signature="114:233" ph="{...}" />
+            <marker date="1558939661029" expanded="true" signature="26:153" ph="{...}" />
+            <marker date="1558939661029" expanded="true" signature="55:151" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../Chromely.Dialogs/FileFilter.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="40">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
           <folding>
-            <marker date="1558902001277" expanded="true" signature="26:157" ph="{...}" />
-            <marker date="1558902001277" expanded="true" signature="56:155" ph="{...}" />
+            <marker date="1558939661037" expanded="true" signature="26:157" ph="{...}" />
+            <marker date="1558939661037" expanded="true" signature="56:155" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.Core/Host/HostType.cs">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4A23620C-45EB-41F2-B48D-9612A57926F8/0d/b1ca7d59/ExecutionContext.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="27" column="44" lean-forward="true" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
+        <state relative-caret-position="300">
+          <caret line="283" column="29" lean-forward="true" selection-start-line="283" selection-start-column="29" selection-end-line="283" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4A23620C-45EB-41F2-B48D-9612A57926F8/f1/99de7229/ThreadHelper.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="548">
+          <caret line="57" column="8" selection-start-line="57" selection-start-column="8" selection-end-line="57" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Chromely.Dialogs/DialogOptions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
           <folding>
-            <marker date="1558901042978" expanded="true" signature="0:465" ph="/* -------------------------------------------------------------------------------------------------------------- ... */" />
-            <marker date="1558901042978" expanded="true" signature="510:2842" ph="{...}" />
-            <marker date="1558901042978" expanded="true" signature="545:2840" ph="{...}" />
-            <marker date="1558901042978" expanded="true" signature="587:1328" ph="{...}" />
-            <marker date="1558901042978" expanded="true" signature="613:1318" ph="{...}" />
-            <marker date="1558901042978" expanded="true" signature="683:1273" ph="{...}" />
-            <marker date="1558901042978" expanded="true" signature="1364:2082" ph="{...}" />
-            <marker date="1558901042978" expanded="true" signature="1390:2072" ph="{...}" />
-            <marker date="1558901042978" expanded="true" signature="1460:2027" ph="{...}" />
-            <marker date="1558901042978" expanded="true" signature="2116:2834" ph="{...}" />
-            <marker date="1558901042978" expanded="true" signature="2142:2824" ph="{...}" />
-            <marker date="1558901042978" expanded="true" signature="2212:2779" ph="{...}" />
+            <marker date="1559212474220" expanded="true" signature="41:297" ph="{...}" />
+            <marker date="1559212474220" expanded="true" signature="74:295" ph="{...}" />
+            <marker date="1559212474220" expanded="true" signature="199:289" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Chromely.Dialogs/DialogResponse.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <marker date="1559213567094" expanded="true" signature="26:246" ph="{...}" />
+            <marker date="1559213567094" expanded="true" signature="60:244" ph="{...}" />
+            <marker date="1559213567094" expanded="true" signature="186:238" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Chromely.Dialogs/Windows/WindowsInterop.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="230" column="8" selection-start-line="230" selection-start-column="8" selection-end-line="230" selection-end-column="8" />
+          <folding>
+            <marker date="1559222148001" expanded="true" signature="6:70" ph="..." />
+            <marker date="1559222148001" expanded="true" signature="72:591" ph="/* ReSharper disable InconsistentNaming ... */" />
+            <marker date="1559222148001" expanded="true" signature="683:11721" ph="{...}" />
+            <marker date="1559222148001" expanded="true" signature="726:11719" ph="{...}" />
+            <marker date="1559222148001" expanded="true" signature="3663:4067" ph="{...}" />
+            <marker date="1559222148001" expanded="true" signature="5324:5540" ph="/* this flag is set.  Passing the message BFFM_SETSTATUSTEXTA to the hwnd can set the ... */" />
+            <marker date="1559222148001" expanded="true" signature="7135:7296" ph="/* Note that the BROWSEINFO object's pszDisplayName only gives you the name of the folder. ... */" />
+            <marker date="1559222148001" expanded="true" signature="7365:7488" ph="/* static extern uint SHGetPathFromIDList(IntPtr pidl, [MarshalAs(UnmanagedType.LPWStr)] ... */" />
+            <marker date="1559222148001" expanded="true" signature="8633:9463" ph="{...}" />
+            <marker date="1559222148001" expanded="true" signature="10875:10984" ph="/* OFN_ENABLEINCLUDENOTIFY and OFN_ENABLESIZING require ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Chromely.Dialogs/FileDialogOptions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <marker date="1559222147990" expanded="true" signature="6:57" ph="..." />
+            <marker date="1559222147990" expanded="true" signature="85:720" ph="{...}" />
+            <marker date="1559222147990" expanded="true" signature="138:718" ph="{...}" />
+            <marker date="1559222147990" expanded="true" signature="331:712" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../Chromely.Dialogs/IChromelyDialogs.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        <state relative-caret-position="180">
+          <caret line="9" column="48" lean-forward="true" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="65" />
           <folding>
-            <marker date="1558901753001" expanded="true" signature="26:432" ph="{...}" />
-            <marker date="1558901753001" expanded="true" signature="66:430" ph="{...}" />
+            <marker date="1559222148014" expanded="true" signature="26:493" ph="{...}" />
+            <marker date="1559222148014" expanded="true" signature="66:491" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="54" column="68" selection-start-line="54" selection-start-column="68" selection-end-line="54" selection-end-column="68" />
+          <folding>
+            <marker date="1559222170349" expanded="false" signature="6:189" ph="..." />
+            <marker date="1559222170349" expanded="true" signature="219:3369" ph="{...}" />
+            <marker date="1559222170349" expanded="true" signature="255:3366" ph="{...}" />
+            <marker date="1559222170349" expanded="true" signature="308:3009" ph="{...}" />
+            <marker date="1559222170349" expanded="true" signature="667:725" ph="/* .WithFramelessHost() ... */" />
+            <marker date="1559222170349" expanded="true" signature="1202:1371" ph="{...}" />
+            <marker date="1559222170349" expanded="true" signature="1388:1580" ph="{...}" />
+            <marker date="1559222170349" expanded="true" signature="1653:1828" ph="{...}" />
+            <marker date="1559222170349" expanded="true" signature="2568:2814" ph="{...}" />
+            <marker date="1559222170349" expanded="true" signature="2666:2800" ph="{...}" />
+            <marker date="1559222170349" expanded="true" signature="2847:2937" ph="{...}" />
+            <marker date="1559222170349" expanded="true" signature="3107:3360" ph="{...}" />
+            <marker date="1559222170349" expanded="true" signature="3182:3350" ph="/* Task.Run(async () =&gt; ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Chromely.Dialogs/ChromelyDialogs.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="52" column="46" lean-forward="true" selection-start-line="52" selection-start-column="46" selection-end-line="52" selection-end-column="46" />
+          <folding>
+            <marker date="1559222148011" expanded="true" signature="6:66" ph="..." />
+            <marker date="1559222148011" expanded="true" signature="141:1744" ph="{...}" />
+            <marker date="1559222148011" expanded="true" signature="183:1742" ph="{...}" />
+            <marker date="1559222148011" expanded="true" signature="273:696" ph="{...}" />
+            <marker date="1559222148011" expanded="true" signature="329:630" ph="{...}" />
+            <marker date="1559222148011" expanded="true" signature="769:850" ph="{...}" />
+            <marker date="1559222148011" expanded="true" signature="937:1015" ph="{...}" />
+            <marker date="1559222148011" expanded="true" signature="1118:1194" ph="{...}" />
+            <marker date="1559222148011" expanded="true" signature="1288:1368" ph="{...}" />
+            <marker date="1559222148011" expanded="true" signature="1458:1534" ph="{...}" />
+            <marker date="1559222148011" expanded="true" signature="1641:1727" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Chromely.Dialogs/Windows/WindowsDialogs.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="50" lean-forward="true" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
+          <folding>
+            <marker date="1559222247088" expanded="true" signature="6:130" ph="..." />
+            <marker date="1559222247088" expanded="true" signature="166:7217" ph="{...}" />
+            <marker date="1559222247088" expanded="true" signature="219:7215" ph="{...}" />
+            <marker date="1559222247088" expanded="true" signature="305:1238" ph="{...}" />
+            <marker date="1559222247088" expanded="true" signature="507:1049" ph="{...}" />
+            <marker date="1559222247088" expanded="true" signature="1317:1393" ph="{...}" />
+            <marker date="1559222247088" expanded="true" signature="1521:2668" ph="{...}" />
+            <marker date="1559222247088" expanded="true" signature="1555:2635" ph="{...}" />
+            <marker date="1559222247088" expanded="true" signature="1693:1871" ph="/* Win32.SendMessage(new HandleRef(null, hWnd), BFFM_SETSELECTIONA, 1, lpData); ... */" />
+            <marker date="1559222247088" expanded="true" signature="1932:2107" ph="{...}" />
+            <marker date="1559222247088" expanded="true" signature="2755:3262" ph="{...}" />
+            <marker date="1559222247088" expanded="true" signature="2900:3039" ph="{...}" />
+            <marker date="1559222247088" expanded="true" signature="3054:3177" ph="{...}" />
+            <marker date="1559222247088" expanded="true" signature="3358:4874" ph="{...}" />
+            <marker date="1559222247088" expanded="true" signature="3428:3513" ph="{...}" />
+            <marker date="1559222247088" expanded="true" signature="3717:4093" ph="{...}" />
+            <marker date="1559222247088" expanded="true" signature="4123:4639" ph="{...}" />
+            <marker date="1559222247088" expanded="true" signature="4260:4365" ph="{...}" />
+            <marker date="1559222247088" expanded="true" signature="4450:4558" ph="{...}" />
+            <marker date="1559222247088" expanded="true" signature="4659:4798" ph="{...}" />
+            <marker date="1559222247088" expanded="true" signature="4957:6018" ph="{...}" />
+            <marker date="1559222247088" expanded="true" signature="5148:5240" ph="{...}" />
+            <marker date="1559222247088" expanded="true" signature="5727:5854" ph="{...}" />
+            <marker date="1559222247088" expanded="true" signature="6118:7200" ph="{...}" />
+            <marker date="1559222247088" expanded="true" signature="6309:6401" ph="{...}" />
+            <marker date="1559222247088" expanded="true" signature="6909:7036" ph="{...}" />
           </folding>
         </state>
       </provider>

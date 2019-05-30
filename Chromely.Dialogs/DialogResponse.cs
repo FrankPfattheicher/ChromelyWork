@@ -4,5 +4,10 @@ namespace Chromely.Dialogs
     {
         public bool IsCanceled { get; set; }
         public object Value { get; set; }
+
+        public DialogResponse()
+        {
+            IsCanceled = false;
+        }
     }
 }

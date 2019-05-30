@@ -6,4 +6,8 @@
         <RootNamespace>Chromely.Dialogs</RootNamespace>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\..\Chromely\src\Chromely.Core\Chromely.Core.csproj" />
+    </ItemGroup>
+
 </Project>

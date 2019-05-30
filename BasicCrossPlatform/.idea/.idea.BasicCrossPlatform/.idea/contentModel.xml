@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\Frank\.Rider2019.1\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Frank\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_BasicCrossPlatform.-1486029625.00" t="ExcludeRecursive" />
-    <e p="C:\Users\Frank\Documents\ICT Baden\Chromely\src\Chromely.CefGlue" t="IncludeRecursive">
+    <e p="C:\ICT Baden\Chromely\src\Chromely.CefGlue" t="IncludeRecursive">
       <e p="bin" t="ExcludeRecursive" />
       <e p="Browser" t="Include">
         <e p="CefBrowserConfig.cs" t="Include" />
@@ -621,7 +619,7 @@
       <e p="WebsocketMessageSender.cs" t="Include" />
       <e p="WebsocketServerRunner.cs" t="Include" />
     </e>
-    <e p="C:\Users\Frank\Documents\ICT Baden\Chromely\src\Chromely.CefGlue.Gtk" t="IncludeRecursive">
+    <e p="C:\ICT Baden\Chromely\src\Chromely.CefGlue.Gtk" t="IncludeRecursive">
       <e p="bin" t="ExcludeRecursive" />
       <e p="BrowserWindow" t="Include">
         <e p="CefGlueWindow.cs" t="Include" />
@@ -649,7 +647,7 @@
         </e>
       </e>
     </e>
-    <e p="C:\Users\Frank\Documents\ICT Baden\Chromely\src\Chromely.CefGlue.Winapi" t="IncludeRecursive">
+    <e p="C:\ICT Baden\Chromely\src\Chromely.CefGlue.Winapi" t="IncludeRecursive">
       <e p="bin" t="ExcludeRecursive" />
       <e p="BrowserWindow" t="Include">
         <e p="CefGlueWindow.cs" t="Include" />
@@ -672,7 +670,7 @@
         </e>
       </e>
     </e>
-    <e p="C:\Users\Frank\Documents\ICT Baden\Chromely\src\Chromely.Core" t="IncludeRecursive">
+    <e p="C:\ICT Baden\Chromely\src\Chromely.Core" t="IncludeRecursive">
       <e p="bin" t="ExcludeRecursive" />
       <e p="Chromely.Core.csproj" t="IncludeRecursive" />
       <e p="ChromelyCefWrapper.cs" t="Include" />
@@ -695,7 +693,6 @@
         <e p="ValueConvertersExtension.cs" t="Include" />
       </e>
       <e p="Host" t="Include">
-        <e p="HostType.cs" t="Include" />
         <e p="IChromelyWindow.cs" t="Include" />
         <e p="WebBrowserBaseExtension.cs" t="Include" />
         <e p="WindowState.cs" t="Include" />
@@ -748,11 +745,19 @@
         <e p="RouteScanner.cs" t="Include" />
       </e>
     </e>
-    <e p="C:\Users\Frank\Documents\ICT Baden\ChromelyWork\BasicCrossPlatform" t="IncludeRecursive">
+    <e p="C:\ICT Baden\ChromelyWork\BasicCrossPlatform" t="IncludeRecursive">
       <e p="BasicCrossPlatform.csproj" t="IncludeRecursive" />
       <e p="BasicCrossPlatform.sln" t="IncludeFlat" />
       <e p="BasicCrossPlatform.sln.DotSettings" t="Include" />
       <e p="bin" t="ExcludeRecursive" />
+      <e p="debug.log" t="Include" />
+      <e p="GPUCache" t="Include">
+        <e p="data_0" t="Include" />
+        <e p="data_1" t="Include" />
+        <e p="data_2" t="Include" />
+        <e p="data_3" t="Include" />
+        <e p="index" t="Include" />
+      </e>
       <e p="index.html" t="Include" />
       <e p="obj" t="ExcludeRecursive">
         <e p="Debug" t="Include">
@@ -772,9 +777,10 @@
         </e>
       </e>
     </e>
-    <e p="C:\Users\Frank\Documents\ICT Baden\ChromelyWork\Chromely.Dialogs" t="IncludeRecursive">
+    <e p="C:\ICT Baden\ChromelyWork\Chromely.Dialogs" t="IncludeRecursive">
       <e p="bin" t="ExcludeRecursive" />
       <e p="Chromely.Dialogs.csproj" t="IncludeRecursive" />
+      <e p="ChromelyDialogs.cs" t="Include" />
       <e p="DialogIcon.cs" t="Include" />
       <e p="DialogOptions.cs" t="Include" />
       <e p="DialogResponse.cs" t="Include" />
@@ -788,6 +794,12 @@
           </e>
         </e>
       </e>
+      <e p="Windows" t="Include">
+        <e p="WindowsDialogs.cs" t="Include" />
+        <e p="WindowsInterop.cs" t="Include" />
+      </e>
     </e>
+    <e p="C:\Users\Frank\.Rider2019.1\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Frank\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_BasicCrossPlatform.-1926598203.00" t="ExcludeRecursive" />
   </component>
 </project>
