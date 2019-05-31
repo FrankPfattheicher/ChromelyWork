@@ -4,6 +4,7 @@ using System.Linq;
 using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading;
+// ReSharper disable CommentTypo
 
 namespace Chromely.Dialogs.Windows
 {
@@ -55,7 +56,7 @@ namespace Chromely.Dialogs.Windows
                 }
                 case WindowsInterop.BFFM_SELCHANGED:
                 {
-                    IntPtr pathPtr = Marshal.AllocHGlobal((int)(260 * Marshal.SystemDefaultCharSize));
+                    var pathPtr = Marshal.AllocHGlobal(260 * Marshal.SystemDefaultCharSize);
                     if (WindowsInterop.SHGetPathFromIDList(lp, pathPtr))
                         WindowsInterop.SendMessage(new HandleRef(null, hWnd), WindowsInterop.BFFM_SETSTATUSTEXTW, 0, pathPtr);
                     Marshal.FreeHGlobal(pathPtr);
@@ -69,11 +70,11 @@ namespace Chromely.Dialogs.Windows
         public DialogResponse SelectFolder(string message, FileDialogOptions options)
         {
             var result = new DialogResponse { IsCanceled = true }; 
-            var th = new Thread(new ThreadStart(() =>
+            var th = new Thread(() =>
             {
                 WindowsInterop.OleInitialize(IntPtr.Zero);
                 result = SelectFolderInternal(message, options);
-            }))
+            })
             {
 #pragma warning disable 618
                 ApartmentState = ApartmentState.STA
@@ -90,7 +91,7 @@ namespace Chromely.Dialogs.Windows
             {
                 _initialPath = options.Directory;
             }
-            var pidl = IntPtr.Zero;
+            var pIdList = IntPtr.Zero;
             var sb = new StringBuilder(256);
             var bufferAddress = Marshal.AllocHGlobal(256);
             var bi = new WindowsInterop.BROWSEINFO
@@ -108,12 +109,12 @@ namespace Chromely.Dialogs.Windows
             try
             {
                 
-                pidl = WindowsInterop.SHBrowseForFolder(ref bi);
-                if (pidl == IntPtr.Zero)
+                pIdList = WindowsInterop.SHBrowseForFolder(ref bi);
+                if (pIdList == IntPtr.Zero)
                 {
                     return new DialogResponse { IsCanceled = true };
                 }
-                if (true != WindowsInterop.SHGetPathFromIDList(pidl, bufferAddress))
+                if (true != WindowsInterop.SHGetPathFromIDList(pIdList, bufferAddress))
                 {
                     return new DialogResponse { Value = string.Empty };
                 }
@@ -122,7 +123,7 @@ namespace Chromely.Dialogs.Windows
             finally
             {
                 // Caller is responsible for freeing this memory.
-                Marshal.FreeCoTaskMem(pidl);
+                Marshal.FreeCoTaskMem(pIdList);
             }
 
             return new DialogResponse { Value = sb.ToString() };
@@ -185,7 +186,11 @@ namespace Chromely.Dialogs.Windows
             {
                 ofn.lFlags |= WindowsInterop.OFN_PATHMUSTEXIST | WindowsInterop.OFN_FILEMUSTEXIST;
             }
-            
+            if(options.ConfirmOverwrite)
+            {
+                ofn.lFlags |= WindowsInterop.OFN_OVERWRITEPROMPT;
+            }
+
             var ok = WindowsInterop.GetSaveFileName(ofn);
             return new DialogResponse { IsCanceled = !ok, Value = ofn.lpstrFile };
         }

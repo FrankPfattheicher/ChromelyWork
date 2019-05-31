@@ -4,9 +4,8 @@
     <list default="true" id="64b640a5-e33b-4d54-adf5-f586662fef19" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BasicCrossPlatform/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BasicCrossPlatform/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BasicCrossPlatform/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BasicCrossPlatform/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Chromely.Dialogs/ChromelyDialogs.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Chromely.Dialogs/ChromelyDialogs.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Chromely.Dialogs/FileDialogOptions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Chromely.Dialogs/FileDialogOptions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chromely.Dialogs/Chromely.Dialogs.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../Chromely.Dialogs/Chromely.Dialogs.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chromely.Dialogs/Linux/LinuxDialogs.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Chromely.Dialogs/Linux/LinuxDialogs.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Chromely.Dialogs/Windows/WindowsDialogs.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Chromely.Dialogs/Windows/WindowsDialogs.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,270 +16,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Program.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="58" column="106" selection-start-line="58" selection-start-column="106" selection-end-line="58" selection-end-column="106" />
-              <folding>
-                <marker date="1559249797772" expanded="false" signature="6:206" ph="..." />
-                <marker date="1559249797772" expanded="true" signature="236:3571" ph="{...}" />
-                <marker date="1559249797772" expanded="true" signature="272:3568" ph="{...}" />
-                <marker date="1559249797772" expanded="true" signature="325:3211" ph="{...}" />
-                <marker date="1559249797772" expanded="true" signature="684:742" ph="/* .WithFramelessHost() ... */" />
-                <marker date="1559249797772" expanded="true" signature="1219:1388" ph="{...}" />
-                <marker date="1559249797772" expanded="true" signature="1405:1597" ph="{...}" />
-                <marker date="1559249797772" expanded="true" signature="1670:1845" ph="{...}" />
-                <marker date="1559249797772" expanded="true" signature="2770:3016" ph="{...}" />
-                <marker date="1559249797772" expanded="true" signature="2868:3002" ph="{...}" />
-                <marker date="1559249797772" expanded="true" signature="3049:3139" ph="{...}" />
-                <marker date="1559249797772" expanded="true" signature="3309:3562" ph="{...}" />
-                <marker date="1559249797772" expanded="true" signature="3384:3552" ph="/* Task.Run(async () =&gt; ... */" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Chromely.Dialogs/FileDialogOptions.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-              <folding>
-                <marker date="1559249681400" expanded="false" signature="6:57" ph="..." />
-                <marker date="1559249681400" expanded="true" signature="85:764" ph="{...}" />
-                <marker date="1559249681400" expanded="true" signature="138:762" ph="{...}" />
-                <marker date="1559249681400" expanded="true" signature="375:756" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../Chromely.Dialogs/Linux/LinuxDialogs.cs">
+        <entry file="file://$PROJECT_DIR$/../Chromely.Dialogs/Chromely.Dialogs.csproj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="110" column="15" lean-forward="true" selection-start-line="110" selection-start-column="15" selection-end-line="110" selection-end-column="15" />
-              <folding>
-                <marker date="1559250182501" expanded="true" signature="6:30" ph="..." />
-                <marker date="1559250182501" expanded="true" signature="64:8627" ph="{...}" />
-                <marker date="1559250182501" expanded="true" signature="115:8625" ph="{...}" />
-                <marker date="1559250182501" expanded="true" signature="151:222" ph="{...}" />
-                <marker date="1559250182501" expanded="true" signature="311:2105" ph="{...}" />
-                <marker date="1559250182501" expanded="true" signature="510:1158" ph="{...}" />
-                <marker date="1559250182501" expanded="true" signature="1445:1731" ph="{...}" />
-                <marker date="1559250182501" expanded="true" signature="1764:1831" ph="{...}" />
-                <marker date="1559250182501" expanded="true" signature="1851:1976" ph="{...}" />
-                <marker date="1559250182501" expanded="true" signature="2184:2260" ph="{...}" />
-                <marker date="1559250182501" expanded="true" signature="2347:3830" ph="{...}" />
-                <marker date="1559250182501" expanded="true" signature="2624:3341" ph="{...}" />
-                <marker date="1559250182501" expanded="true" signature="3136:3327" ph="{...}" />
-                <marker date="1559250182501" expanded="true" signature="3374:3441" ph="{...}" />
-                <marker date="1559250182501" expanded="true" signature="3461:3626" ph="{...}" />
-                <marker date="1559250182501" expanded="true" signature="3690:3819" ph="{...}" />
-                <marker date="1559250182501" expanded="true" signature="3913:6026" ph="{...}" />
-                <marker date="1559250182501" expanded="true" signature="4192:5535" ph="{...}" />
-                <marker date="1559250182501" expanded="true" signature="4679:4810" ph="{...}" />
-                <marker date="1559250182501" expanded="true" signature="4871:5229" ph="{...}" />
-                <marker date="1559250182501" expanded="true" signature="5380:5521" ph="{...}" />
-                <marker date="1559250182501" expanded="true" signature="5568:5635" ph="{...}" />
-                <marker date="1559250182501" expanded="true" signature="5655:5820" ph="{...}" />
-                <marker date="1559250182501" expanded="true" signature="5884:6015" ph="{...}" />
-                <marker date="1559250182501" expanded="true" signature="6126:8619" ph="{...}" />
-                <marker date="1559250182501" expanded="true" signature="6387:8128" ph="{...}" />
-                <marker date="1559250182501" expanded="true" signature="6803:6933" ph="{...}" />
-                <marker date="1559250182501" expanded="true" signature="7035:7250" ph="{...}" />
-                <marker date="1559250182501" expanded="true" signature="7271:7387" ph="{...}" />
-                <marker date="1559250182501" expanded="true" signature="7464:7822" ph="{...}" />
-                <marker date="1559250182501" expanded="true" signature="7973:8114" ph="{...}" />
-                <marker date="1559250182501" expanded="true" signature="8161:8228" ph="{...}" />
-                <marker date="1559250182501" expanded="true" signature="8248:8413" ph="{...}" />
-                <marker date="1559250182501" expanded="true" signature="8477:8608" ph="{...}" />
-              </folding>
+            <state relative-caret-position="180">
+              <caret line="9" column="43" lean-forward="true" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Chromely.Dialogs/Linux/GtkInterop.cs">
+        <entry file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/Chromely.CefGlue.csproj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="132" column="63" selection-start-line="132" selection-start-column="36" selection-end-line="132" selection-end-column="63" />
-              <folding>
-                <marker date="1559250150086" expanded="true" signature="6:51" ph="..." />
-                <marker date="1559250150086" expanded="true" signature="53:268" ph="/* ReSharper disable UnusedMember.Global ... */" />
-                <marker date="1559250150086" expanded="true" signature="302:6478" ph="{...}" />
-                <marker date="1559250150086" expanded="true" signature="341:6476" ph="{...}" />
-                <marker date="1559250150086" expanded="true" signature="1030:1395" ph="{...}" />
-                <marker date="1559250150086" expanded="true" signature="1447:1591" ph="{...}" />
-                <marker date="1559250150086" expanded="true" signature="1626:1804" ph="{...}" />
-                <marker date="1559250150086" expanded="true" signature="1839:2046" ph="{...}" />
-                <marker date="1559250150086" expanded="true" signature="2082:2510" ph="{...}" />
-                <marker date="1559250150086" expanded="true" signature="3668:3857" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue.Gtk/BrowserWindow/NativeMethods.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-542">
-              <caret line="836" selection-start-line="834" selection-end-line="836" />
-              <folding>
-                <marker date="1559024339853" expanded="true" signature="0:472" ph="/* -------------------------------------------------------------------------------------------------------------- ... */" />
-                <marker date="1559024339853" expanded="false" signature="480:639" ph="..." />
-                <marker date="1559024339853" expanded="true" signature="685:35353" ph="{...}" />
-                <marker date="1559024339853" expanded="true" signature="692:752" ph="/// The native methods. ... " />
-                <marker date="1559024339853" expanded="true" signature="792:35351" ph="{...}" />
-                <marker date="1559024339853" expanded="true" signature="807:960" ph="/// The event handler. ... " />
-                <marker date="1559024339853" expanded="false" signature="1102:8319" ph="Enums" />
-                <marker date="1559024339853" expanded="true" signature="1124:1193" ph="/// The gtk window type. ... " />
-                <marker date="1559024339853" expanded="true" signature="1389:1467" ph="{...}" />
-                <marker date="1559024339853" expanded="true" signature="1477:1540" ph="/// The gtk event. ... " />
-                <marker date="1559024339853" expanded="true" signature="1792:2224" ph="{...}" />
-                <marker date="1559024339853" expanded="true" signature="2234:2307" ph="/// The gtk window position. ... " />
-                <marker date="1559024339853" expanded="true" signature="2507:2682" ph="{...}" />
-                <marker date="1559024339853" expanded="true" signature="2692:2859" ph="/// The g connect flags. ... " />
-                <marker date="1559024339853" expanded="true" signature="3055:3496" ph="{...}" />
-                <marker date="1559024339853" expanded="true" signature="3078:3222" ph="/// whether the handler should be called before or after the default handler of the signal. ... " />
-                <marker date="1559024339853" expanded="true" signature="3272:3449" ph="/// whether the instance and data should be swapped when calling the handler; see g_signal_connect_swapped() for  ... " />
-                <marker date="1559024339853" expanded="true" signature="3506:3580" ph="/// The set window pos flags. ... " />
-                <marker date="1559024339853" expanded="true" signature="3969:8293" ph="{...}" />
-                <marker date="1559024339853" expanded="true" signature="3992:4401" ph="/// If the calling thread and the thread that owns the window are attached to different input queues,  ... " />
-                <marker date="1559024339853" expanded="true" signature="4457:4612" ph="/// Prevents generation of the WM_SYNCPAINT message. ... " />
-                <marker date="1559024339853" expanded="true" signature="4659:4841" ph="/// Draws a frame (defined in the window's class description) around the window. ... " />
-                <marker date="1559024339853" expanded="true" signature="4887:5284" ph="/// Applies new frame styles set using the SetWindowLong function. Sends a WM_NCCALCSIZE message to  ... " />
-                <marker date="1559024339853" expanded="true" signature="5333:5457" ph="/// Hides the window. ... " />
-                <marker date="1559024339853" expanded="true" signature="5504:5831" ph="/// Does not activate the window. If this flag is not set, the window is activated and moved to the  ... " />
-                <marker date="1559024339853" expanded="true" signature="5878:6209" ph="/// Discards the entire contents of the client area. If this flag is not specified, the valid contents  ... " />
-                <marker date="1559024339853" expanded="true" signature="6256:6417" ph="/// Retains the current position (ignores X and Y parameters). ... " />
-                <marker date="1559024339853" expanded="true" signature="6460:6629" ph="/// Does not change the owner window's position in the Z order. ... " />
-                <marker date="1559024339853" expanded="true" signature="6679:7231" ph="/// Does not redraw changes. If this flag is set, no repainting of any kind occurs. This applies to  ... " />
-                <marker date="1559024339853" expanded="true" signature="7276:7420" ph="/// Same as the SWP_NOOWNERZORDER flag. ... " />
-                <marker date="1559024339853" expanded="true" signature="7469:7648" ph="/// Prevents the window from receiving the WM_WINDOWPOSCHANGING message. ... " />
-                <marker date="1559024339853" expanded="true" signature="7699:7862" ph="/// Retains the current size (ignores the cx and cy parameters). ... " />
-                <marker date="1559024339853" expanded="true" signature="7905:8078" ph="/// Retains the current Z order (ignores the hWndInsertAfter parameter). ... " />
-                <marker date="1559024339853" expanded="true" signature="8123:8250" ph="/// Displays the window. ... " />
-                <marker date="1559024339853" expanded="true" signature="8329:8544" ph="/// The init window. ... " />
-                <marker date="1559024339853" expanded="true" signature="8609:8904" ph="{...}" />
-                <marker date="1559024339853" expanded="true" signature="8686:8756" ph="{...}" />
-                <marker date="1559024339853" expanded="true" signature="8822:8894" ph="{...}" />
-                <marker date="1559024339853" expanded="true" signature="8914:9144" ph="/// The get window xid. ... " />
-                <marker date="1559024339853" expanded="true" signature="9203:9735" ph="{...}" />
-                <marker date="1559024339853" expanded="true" signature="9280:9458" ph="{...}" />
-                <marker date="1559024339853" expanded="true" signature="9524:9692" ph="{...}" />
-                <marker date="1559024339853" expanded="true" signature="9745:9886" ph="/// The show all. ... " />
-                <marker date="1559024339853" expanded="true" signature="9938:10247" ph="{...}" />
-                <marker date="1559024339853" expanded="true" signature="10015:10092" ph="{...}" />
-                <marker date="1559024339853" expanded="true" signature="10158:10237" ph="{...}" />
-                <marker date="1559024339853" expanded="true" signature="10257:10314" ph="/// The run. ... " />
-                <marker date="1559024339853" expanded="true" signature="10349:10624" ph="{...}" />
-                <marker date="1559024339853" expanded="true" signature="10426:10486" ph="{...}" />
-                <marker date="1559024339853" expanded="true" signature="10552:10614" ph="{...}" />
-                <marker date="1559024339853" expanded="true" signature="10634:10692" ph="/// The quit. ... " />
-                <marker date="1559024339853" expanded="true" signature="10728:11013" ph="{...}" />
-                <marker date="1559024339853" expanded="true" signature="10805:10870" ph="{...}" />
-                <marker date="1559024339853" expanded="true" signature="10936:11003" ph="{...}" />
-                <marker date="1559024339853" expanded="true" signature="11023:11245" ph="/// The new window. ... " />
-                <marker date="1559024339853" expanded="true" signature="11306:11649" ph="{...}" />
-                <marker date="1559024339853" expanded="true" signature="11383:11461" ph="{...}" />
-                <marker date="1559024339853" expanded="true" signature="11527:11606" ph="{...}" />
-                <marker date="1559024339853" expanded="true" signature="11659:11890" ph="/// The create cef host. ... " />
-                <marker date="1559024339853" expanded="true" signature="11950:12435" ph="{...}" />
-                <marker date="1559024339853" expanded="true" signature="12067:12198" ph="{...}" />
-                <marker date="1559024339853" expanded="true" signature="12264:12399" ph="{...}" />
-                <marker date="1559024339853" expanded="true" signature="12445:12664" ph="/// The set title. ... " />
-                <marker date="1559024339853" expanded="true" signature="12731:13056" ph="{...}" />
-                <marker date="1559024339853" expanded="true" signature="12808:12893" ph="{...}" />
-                <marker date="1559024339853" expanded="true" signature="12959:13046" ph="{...}" />
-                <marker date="1559024339853" expanded="true" signature="13066:13370" ph="/// The set window size. ... " />
-                <marker date="1559024339853" expanded="true" signature="13451:13786" ph="{...}" />
-                <marker date="1559024339853" expanded="true" signature="13528:13618" ph="{...}" />
-                <marker date="1559024339853" expanded="true" signature="13684:13776" ph="{...}" />
-                <marker date="1559024339853" expanded="true" signature="13796:14101" ph="/// The set size request. ... " />
-                <marker date="1559024339853" expanded="true" signature="14183:14538" ph="{...}" />
-                <marker date="1559024339853" expanded="true" signature="14260:14360" ph="{...}" />
-                <marker date="1559024339853" expanded="true" signature="14426:14528" ph="{...}" />
-                <marker date="1559024339853" expanded="true" signature="14548:14786" ph="/// The set window resizable. ... " />
-                <marker date="1559024339853" expanded="true" signature="14865:15206" ph="{...}" />
-                <marker date="1559024339853" expanded="true" signature="14942:15035" ph="{...}" />
-                <marker date="1559024339853" expanded="true" signature="15101:15196" ph="{...}" />
-                <marker date="1559024339853" expanded="true" signature="15216:15740" ph="/// The set window pos. ... " />
-                <marker date="1559024339853" expanded="true" signature="15849:16063" ph="{...}" />
-                <marker date="1559024339853" expanded="true" signature="15926:16053" ph="{...}" />
-                <marker date="1559024339853" expanded="true" signature="16073:16308" ph="/// The set window position. ... " />
-                <marker date="1559024339853" expanded="true" signature="16398:16735" ph="{...}" />
-                <marker date="1559024339853" expanded="true" signature="16475:16566" ph="{...}" />
-                <marker date="1559024339853" expanded="true" signature="16632:16725" ph="{...}" />
-                <marker date="1559024339853" expanded="true" signature="16745:16897" ph="/// The set window maximize. ... " />
-                <marker date="1559024339853" expanded="true" signature="16959:17268" ph="{...}" />
-                <marker date="1559024339853" expanded="true" signature="17036:17113" ph="{...}" />
-                <marker date="1559024339853" expanded="true" signature="17179:17258" ph="{...}" />
-                <marker date="1559024339853" expanded="true" signature="17278:17425" ph="/// The set fullscreen. ... " />
-                <marker date="1559024339853" expanded="true" signature="17483:17796" ph="{...}" />
-                <marker date="1559024339853" expanded="true" signature="17560:17639" ph="{...}" />
-                <marker date="1559024339853" expanded="true" signature="17705:17786" ph="{...}" />
-                <marker date="1559024339853" expanded="true" signature="17806:17958" ph="/// The add configure event. ... " />
-                <marker date="1559024339853" expanded="true" signature="18020:18379" ph="{...}" />
-                <marker date="1559024339853" expanded="true" signature="18097:18199" ph="{...}" />
-                <marker date="1559024339853" expanded="true" signature="18265:18369" ph="{...}" />
-                <marker date="1559024339853" expanded="true" signature="18389:18693" ph="/// The get window size. ... " />
-                <marker date="1559024339853" expanded="true" signature="18782:19185" ph="{...}" />
-                <marker date="1559024339853" expanded="true" signature="18907:19007" ph="{...}" />
-                <marker date="1559024339853" expanded="true" signature="19073:19175" ph="{...}" />
-                <marker date="1559024339853" expanded="true" signature="19195:19725" ph="/// The connect signal. ... " />
-                <marker date="1559024339853" expanded="true" signature="19848:20330" ph="{...}" />
-                <marker date="1559024339853" expanded="true" signature="19899:20320" ph="{...}" />
-                <marker date="1559024339853" expanded="true" signature="20406:20850" ph="{...}" />
-                <marker date="1559024339853" expanded="true" signature="20457:20840" ph="{...}" />
-                <marker date="1559024339853" expanded="true" signature="20868:21102" ph="/// The set icon from file. ... " />
-                <marker date="1559024339853" expanded="true" signature="21179:22205" ph="{...}" />
-                <marker date="1559024339853" expanded="true" signature="21205:22089" ph="{...}" />
-                <marker date="1559024339853" expanded="true" signature="21271:21335" ph="{...}" />
-                <marker date="1559024339853" expanded="true" signature="21380:21444" ph="{...}" />
-                <marker date="1559024339853" expanded="true" signature="21616:21736" ph="{...}" />
-                <marker date="1559024339853" expanded="true" signature="21757:21879" ph="{...}" />
-                <marker date="1559024339853" expanded="true" signature="21969:22075" ph="{...}" />
-                <marker date="1559024339853" expanded="true" signature="22129:22195" ph="{...}" />
-                <marker date="1559024339853" expanded="true" signature="22215:22286" ph="/// The struct event args. ... " />
-                <marker date="1559024339853" expanded="true" signature="22406:22713" ph="{...}" />
-                <marker date="1559024339853" expanded="true" signature="22429:22497" ph="/// The handle. ... " />
-                <marker date="1559024339853" expanded="true" signature="22723:22780" ph="/// The win. ... " />
-                <marker date="1559024339853" expanded="true" signature="22813:29293" ph="{...}" />
-                <marker date="1559024339853" expanded="true" signature="22836:22905" ph="/// The gtk lib. ... " />
-                <marker date="1559024339853" expanded="true" signature="23051:23122" ph="/// The g obj lib. ... " />
-                <marker date="1559024339853" expanded="true" signature="23267:23336" ph="/// The gdk lib. ... " />
-                <marker date="1559024339853" expanded="true" signature="23482:23552" ph="/// The glib lib. ... " />
-                <marker date="1559024339853" expanded="true" signature="29303:29362" ph="/// The linux. ... " />
-                <marker date="1559024339853" expanded="true" signature="29397:35345" ph="{...}" />
-                <marker date="1559024339853" expanded="true" signature="29420:29489" ph="/// The gtk lib. ... " />
-                <marker date="1559024339853" expanded="true" signature="29632:29703" ph="/// The g obj lib. ... " />
-                <marker date="1559024339853" expanded="true" signature="29847:29916" ph="/// The gdk lib. ... " />
-                <marker date="1559024339853" expanded="true" signature="30059:30129" ph="/// The glib lib. ... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Chromely.Dialogs/ChromelyDialogs.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="45" column="8" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
-              <folding>
-                <marker date="1559240650751" expanded="false" signature="6:96" ph="..." />
-                <marker date="1559240650751" expanded="true" signature="171:1826" ph="{...}" />
-                <marker date="1559240650751" expanded="true" signature="213:1824" ph="{...}" />
-                <marker date="1559240650751" expanded="true" signature="303:778" ph="{...}" />
-                <marker date="1559240650751" expanded="true" signature="359:712" ph="{...}" />
-                <marker date="1559240650751" expanded="true" signature="851:932" ph="{...}" />
-                <marker date="1559240650751" expanded="true" signature="1019:1097" ph="{...}" />
-                <marker date="1559240650751" expanded="true" signature="1200:1276" ph="{...}" />
-                <marker date="1559240650751" expanded="true" signature="1370:1450" ph="{...}" />
-                <marker date="1559240650751" expanded="true" signature="1540:1616" ph="{...}" />
-                <marker date="1559240650751" expanded="true" signature="1723:1809" ph="{...}" />
-              </folding>
+            <state relative-caret-position="340">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
             </state>
           </provider>
         </entry>
@@ -318,6 +68,7 @@
       <find>gtk_widget_show_all</find>
       <find>gtk_message_dialog_new</find>
       <find>gtk_init</find>
+      <find>AssemblyName</find>
     </findStrings>
     <replaceStrings>
       <replace>internal const int</replace>
@@ -329,32 +80,31 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../Chromely.Dialogs/Linux/LinuxDialogs.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.Core/RestfulService/Route.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue.Winapi/BrowserWindow/Window.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Chromely.Dialogs/Linux/GtkInterop.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.Core/ChromelyConfiguration.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue.Winapi/BrowserWindow/Window.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.Core/ChromelyPlatform.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/Subprocess/Subprocess.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../Chromely.Dialogs/Linux/GtkInterop.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../Chromely.Dialogs/Linux/LinuxDialogs.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue.Gtk/BrowserWindow/NativeWindow.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue.Gtk/BrowserWindow/NativeMethods.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/CefGlue/Classes.Handlers/CefDisplayHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.Core/RestfulService/ChromelyControllerFactory.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/BrowserWindow/CefBinariesLoader.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/obj/Debug/netstandard2.0/Chromely.CefGlue.AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../Chromely.Dialogs/obj/Debug/netstandard2.0/Chromely.Dialogs.AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.Core/RestfulService/Route.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/CefGlue/Enums/CefLogSeverity.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../Chromely.Dialogs/Windows/WindowsDialogs.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue.Gtk/BrowserWindow/NativeMethods.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue.Gtk/BrowserWindow/NativeWindow.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Chromely.Dialogs/ChromelyDialogs.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../Chromely.Dialogs/IChromelyDialogs.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../Chromely.Dialogs/FileDialogOptions.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../Chromely.Dialogs/Windows/WindowsInterop.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../Chromely.Dialogs/DialogResponse.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../Chromely.Dialogs/DialogOptions.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../Chromely.Dialogs/FileFilter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Chromely.Dialogs/DialogIcon.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Chromely.Dialogs/DialogOptions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Chromely.Dialogs/Windows/WindowsDialogs.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Chromely.Dialogs/DialogResponse.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Chromely.Dialogs/FileDialogOptions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Chromely.Dialogs/FileFilter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Chromely.Dialogs/Windows/WindowsInterop.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Chromely.Dialogs/IChromelyDialogs.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.Core/ChromelyPlatform.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/obj/Debug/netstandard2.0/Chromely.CefGlue.AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/CefGlue/Enums/CefLogSeverity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/BrowserWindow/CefBinariesLoader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/CefGlue/Classes.Handlers/CefDisplayHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Chromely.Dialogs/obj/Debug/netstandard2.0/Chromely.Dialogs.AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/Subprocess/Subprocess.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -401,12 +151,13 @@
         <option value="$PROJECT_DIR$/Program.cs" />
         <option value="$PROJECT_DIR$/../Chromely.Dialogs/Linux/GtkInterop.cs" />
         <option value="$PROJECT_DIR$/../Chromely.Dialogs/Linux/LinuxDialogs.cs" />
+        <option value="$PROJECT_DIR$/../Chromely.Dialogs/Chromely.Dialogs.csproj" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="186" />
-    <option name="y" value="27" />
+    <option name="x" value="219" />
+    <option name="y" value="116" />
     <option name="width" value="2546" />
     <option name="height" value="1515" />
   </component>
@@ -419,8 +170,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="FileSystemExplorer" />
-      <pane id="AssemblyExplorer" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -428,38 +177,13 @@
               <item name="" type="784c90a0:SolutionExplorerRootNode" />
               <item name="BasicCrossPlatform" type="24d0babc:SolutionExplorerModelNode" />
             </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="BasicCrossPlatform" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="BasicCrossPlatform" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="BasicCrossPlatform" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Chromely.CefGlue.Gtk" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="BasicCrossPlatform" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Chromely.CefGlue.Gtk" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="BrowserWindow" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="BasicCrossPlatform" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Chromely.Dialogs" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="BasicCrossPlatform" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Chromely.Dialogs" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Linux" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
           </expand>
           <select />
         </subPane>
         <option name="show-all-files" value="false" />
       </pane>
+      <pane id="AssemblyExplorer" />
+      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -585,11 +309,12 @@
       <workItem from="1559210752277" duration="9176000" />
       <workItem from="1559222417761" duration="2468000" />
       <workItem from="1559240797520" duration="9208000" />
+      <workItem from="1559310171914" duration="256000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67872000" />
+    <option name="totallyTimeSpent" value="68128000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -601,10 +326,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="186" y="27" width="2546" height="1515" extended-state="0" />
-    <editor active="true" />
+    <frame x="219" y="116" width="2546" height="1515" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7231057" visible="true" weight="0.216" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7231057" visible="true" weight="0.21761866" />
       <window_info id="Structure" order="1" sideWeight="0.2768943" side_tool="true" weight="0.216" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -613,7 +337,7 @@
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
       <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49980733" weight="0.32603407" />
-      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.49980733" weight="0.25308195" />
+      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.49980733" weight="0.252849" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
@@ -624,7 +348,7 @@
       <window_info anchor="bottom" id="Unit Tests" order="12" weight="0.32969603" />
       <window_info anchor="bottom" id="Terminal" order="13" weight="0.17889588" />
       <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" weight="0.32914045" />
-      <window_info active="true" anchor="bottom" id="Build" order="15" sideWeight="0.4990366" visible="true" weight="0.2697607" />
+      <window_info anchor="bottom" id="Build" order="15" sideWeight="0.4990366" weight="0.2697607" />
       <window_info anchor="bottom" id="Change Signature" order="16" sideWeight="0.5009634" side_tool="true" weight="0.32853025" />
       <window_info anchor="right" id="Unit Tests Coverage" order="0" />
       <window_info anchor="right" id="PlantUML" order="1" />
@@ -716,8 +440,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.Core/IHostBase.cs" />
-    <entry file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/Chromely.CefGlue.csproj" />
     <entry file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/CefGlue/Wrapper/MessageRouter/CefMessageRouterRendererSide.cs" />
     <entry file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/BrowserWindow.cs" />
     <entry file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue.Gtk/BrowserWindow/CefGlueBrowserWindow.cs" />
@@ -1203,259 +925,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue.Gtk/BrowserWindow/NativeMethods.cs">
+    <entry file="file://$PROJECT_DIR$/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-542">
-          <caret line="836" selection-start-line="834" selection-end-line="836" />
-          <folding>
-            <marker date="1559024339853" expanded="true" signature="0:472" ph="/* -------------------------------------------------------------------------------------------------------------- ... */" />
-            <marker date="1559024339853" expanded="false" signature="480:639" ph="..." />
-            <marker date="1559024339853" expanded="true" signature="685:35353" ph="{...}" />
-            <marker date="1559024339853" expanded="true" signature="692:752" ph="/// The native methods. ... " />
-            <marker date="1559024339853" expanded="true" signature="792:35351" ph="{...}" />
-            <marker date="1559024339853" expanded="true" signature="807:960" ph="/// The event handler. ... " />
-            <marker date="1559024339853" expanded="false" signature="1102:8319" ph="Enums" />
-            <marker date="1559024339853" expanded="true" signature="1124:1193" ph="/// The gtk window type. ... " />
-            <marker date="1559024339853" expanded="true" signature="1389:1467" ph="{...}" />
-            <marker date="1559024339853" expanded="true" signature="1477:1540" ph="/// The gtk event. ... " />
-            <marker date="1559024339853" expanded="true" signature="1792:2224" ph="{...}" />
-            <marker date="1559024339853" expanded="true" signature="2234:2307" ph="/// The gtk window position. ... " />
-            <marker date="1559024339853" expanded="true" signature="2507:2682" ph="{...}" />
-            <marker date="1559024339853" expanded="true" signature="2692:2859" ph="/// The g connect flags. ... " />
-            <marker date="1559024339853" expanded="true" signature="3055:3496" ph="{...}" />
-            <marker date="1559024339853" expanded="true" signature="3078:3222" ph="/// whether the handler should be called before or after the default handler of the signal. ... " />
-            <marker date="1559024339853" expanded="true" signature="3272:3449" ph="/// whether the instance and data should be swapped when calling the handler; see g_signal_connect_swapped() for  ... " />
-            <marker date="1559024339853" expanded="true" signature="3506:3580" ph="/// The set window pos flags. ... " />
-            <marker date="1559024339853" expanded="true" signature="3969:8293" ph="{...}" />
-            <marker date="1559024339853" expanded="true" signature="3992:4401" ph="/// If the calling thread and the thread that owns the window are attached to different input queues,  ... " />
-            <marker date="1559024339853" expanded="true" signature="4457:4612" ph="/// Prevents generation of the WM_SYNCPAINT message. ... " />
-            <marker date="1559024339853" expanded="true" signature="4659:4841" ph="/// Draws a frame (defined in the window's class description) around the window. ... " />
-            <marker date="1559024339853" expanded="true" signature="4887:5284" ph="/// Applies new frame styles set using the SetWindowLong function. Sends a WM_NCCALCSIZE message to  ... " />
-            <marker date="1559024339853" expanded="true" signature="5333:5457" ph="/// Hides the window. ... " />
-            <marker date="1559024339853" expanded="true" signature="5504:5831" ph="/// Does not activate the window. If this flag is not set, the window is activated and moved to the  ... " />
-            <marker date="1559024339853" expanded="true" signature="5878:6209" ph="/// Discards the entire contents of the client area. If this flag is not specified, the valid contents  ... " />
-            <marker date="1559024339853" expanded="true" signature="6256:6417" ph="/// Retains the current position (ignores X and Y parameters). ... " />
-            <marker date="1559024339853" expanded="true" signature="6460:6629" ph="/// Does not change the owner window's position in the Z order. ... " />
-            <marker date="1559024339853" expanded="true" signature="6679:7231" ph="/// Does not redraw changes. If this flag is set, no repainting of any kind occurs. This applies to  ... " />
-            <marker date="1559024339853" expanded="true" signature="7276:7420" ph="/// Same as the SWP_NOOWNERZORDER flag. ... " />
-            <marker date="1559024339853" expanded="true" signature="7469:7648" ph="/// Prevents the window from receiving the WM_WINDOWPOSCHANGING message. ... " />
-            <marker date="1559024339853" expanded="true" signature="7699:7862" ph="/// Retains the current size (ignores the cx and cy parameters). ... " />
-            <marker date="1559024339853" expanded="true" signature="7905:8078" ph="/// Retains the current Z order (ignores the hWndInsertAfter parameter). ... " />
-            <marker date="1559024339853" expanded="true" signature="8123:8250" ph="/// Displays the window. ... " />
-            <marker date="1559024339853" expanded="true" signature="8329:8544" ph="/// The init window. ... " />
-            <marker date="1559024339853" expanded="true" signature="8609:8904" ph="{...}" />
-            <marker date="1559024339853" expanded="true" signature="8686:8756" ph="{...}" />
-            <marker date="1559024339853" expanded="true" signature="8822:8894" ph="{...}" />
-            <marker date="1559024339853" expanded="true" signature="8914:9144" ph="/// The get window xid. ... " />
-            <marker date="1559024339853" expanded="true" signature="9203:9735" ph="{...}" />
-            <marker date="1559024339853" expanded="true" signature="9280:9458" ph="{...}" />
-            <marker date="1559024339853" expanded="true" signature="9524:9692" ph="{...}" />
-            <marker date="1559024339853" expanded="true" signature="9745:9886" ph="/// The show all. ... " />
-            <marker date="1559024339853" expanded="true" signature="9938:10247" ph="{...}" />
-            <marker date="1559024339853" expanded="true" signature="10015:10092" ph="{...}" />
-            <marker date="1559024339853" expanded="true" signature="10158:10237" ph="{...}" />
-            <marker date="1559024339853" expanded="true" signature="10257:10314" ph="/// The run. ... " />
-            <marker date="1559024339853" expanded="true" signature="10349:10624" ph="{...}" />
-            <marker date="1559024339853" expanded="true" signature="10426:10486" ph="{...}" />
-            <marker date="1559024339853" expanded="true" signature="10552:10614" ph="{...}" />
-            <marker date="1559024339853" expanded="true" signature="10634:10692" ph="/// The quit. ... " />
-            <marker date="1559024339853" expanded="true" signature="10728:11013" ph="{...}" />
-            <marker date="1559024339853" expanded="true" signature="10805:10870" ph="{...}" />
-            <marker date="1559024339853" expanded="true" signature="10936:11003" ph="{...}" />
-            <marker date="1559024339853" expanded="true" signature="11023:11245" ph="/// The new window. ... " />
-            <marker date="1559024339853" expanded="true" signature="11306:11649" ph="{...}" />
-            <marker date="1559024339853" expanded="true" signature="11383:11461" ph="{...}" />
-            <marker date="1559024339853" expanded="true" signature="11527:11606" ph="{...}" />
-            <marker date="1559024339853" expanded="true" signature="11659:11890" ph="/// The create cef host. ... " />
-            <marker date="1559024339853" expanded="true" signature="11950:12435" ph="{...}" />
-            <marker date="1559024339853" expanded="true" signature="12067:12198" ph="{...}" />
-            <marker date="1559024339853" expanded="true" signature="12264:12399" ph="{...}" />
-            <marker date="1559024339853" expanded="true" signature="12445:12664" ph="/// The set title. ... " />
-            <marker date="1559024339853" expanded="true" signature="12731:13056" ph="{...}" />
-            <marker date="1559024339853" expanded="true" signature="12808:12893" ph="{...}" />
-            <marker date="1559024339853" expanded="true" signature="12959:13046" ph="{...}" />
-            <marker date="1559024339853" expanded="true" signature="13066:13370" ph="/// The set window size. ... " />
-            <marker date="1559024339853" expanded="true" signature="13451:13786" ph="{...}" />
-            <marker date="1559024339853" expanded="true" signature="13528:13618" ph="{...}" />
-            <marker date="1559024339853" expanded="true" signature="13684:13776" ph="{...}" />
-            <marker date="1559024339853" expanded="true" signature="13796:14101" ph="/// The set size request. ... " />
-            <marker date="1559024339853" expanded="true" signature="14183:14538" ph="{...}" />
-            <marker date="1559024339853" expanded="true" signature="14260:14360" ph="{...}" />
-            <marker date="1559024339853" expanded="true" signature="14426:14528" ph="{...}" />
-            <marker date="1559024339853" expanded="true" signature="14548:14786" ph="/// The set window resizable. ... " />
-            <marker date="1559024339853" expanded="true" signature="14865:15206" ph="{...}" />
-            <marker date="1559024339853" expanded="true" signature="14942:15035" ph="{...}" />
-            <marker date="1559024339853" expanded="true" signature="15101:15196" ph="{...}" />
-            <marker date="1559024339853" expanded="true" signature="15216:15740" ph="/// The set window pos. ... " />
-            <marker date="1559024339853" expanded="true" signature="15849:16063" ph="{...}" />
-            <marker date="1559024339853" expanded="true" signature="15926:16053" ph="{...}" />
-            <marker date="1559024339853" expanded="true" signature="16073:16308" ph="/// The set window position. ... " />
-            <marker date="1559024339853" expanded="true" signature="16398:16735" ph="{...}" />
-            <marker date="1559024339853" expanded="true" signature="16475:16566" ph="{...}" />
-            <marker date="1559024339853" expanded="true" signature="16632:16725" ph="{...}" />
-            <marker date="1559024339853" expanded="true" signature="16745:16897" ph="/// The set window maximize. ... " />
-            <marker date="1559024339853" expanded="true" signature="16959:17268" ph="{...}" />
-            <marker date="1559024339853" expanded="true" signature="17036:17113" ph="{...}" />
-            <marker date="1559024339853" expanded="true" signature="17179:17258" ph="{...}" />
-            <marker date="1559024339853" expanded="true" signature="17278:17425" ph="/// The set fullscreen. ... " />
-            <marker date="1559024339853" expanded="true" signature="17483:17796" ph="{...}" />
-            <marker date="1559024339853" expanded="true" signature="17560:17639" ph="{...}" />
-            <marker date="1559024339853" expanded="true" signature="17705:17786" ph="{...}" />
-            <marker date="1559024339853" expanded="true" signature="17806:17958" ph="/// The add configure event. ... " />
-            <marker date="1559024339853" expanded="true" signature="18020:18379" ph="{...}" />
-            <marker date="1559024339853" expanded="true" signature="18097:18199" ph="{...}" />
-            <marker date="1559024339853" expanded="true" signature="18265:18369" ph="{...}" />
-            <marker date="1559024339853" expanded="true" signature="18389:18693" ph="/// The get window size. ... " />
-            <marker date="1559024339853" expanded="true" signature="18782:19185" ph="{...}" />
-            <marker date="1559024339853" expanded="true" signature="18907:19007" ph="{...}" />
-            <marker date="1559024339853" expanded="true" signature="19073:19175" ph="{...}" />
-            <marker date="1559024339853" expanded="true" signature="19195:19725" ph="/// The connect signal. ... " />
-            <marker date="1559024339853" expanded="true" signature="19848:20330" ph="{...}" />
-            <marker date="1559024339853" expanded="true" signature="19899:20320" ph="{...}" />
-            <marker date="1559024339853" expanded="true" signature="20406:20850" ph="{...}" />
-            <marker date="1559024339853" expanded="true" signature="20457:20840" ph="{...}" />
-            <marker date="1559024339853" expanded="true" signature="20868:21102" ph="/// The set icon from file. ... " />
-            <marker date="1559024339853" expanded="true" signature="21179:22205" ph="{...}" />
-            <marker date="1559024339853" expanded="true" signature="21205:22089" ph="{...}" />
-            <marker date="1559024339853" expanded="true" signature="21271:21335" ph="{...}" />
-            <marker date="1559024339853" expanded="true" signature="21380:21444" ph="{...}" />
-            <marker date="1559024339853" expanded="true" signature="21616:21736" ph="{...}" />
-            <marker date="1559024339853" expanded="true" signature="21757:21879" ph="{...}" />
-            <marker date="1559024339853" expanded="true" signature="21969:22075" ph="{...}" />
-            <marker date="1559024339853" expanded="true" signature="22129:22195" ph="{...}" />
-            <marker date="1559024339853" expanded="true" signature="22215:22286" ph="/// The struct event args. ... " />
-            <marker date="1559024339853" expanded="true" signature="22406:22713" ph="{...}" />
-            <marker date="1559024339853" expanded="true" signature="22429:22497" ph="/// The handle. ... " />
-            <marker date="1559024339853" expanded="true" signature="22723:22780" ph="/// The win. ... " />
-            <marker date="1559024339853" expanded="true" signature="22813:29293" ph="{...}" />
-            <marker date="1559024339853" expanded="true" signature="22836:22905" ph="/// The gtk lib. ... " />
-            <marker date="1559024339853" expanded="true" signature="23051:23122" ph="/// The g obj lib. ... " />
-            <marker date="1559024339853" expanded="true" signature="23267:23336" ph="/// The gdk lib. ... " />
-            <marker date="1559024339853" expanded="true" signature="23482:23552" ph="/// The glib lib. ... " />
-            <marker date="1559024339853" expanded="true" signature="29303:29362" ph="/// The linux. ... " />
-            <marker date="1559024339853" expanded="true" signature="29397:35345" ph="{...}" />
-            <marker date="1559024339853" expanded="true" signature="29420:29489" ph="/// The gtk lib. ... " />
-            <marker date="1559024339853" expanded="true" signature="29632:29703" ph="/// The g obj lib. ... " />
-            <marker date="1559024339853" expanded="true" signature="29847:29916" ph="/// The gdk lib. ... " />
-            <marker date="1559024339853" expanded="true" signature="30059:30129" ph="/// The glib lib. ... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Chromely.Dialogs/ChromelyDialogs.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="45" column="8" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
-          <folding>
-            <marker date="1559240650751" expanded="false" signature="6:96" ph="..." />
-            <marker date="1559240650751" expanded="true" signature="171:1826" ph="{...}" />
-            <marker date="1559240650751" expanded="true" signature="213:1824" ph="{...}" />
-            <marker date="1559240650751" expanded="true" signature="303:778" ph="{...}" />
-            <marker date="1559240650751" expanded="true" signature="359:712" ph="{...}" />
-            <marker date="1559240650751" expanded="true" signature="851:932" ph="{...}" />
-            <marker date="1559240650751" expanded="true" signature="1019:1097" ph="{...}" />
-            <marker date="1559240650751" expanded="true" signature="1200:1276" ph="{...}" />
-            <marker date="1559240650751" expanded="true" signature="1370:1450" ph="{...}" />
-            <marker date="1559240650751" expanded="true" signature="1540:1616" ph="{...}" />
-            <marker date="1559240650751" expanded="true" signature="1723:1809" ph="{...}" />
-          </folding>
+        <state relative-caret-position="1040">
+          <caret line="62" column="15" selection-start-line="62" selection-start-column="15" selection-end-line="62" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../Chromely.Dialogs/FileDialogOptions.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-          <folding>
-            <marker date="1559249681400" expanded="false" signature="6:57" ph="..." />
-            <marker date="1559249681400" expanded="true" signature="85:764" ph="{...}" />
-            <marker date="1559249681400" expanded="true" signature="138:762" ph="{...}" />
-            <marker date="1559249681400" expanded="true" signature="375:756" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="58" column="106" selection-start-line="58" selection-start-column="106" selection-end-line="58" selection-end-column="106" />
-          <folding>
-            <marker date="1559249797772" expanded="false" signature="6:206" ph="..." />
-            <marker date="1559249797772" expanded="true" signature="236:3571" ph="{...}" />
-            <marker date="1559249797772" expanded="true" signature="272:3568" ph="{...}" />
-            <marker date="1559249797772" expanded="true" signature="325:3211" ph="{...}" />
-            <marker date="1559249797772" expanded="true" signature="684:742" ph="/* .WithFramelessHost() ... */" />
-            <marker date="1559249797772" expanded="true" signature="1219:1388" ph="{...}" />
-            <marker date="1559249797772" expanded="true" signature="1405:1597" ph="{...}" />
-            <marker date="1559249797772" expanded="true" signature="1670:1845" ph="{...}" />
-            <marker date="1559249797772" expanded="true" signature="2770:3016" ph="{...}" />
-            <marker date="1559249797772" expanded="true" signature="2868:3002" ph="{...}" />
-            <marker date="1559249797772" expanded="true" signature="3049:3139" ph="{...}" />
-            <marker date="1559249797772" expanded="true" signature="3309:3562" ph="{...}" />
-            <marker date="1559249797772" expanded="true" signature="3384:3552" ph="/* Task.Run(async () =&gt; ... */" />
-          </folding>
+        <state relative-caret-position="140">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../Chromely.Dialogs/Linux/GtkInterop.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
+        <state relative-caret-position="2620">
           <caret line="132" column="63" selection-start-line="132" selection-start-column="36" selection-end-line="132" selection-end-column="63" />
-          <folding>
-            <marker date="1559250150086" expanded="true" signature="6:51" ph="..." />
-            <marker date="1559250150086" expanded="true" signature="53:268" ph="/* ReSharper disable UnusedMember.Global ... */" />
-            <marker date="1559250150086" expanded="true" signature="302:6478" ph="{...}" />
-            <marker date="1559250150086" expanded="true" signature="341:6476" ph="{...}" />
-            <marker date="1559250150086" expanded="true" signature="1030:1395" ph="{...}" />
-            <marker date="1559250150086" expanded="true" signature="1447:1591" ph="{...}" />
-            <marker date="1559250150086" expanded="true" signature="1626:1804" ph="{...}" />
-            <marker date="1559250150086" expanded="true" signature="1839:2046" ph="{...}" />
-            <marker date="1559250150086" expanded="true" signature="2082:2510" ph="{...}" />
-            <marker date="1559250150086" expanded="true" signature="3668:3857" ph="{...}" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue.Gtk/BrowserWindow/NativeMethods.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16620">
+          <caret line="836" selection-start-line="834" selection-end-line="836" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Chromely.Dialogs/ChromelyDialogs.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="45" column="8" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../Chromely.Dialogs/Linux/LinuxDialogs.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
-          <caret line="110" column="15" lean-forward="true" selection-start-line="110" selection-start-column="15" selection-end-line="110" selection-end-column="15" />
-          <folding>
-            <marker date="1559250182501" expanded="true" signature="6:30" ph="..." />
-            <marker date="1559250182501" expanded="true" signature="64:8627" ph="{...}" />
-            <marker date="1559250182501" expanded="true" signature="115:8625" ph="{...}" />
-            <marker date="1559250182501" expanded="true" signature="151:222" ph="{...}" />
-            <marker date="1559250182501" expanded="true" signature="311:2105" ph="{...}" />
-            <marker date="1559250182501" expanded="true" signature="510:1158" ph="{...}" />
-            <marker date="1559250182501" expanded="true" signature="1445:1731" ph="{...}" />
-            <marker date="1559250182501" expanded="true" signature="1764:1831" ph="{...}" />
-            <marker date="1559250182501" expanded="true" signature="1851:1976" ph="{...}" />
-            <marker date="1559250182501" expanded="true" signature="2184:2260" ph="{...}" />
-            <marker date="1559250182501" expanded="true" signature="2347:3830" ph="{...}" />
-            <marker date="1559250182501" expanded="true" signature="2624:3341" ph="{...}" />
-            <marker date="1559250182501" expanded="true" signature="3136:3327" ph="{...}" />
-            <marker date="1559250182501" expanded="true" signature="3374:3441" ph="{...}" />
-            <marker date="1559250182501" expanded="true" signature="3461:3626" ph="{...}" />
-            <marker date="1559250182501" expanded="true" signature="3690:3819" ph="{...}" />
-            <marker date="1559250182501" expanded="true" signature="3913:6026" ph="{...}" />
-            <marker date="1559250182501" expanded="true" signature="4192:5535" ph="{...}" />
-            <marker date="1559250182501" expanded="true" signature="4679:4810" ph="{...}" />
-            <marker date="1559250182501" expanded="true" signature="4871:5229" ph="{...}" />
-            <marker date="1559250182501" expanded="true" signature="5380:5521" ph="{...}" />
-            <marker date="1559250182501" expanded="true" signature="5568:5635" ph="{...}" />
-            <marker date="1559250182501" expanded="true" signature="5655:5820" ph="{...}" />
-            <marker date="1559250182501" expanded="true" signature="5884:6015" ph="{...}" />
-            <marker date="1559250182501" expanded="true" signature="6126:8619" ph="{...}" />
-            <marker date="1559250182501" expanded="true" signature="6387:8128" ph="{...}" />
-            <marker date="1559250182501" expanded="true" signature="6803:6933" ph="{...}" />
-            <marker date="1559250182501" expanded="true" signature="7035:7250" ph="{...}" />
-            <marker date="1559250182501" expanded="true" signature="7271:7387" ph="{...}" />
-            <marker date="1559250182501" expanded="true" signature="7464:7822" ph="{...}" />
-            <marker date="1559250182501" expanded="true" signature="7973:8114" ph="{...}" />
-            <marker date="1559250182501" expanded="true" signature="8161:8228" ph="{...}" />
-            <marker date="1559250182501" expanded="true" signature="8248:8413" ph="{...}" />
-            <marker date="1559250182501" expanded="true" signature="8477:8608" ph="{...}" />
-          </folding>
+          <caret line="110" column="15" selection-start-line="110" selection-start-column="15" selection-end-line="110" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/Chromely.CefGlue.csproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Chromely.Dialogs/Chromely.Dialogs.csproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="43" lean-forward="true" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
         </state>
       </provider>
     </entry>

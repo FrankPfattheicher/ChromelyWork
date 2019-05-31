@@ -1,5 +1,6 @@
 using System;
 using System.IO;
+using Chromely.Core.Infrastructure;
 
 namespace Chromely.Dialogs.Linux
 {
@@ -119,6 +120,10 @@ namespace Chromely.Dialogs.Linux
                 if (!string.IsNullOrEmpty(options.Directory) && Directory.Exists(options.Directory))
                 {
                     GtkInterop.gtk_file_chooser_set_current_folder(widget, options.Directory);
+                }
+                if (options.MustExist)
+                {
+                    Log.Error("FileOpen option MustExist not supported.");
                 }
 
                 foreach (var fileFilter in options.Filters)
