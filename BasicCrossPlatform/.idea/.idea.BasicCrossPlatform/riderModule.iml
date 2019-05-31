@@ -5,8 +5,8 @@
     <content url="file://$MODULE_DIR$/../../../../Chromely/src/Chromely.CefGlue.Gtk" />
     <content url="file://$MODULE_DIR$/../../../../Chromely/src/Chromely.CefGlue.Winapi" />
     <content url="file://$MODULE_DIR$/../../../../Chromely/src/Chromely.Core" />
+    <content url="file://$MODULE_DIR$/../../../../Chromely/src/Chromely.Dialogs" />
     <content url="file://$MODULE_DIR$/../.." />
-    <content url="file://$MODULE_DIR$/../../../Chromely.Dialogs" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>

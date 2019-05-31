@@ -4,9 +4,21 @@
     <list default="true" id="64b640a5-e33b-4d54-adf5-f586662fef19" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BasicCrossPlatform/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BasicCrossPlatform/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BasicCrossPlatform/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BasicCrossPlatform/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Chromely.Dialogs/Chromely.Dialogs.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../Chromely.Dialogs/Chromely.Dialogs.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Chromely.Dialogs/Linux/LinuxDialogs.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Chromely.Dialogs/Linux/LinuxDialogs.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Chromely.Dialogs/Windows/WindowsDialogs.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Chromely.Dialogs/Windows/WindowsDialogs.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BasicCrossPlatform/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BasicCrossPlatform/riderModule.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasicCrossPlatform.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BasicCrossPlatform.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasicCrossPlatform.sln" beforeDir="false" afterPath="$PROJECT_DIR$/BasicCrossPlatform.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chromely.Dialogs/Chromely.Dialogs.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chromely.Dialogs/ChromelyDialogs.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chromely.Dialogs/DialogIcon.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chromely.Dialogs/DialogOptions.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chromely.Dialogs/DialogResponse.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chromely.Dialogs/FileDialogOptions.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chromely.Dialogs/FileFilter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chromely.Dialogs/IChromelyDialogs.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chromely.Dialogs/Linux/GtkInterop.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chromely.Dialogs/Linux/LinuxDialogs.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chromely.Dialogs/Windows/WindowsDialogs.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chromely.Dialogs/Windows/WindowsInterop.cs" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,27 +27,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../Chromely.Dialogs/Chromely.Dialogs.csproj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="9" column="43" lean-forward="true" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/Chromely.CefGlue.csproj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -80,30 +72,18 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/../Chromely.Dialogs/Linux/LinuxDialogs.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.Core/RestfulService/Route.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.Core/ChromelyPlatform.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/obj/Debug/netstandard2.0/Chromely.CefGlue.AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue.Winapi/BrowserWindow/Window.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../Chromely.Dialogs/Linux/GtkInterop.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/CefGlue/Enums/CefLogSeverity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/BrowserWindow/CefBinariesLoader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/CefGlue/Classes.Handlers/CefDisplayHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.Core/ChromelyConfiguration.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.Core/RestfulService/ChromelyControllerFactory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue.Gtk/BrowserWindow/NativeMethods.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue.Gtk/BrowserWindow/NativeWindow.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../Chromely.Dialogs/ChromelyDialogs.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../Chromely.Dialogs/DialogIcon.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../Chromely.Dialogs/DialogOptions.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../Chromely.Dialogs/Windows/WindowsDialogs.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../Chromely.Dialogs/DialogResponse.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../Chromely.Dialogs/FileDialogOptions.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../Chromely.Dialogs/FileFilter.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../Chromely.Dialogs/Windows/WindowsInterop.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../Chromely.Dialogs/IChromelyDialogs.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.Core/ChromelyPlatform.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/obj/Debug/netstandard2.0/Chromely.CefGlue.AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/CefGlue/Enums/CefLogSeverity.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/BrowserWindow/CefBinariesLoader.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/CefGlue/Classes.Handlers/CefDisplayHandler.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../Chromely.Dialogs/obj/Debug/netstandard2.0/Chromely.Dialogs.AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/Subprocess/Subprocess.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -192,7 +172,7 @@
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../GtkSharp/Source/GtkSharp.sln" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Chromely/src/Chromely.Dialogs/Chromely.Dialogs.csproj" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -310,11 +290,12 @@
       <workItem from="1559222417761" duration="2468000" />
       <workItem from="1559240797520" duration="9208000" />
       <workItem from="1559310171914" duration="256000" />
+      <workItem from="1559311801353" duration="208000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68128000" />
+    <option name="totallyTimeSpent" value="68336000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -328,7 +309,7 @@
   <component name="ToolWindowManager">
     <frame x="219" y="116" width="2546" height="1515" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7231057" visible="true" weight="0.21761866" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7231057" visible="true" weight="0.21922767" />
       <window_info id="Structure" order="1" sideWeight="0.2768943" side_tool="true" weight="0.216" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -348,7 +329,7 @@
       <window_info anchor="bottom" id="Unit Tests" order="12" weight="0.32969603" />
       <window_info anchor="bottom" id="Terminal" order="13" weight="0.17889588" />
       <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" weight="0.32914045" />
-      <window_info anchor="bottom" id="Build" order="15" sideWeight="0.4990366" weight="0.2697607" />
+      <window_info anchor="bottom" id="Build" order="15" sideWeight="0.4990366" weight="0.26923078" />
       <window_info anchor="bottom" id="Change Signature" order="16" sideWeight="0.5009634" side_tool="true" weight="0.32853025" />
       <window_info anchor="right" id="Unit Tests Coverage" order="0" />
       <window_info anchor="right" id="PlantUML" order="1" />
@@ -440,7 +421,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/CefGlue/Wrapper/MessageRouter/CefMessageRouterRendererSide.cs" />
     <entry file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/BrowserWindow.cs" />
     <entry file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue.Gtk/BrowserWindow/CefGlueBrowserWindow.cs" />
     <entry file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue.Gtk/BrowserWindow/HostBase.cs" />
@@ -967,18 +947,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../Chromely.Dialogs/Chromely.Dialogs.csproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../../Chromely/src/Chromely.CefGlue/Chromely.CefGlue.csproj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
+        <state relative-caret-position="442">
           <caret line="32" selection-start-line="32" selection-end-line="32" />
           <caret line="33" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Chromely.Dialogs/Chromely.Dialogs.csproj">
+    <entry file="file://C:/Program Files/dotnet/sdk/2.1.700/Sdks/NuGet.Build.Tasks.Pack/build/NuGet.Build.Tasks.Pack.targets">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="43" lean-forward="true" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+        <state relative-caret-position="333">
+          <caret line="198" column="4" selection-start-line="198" selection-start-column="4" selection-end-line="198" selection-end-column="4" />
         </state>
       </provider>
     </entry>

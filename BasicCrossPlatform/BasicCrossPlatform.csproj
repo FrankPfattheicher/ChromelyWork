@@ -24,7 +24,7 @@
       </ProjectReference>
       <ProjectReference Include="..\..\Chromely\src\Chromely.CefGlue\Chromely.CefGlue.csproj" />
       <ProjectReference Include="..\..\Chromely\src\Chromely.Core\Chromely.Core.csproj" />
-      <ProjectReference Include="..\Chromely.Dialogs\Chromely.Dialogs.csproj" />
+      <ProjectReference Include="..\..\Chromely\src\Chromely.Dialogs\Chromely.Dialogs.csproj" />
     </ItemGroup>
 
     <ItemGroup>
