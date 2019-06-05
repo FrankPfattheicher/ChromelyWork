@@ -27,7 +27,7 @@ namespace BasicCrossPlatform
                 .WithHostSize(1000, 600)
                 .WithStartUrl(startUrl);
 
-
+#if false
             var folderResponse =
                 ChromelyDialogs.SelectFolder("where to save ?", new FileDialogOptions {Title = "Select Temp"});
             
@@ -59,6 +59,7 @@ namespace BasicCrossPlatform
                 new FileDialogOptions { Title = "Config", Filters = filters, Directory = folderResponse.Value.ToString(), ConfirmOverwrite = true });
 
             response = ChromelyDialogs.MessageBox(fileResponse.Value.ToString(), new DialogOptions { Icon = DialogIcon.Error, Title = "Sample"});
+#endif
             
             try
             {
