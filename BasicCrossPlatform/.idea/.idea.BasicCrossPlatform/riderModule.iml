@@ -6,6 +6,11 @@
     <content url="file://$MODULE_DIR$/../../../../Chromely/src/Chromely.CefGlue.Winapi" />
     <content url="file://$MODULE_DIR$/../../../../Chromely/src/Chromely.Core" />
     <content url="file://$MODULE_DIR$/../../../../Chromely/src/Chromely.Dialogs" />
+    <content url="file://$MODULE_DIR$/../../../../Chromely/src/Common/ChromeWidgetMessageInterceptor.cs" />
+    <content url="file://$MODULE_DIR$/../../../../Chromely/src/Common/NativeMethods.cs" />
+    <content url="file://$MODULE_DIR$/../../../../Chromely/src/Common/NativeWindowBase.cs" />
+    <content url="file://$MODULE_DIR$/../../../../Chromely/src/Common/WinapiConfigurationExtension.cs" />
+    <content url="file://$MODULE_DIR$/../../../../Chromely/src/Common/WindowCreationStyle.cs" />
     <content url="file://$MODULE_DIR$/../.." />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>

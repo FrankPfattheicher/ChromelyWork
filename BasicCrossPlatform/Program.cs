@@ -24,10 +24,10 @@ namespace BasicCrossPlatform
                 //.WithGtkHostApi()
                 .RegisterEventHandler<ConsoleMessageEventArgs>(CefEventKey.ConsoleMessage, OnWebBrowserConsoleMessage)
                 .WithAppArgs(args)
-                .WithHostSize(1000, 600)
+                .WithHostBounds(1000, 600)
                 .WithStartUrl(startUrl);
 
-#if false
+#if true
             var folderResponse =
                 ChromelyDialogs.SelectFolder("where to save ?", new FileDialogOptions {Title = "Select Temp"});
             
