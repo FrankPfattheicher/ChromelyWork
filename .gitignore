@@ -1,6 +1,7 @@
 
 BasicCrossPlatform/logs/
 /BasicCrossPlatform/GPUCache
+.idea
 .vs/
 bin/
 obj/
